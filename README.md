@@ -8,7 +8,8 @@ Statikus, GitHub Pages-en futó sajtófigyelő. Naponta négyszer lekéri a Goog
 - új Google News-találatok gyűjtése és duplikációszűrése;
 - átlátható, szabályalapú relevanciapontozás;
 - a K-Monitor-említés körüli cikkrészlet automatikus kiemelése;
-- böngészőben tárolt „releváns / kihagyás” döntés;
+- az elfogadott cikkek mentése a referencia-táblázat `ai` munkalapjára;
+- böngészőben is megőrzött „releváns / kihagyás” döntés és sikertelen mentés utáni automatikus újrapróbálás;
 - CSV-export a relevánsnak jelölt tételekből;
 - RSS-feed és GitHub issue értesítés az új, erős egyezésekről;
 - mobilbarát GitHub Pages felület.
@@ -41,9 +42,15 @@ Ezután nyisd meg a `http://localhost:8000` címet. A felületet nem érdemes k�
 
 A keresés, a kizárt saját domainek, a referenciaévek és az erős egyezés ponthatára a `data/config.json` fájlban állítható. A pontozás szándékosan magyarázható és konzervatív: a végső relevanciadöntést nem automatizálja.
 
+## Google Táblázatok-mentés
+
+A GitHub Pages önmagában nem kaphat szerkesztési jogot egy Google-táblázathoz, ezért a mentést a táblázat tulajdonosának nevében futó, kis Apps Script-webalkalmazás végzi. Az egyszeri telepítés pontos lépései és a teljes kód a `google-apps-script` mappában találhatók. A telepítésből kapott `/exec` URL-t a `data/integration.json` fájlban kell megadni.
+
+Az `ai` munkalap első mentéskor automatikusan megkapja a következő oszlopokat: dátum, cím, forrás, link, téma, típus, pontszám, szövegkörnyezet, elfogadás ideje és egy technikai azonosító. Az azonosító megakadályozza a duplikált sorokat; egy elfogadás visszavonása törli az adott sort.
+
 ## Fontos korlátok
 
 - A Google News RSS nem garantál teljes internetes lefedettséget, és találatai eltérhetnek a normál Google-keresőétől.
 - Egyes sajtóoldalak blokkolják az automatikus cikkolvasást. Ilyenkor a felület egyértelműen jelzi, hogy csak a cím vagy a keresőtalálat állt rendelkezésre.
-- A „releváns / kihagyás” döntések a böngésző helyi tárában maradnak. Több szerkesztő közös döntési állapotához külön háttérszolgáltatás vagy GitHub-alapú mentés szükséges.
+- A kihagyott találatok és a felület helyi döntési állapota a böngészőben marad; az elfogadott találatok közös nyilvántartása az `ai` munkalap.
 - E-mailes értesítéshez külső levélküldő szolgáltatás és repository secret szükséges; alapból az RSS és a GitHub issue értesítés működik.
