@@ -452,6 +452,17 @@ els.list.addEventListener("click", (event) => {
   const button = event.target.closest("[data-decision]");
   if (button) void setDecision(button.dataset.id, button.dataset.decision);
 });
+els.list.addEventListener("input", (event) => {
+  const control = event.target.closest('[data-classification="topic"]');
+  if (!control) return;
+  const item = state.items.find((entry) => entry.id === control.dataset.id);
+  if (!item) return;
+  state.classifications[item.id] = { ...classificationFor(item), topic: control.value.trim() };
+  delete state.synced[item.id];
+  control.classList.toggle("new-topic", Boolean(control.value.trim())
+    && !state.options.topics.some((topic) => normalize(topic) === normalize(control.value.trim())));
+  saveLocalState();
+});
 els.list.addEventListener("change", (event) => {
   const control = event.target.closest("[data-classification]");
   if (control) void updateClassification(control.dataset.id, control.dataset.classification, control.value);
