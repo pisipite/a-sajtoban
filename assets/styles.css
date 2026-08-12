@@ -144,6 +144,8 @@ h1 { margin: 0; font-size: clamp(38px, 5vw, 62px); line-height: 1.02; letter-spa
 .decision button svg { width: 17px; height: 17px; }
 .decision button:hover, .decision button.active-yes { color: #1f694d; background: #e5f6ec; border-color: #82bc9f; }
 .decision button.active-no { color: var(--red); background: #fff0ef; border-color: #dba19c; }
+.decision button:disabled { cursor: wait; opacity: .72; }
+.decision button.is-syncing svg { animation: decision-pulse .8s ease-in-out infinite alternate; }
 .archive-type { color: #64736e; font-size: 12px; }
 .load-more { width: 100%; padding: 15px; color: var(--forest-2); background: #fbfcfb; border: 0; border-top: 1px solid var(--line); cursor: pointer; font-weight: 750; }
 .load-more:hover { background: var(--mint-2); }
@@ -161,6 +163,11 @@ h1 { margin: 0; font-size: clamp(38px, 5vw, 62px); line-height: 1.02; letter-spa
 footer { max-width: 1240px; margin: 0 auto; padding: 0 24px 35px; display: flex; justify-content: space-between; gap: 24px; color: #7b8884; font-size: 12px; }
 .toast { position: fixed; left: 50%; bottom: 24px; z-index: 20; transform: translate(-50%, 20px); padding: 10px 14px; color: #fff; background: #102e29; border-radius: 7px; box-shadow: 0 8px 24px rgba(0,0,0,.2); opacity: 0; pointer-events: none; transition: .2s; }
 .toast.show { opacity: 1; transform: translate(-50%, 0); }
+
+@keyframes decision-pulse {
+  from { transform: scale(.82); opacity: .45; }
+  to { transform: scale(1); opacity: 1; }
+}
 
 @media (max-width: 960px) {
   .hero { align-items: stretch; flex-direction: column; gap: 28px; }

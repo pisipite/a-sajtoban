@@ -1,9 +1,12 @@
 const state = {
   items: [],
   meta: {},
+  integration: {},
   view: "incoming",
   visible: 20,
   decisions: JSON.parse(localStorage.getItem("kmonitor-decisions") || "{}"),
+  synced: JSON.parse(localStorage.getItem("kmonitor-sheet-synced") || "{}"),
+  syncing: new Set(),
 };
 
 const $ = (selector) => document.querySelector(selector);
@@ -63,11 +66,12 @@ function filteredItems() {
 function decisionButtons(item) {
   if (item.kind === "curated") return `<span class="archive-type">${escapeHtml(item.article_type || "válogatott")}</span>`;
   const decision = state.decisions[item.id];
+  const syncing = state.syncing.has(item.id);
   return `<div class="decision" role="group" aria-label="Döntés a találatról">
-    <button class="${decision === "yes" ? "active-yes" : ""}" data-decision="yes" data-id="${item.id}" type="button" title="Releváns" aria-label="Releváns">
+    <button class="${decision === "yes" ? "active-yes" : ""} ${syncing ? "is-syncing" : ""}" data-decision="yes" data-id="${item.id}" type="button" title="Releváns – mentés az ai munkalapra" aria-label="Releváns – mentés az ai munkalapra" ${syncing ? "disabled aria-busy=\"true\"" : ""}>
       <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg>
     </button>
-    <button class="${decision === "no" ? "active-no" : ""}" data-decision="no" data-id="${item.id}" type="button" title="Kihagyás" aria-label="Kihagyás">
+    <button class="${decision === "no" ? "active-no" : ""} ${syncing ? "is-syncing" : ""}" data-decision="no" data-id="${item.id}" type="button" title="Kihagyás" aria-label="Kihagyás" ${syncing ? "disabled" : ""}>
       <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg>
     </button>
   </div>`;
@@ -133,12 +137,121 @@ function updateStats() {
   $("#statArchive").textContent = state.items.filter((item) => item.kind === "curated").length;
 }
 
-function setDecision(id, value) {
-  if (state.decisions[id] === value) delete state.decisions[id];
-  else state.decisions[id] = value;
+function saveLocalState() {
   localStorage.setItem("kmonitor-decisions", JSON.stringify(state.decisions));
-  showToast(value === "yes" ? "Relevánsnak jelölve" : "Találat kihagyva");
+  localStorage.setItem("kmonitor-sheet-synced", JSON.stringify(state.synced));
+}
+
+function sheetPayload(item, action) {
+  return {
+    action,
+    id: item.id,
+    date: item.date || "",
+    title: item.title || "",
+    source: item.source || "",
+    url: item.url || "",
+    topic: item.topic || "",
+    article_type: item.article_type || "",
+    score: item.score ?? "",
+    context: item.context || "",
+    accepted_at: new Date().toISOString(),
+  };
+}
+
+function submitToSheet(payload) {
+  const endpoint = String(state.integration.google_apps_script_url || "").trim();
+  if (!/^https:\/\/script\.google\.com\/macros\/s\/[^/]+\/exec$/.test(endpoint)) {
+    return Promise.reject(new Error("A Google Táblázatok-kapcsolat még nincs beállítva."));
+  }
+
+  const requestId = globalThis.crypto?.randomUUID?.() || `${Date.now()}-${Math.random().toString(16).slice(2)}`;
+  const frameName = `sheet-sync-${requestId}`;
+  return new Promise((resolve, reject) => {
+    const iframe = document.createElement("iframe");
+    const form = document.createElement("form");
+    iframe.name = frameName;
+    iframe.hidden = true;
+    form.method = "POST";
+    form.action = endpoint;
+    form.target = frameName;
+    form.hidden = true;
+
+    const fields = { request_id: requestId, payload: JSON.stringify(payload) };
+    Object.entries(fields).forEach(([name, value]) => {
+      const input = document.createElement("input");
+      input.type = "hidden";
+      input.name = name;
+      input.value = value;
+      form.append(input);
+    });
+
+    const cleanup = () => {
+      clearTimeout(timer);
+      window.removeEventListener("message", onMessage);
+      form.remove();
+      iframe.remove();
+    };
+    const onMessage = (event) => {
+      if (event.data?.source !== "kmonitor-sheet" || event.data?.requestId !== requestId) return;
+      const result = event.data;
+      cleanup();
+      if (result.ok) resolve(result);
+      else reject(new Error(result.error || "A táblázatmentés sikertelen."));
+    };
+    const timer = setTimeout(() => {
+      cleanup();
+      reject(new Error("A táblázat nem válaszolt. Próbáld újra."));
+    }, 15000);
+
+    window.addEventListener("message", onMessage);
+    document.body.append(iframe, form);
+    form.submit();
+  });
+}
+
+async function syncDecision(item, action, { quiet = false } = {}) {
+  state.syncing.add(item.id);
+  if (!quiet) {
+    showToast(action === "accept" ? "Mentés az ai munkalapra…" : "Táblázat frissítése…");
+    render();
+  }
+  try {
+    await submitToSheet(sheetPayload(item, action));
+    if (action === "accept") state.synced[item.id] = true;
+    else delete state.synced[item.id];
+    saveLocalState();
+    return true;
+  } catch (error) {
+    if (!quiet) showToast(error.message);
+    return false;
+  } finally {
+    state.syncing.delete(item.id);
+    if (!quiet) render();
+  }
+}
+
+async function setDecision(id, value) {
+  if (state.syncing.has(id)) return;
+  const item = state.items.find((entry) => entry.id === id);
+  if (!item) return;
+
+  const previous = state.decisions[id];
+  const next = previous === value ? null : value;
+  const sheetAction = next === "yes" ? "accept" : previous === "yes" ? "remove" : null;
+  if (sheetAction && !await syncDecision(item, sheetAction)) return;
+
+  if (next) state.decisions[id] = next;
+  else delete state.decisions[id];
+  saveLocalState();
+  showToast(next === "yes" ? "Mentve az ai munkalapra" : next === "no" ? "Találat kihagyva" : "Döntés visszavonva");
   render();
+}
+
+async function syncStoredAccepted() {
+  if (!state.integration.google_apps_script_url) return;
+  const pending = state.items.filter((item) => state.decisions[item.id] === "yes" && !state.synced[item.id]);
+  for (const item of pending) await syncDecision(item, "accept", { quiet: true });
+  if (pending.length) render();
 }
 
 let toastTimer;
@@ -166,16 +279,22 @@ function exportCsv() {
 
 async function loadData() {
   try {
-    const [itemsResponse, metaResponse] = await Promise.all([fetch("data/items.json"), fetch("data/meta.json")]);
+    const [itemsResponse, metaResponse, integrationResponse] = await Promise.all([
+      fetch("data/items.json"),
+      fetch("data/meta.json"),
+      fetch("data/integration.json", { cache: "no-store" }),
+    ]);
     if (!itemsResponse.ok) throw new Error("Az adatfájl nem érhető el.");
     state.items = await itemsResponse.json();
     state.meta = metaResponse.ok ? await metaResponse.json() : {};
+    state.integration = integrationResponse.ok ? await integrationResponse.json() : {};
     const updated = state.meta.updated_at ? new Date(state.meta.updated_at) : null;
     $("#lastUpdated").textContent = updated && !Number.isNaN(updated.getTime())
       ? `Utoljára ellenőrizve: ${new Intl.DateTimeFormat("hu-HU", { dateStyle: "medium", timeStyle: "short" }).format(updated)}`
       : "Az utolsó ellenőrzés ideje ismeretlen";
     updateSources();
     render();
+    void syncStoredAccepted();
   } catch (error) {
     els.summary.textContent = "Az adatok betöltése sikertelen.";
     els.empty.hidden = false;
@@ -202,7 +321,7 @@ $(".view-tabs").addEventListener("click", (event) => {
 $("#filters").addEventListener("input", () => { state.visible = 20; render(); });
 els.list.addEventListener("click", (event) => {
   const button = event.target.closest("[data-decision]");
-  if (button) setDecision(button.dataset.id, button.dataset.decision);
+  if (button) void setDecision(button.dataset.id, button.dataset.decision);
 });
 els.loadMore.addEventListener("click", () => { state.visible += 20; render(); });
 $("#clearFilters").addEventListener("click", () => {
