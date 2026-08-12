@@ -1,0 +1,21 @@
+{
+  "queries": [
+    "\"K-Monitor\" OR \"K Monitor\""
+  ],
+  "locale": {
+    "hl": "hu",
+    "gl": "HU",
+    "ceid": "HU:hu"
+  },
+  "excluded_domains": [
+    "k-monitor.hu",
+    "adatbazis.k-monitor.hu",
+    "panorama.k-monitor.hu",
+    "agrar.k-monitor.hu",
+    "adatigenyles.k-monitor.hu"
+  ],
+  "high_confidence_score": 60,
+  "reference_spreadsheet_id": "1ew6L7q_sT8C8jro0rFBAlMfx1bZGw0rWSQ5NCbNWqjw",
+  "reference_first_year": 2014,
+  "reference_last_year": 2026
+}
