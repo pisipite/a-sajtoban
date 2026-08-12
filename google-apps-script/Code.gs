@@ -76,16 +76,17 @@ function validatePayload_(payload) {
 
 function ensureHeaders_(sheet) {
   const current = sheet.getRange(1, 1, 1, HEADERS.length).getDisplayValues()[0];
-  if (current.every(function (value) { return !value; })) {
-    sheet.getRange(1, 1, 1, HEADERS.length).setValues([HEADERS]);
-    sheet.getRange(1, 1, 1, HEADERS.length)
-      .setFontWeight("bold")
-      .setBackground("#173f3a")
-      .setFontColor("#ffffff");
-    sheet.setFrozenRows(1);
-  } else if (current.join("\u0000") !== HEADERS.join("\u0000")) {
-    throw new Error("Az ai munkalap fejlécsora nem a várt szerkezetű.");
+  for (let index = 0; index < HEADERS.length; index += 1) {
+    if (current[index] && current[index] !== HEADERS[index]) {
+      throw new Error("Az ai munkalap fejlécsora nem a várt szerkezetű.");
+    }
   }
+  sheet.getRange(1, 1, 1, HEADERS.length).setValues([HEADERS]);
+  sheet.getRange(1, 1, 1, HEADERS.length)
+    .setFontWeight("bold")
+    .setBackground("#173f3a")
+    .setFontColor("#ffffff");
+  sheet.setFrozenRows(1);
 }
 
 function findRowById_(sheet, id) {
