@@ -105,3 +105,4 @@ function response_(message) {
     "<!doctype html><meta charset=\"utf-8\"><script>parent.postMessage(" + json + ", '*');<\/script>"
   ).setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
 }
+
