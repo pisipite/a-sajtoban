@@ -51,19 +51,19 @@
       </div>
     </section>
 
-    <section class="stats" aria-label="Összesítés">
-      <article class="stat-card stat-accent">
+    <section class="stats" aria-label="Összesítés és gyorsszűrők">
+      <button class="stat-card stat-accent stat-button" data-stat-filter="new" type="button" aria-pressed="false" aria-label="Az elmúlt 7 nap új találatainak szűrése">
         <div class="stat-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v3m0 12v3M3 12h3m12 0h3M5.6 5.6l2.1 2.1m8.6 8.6 2.1 2.1m0-12.8-2.1 2.1m-8.6 8.6-2.1 2.1"/></svg></div>
         <div><span class="stat-label">Új, 7 napon belül</span><strong id="statNew">–</strong></div>
-      </article>
-      <article class="stat-card">
+      </button>
+      <button class="stat-card stat-button" data-stat-filter="review" type="button" aria-pressed="false" aria-label="Az ellenőrzésre váró találatok szűrése">
         <div class="stat-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 5h16v14H4zM8 9h8M8 13h5"/></svg></div>
         <div><span class="stat-label">Ellenőrzésre vár</span><strong id="statReview">–</strong></div>
-      </article>
-      <article class="stat-card">
+      </button>
+      <button class="stat-card stat-button" data-stat-filter="accepted" type="button" aria-pressed="false" aria-label="A relevánsnak jelölt találatok szűrése">
         <div class="stat-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg></div>
         <div><span class="stat-label">Relevánsnak jelölve</span><strong id="statAccepted">0</strong></div>
-      </article>
+      </button>
       <article class="stat-card">
         <div class="stat-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16M6 7V4h12v3m-11 4h10v8H7z"/></svg></div>
         <div><span class="stat-label">Korábbi válogatás</span><strong id="statArchive">–</strong></div>
@@ -109,9 +109,10 @@
       </form>
 
       <div class="list-head" aria-hidden="true">
-        <span>Cikk</span><span>Megjelenés</span><span>Jelzés</span><span>Döntés</span>
+        <span>Cikk</span><span>Megjelenés</span><span>Jelzés</span><span>Téma</span><span>Típus</span><span>Döntés</span>
       </div>
       <div class="results-list" id="resultsList" aria-live="polite"></div>
+      <datalist id="topicOptions"></datalist>
       <div class="empty-state" id="emptyState" hidden>
         <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="m16 16 4 4"/></svg>
         <h3>Nincs ilyen találat</h3>
