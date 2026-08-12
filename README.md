@@ -9,6 +9,8 @@ Statikus, GitHub Pages-en futó sajtófigyelő. Naponta négyszer lekéri a Goog
 - átlátható, szabályalapú relevanciapontozás;
 - a K-Monitor-említés körüli cikkrészlet automatikus kiemelése;
 - az elfogadott cikkek mentése a referencia-táblázat `ai` munkalapjára;
+- téma és típus kiválasztása a `segéd` munkalap listáiból, új téma felvitelének lehetőségével;
+- kattintható összesítő kártyák az új, ellenőrizendő és elfogadott cikkek gyors szűréséhez;
 - böngészőben is megőrzött „releváns / kihagyás” döntés és sikertelen mentés utáni automatikus újrapróbálás;
 - CSV-export a relevánsnak jelölt tételekből;
 - RSS-feed és GitHub issue értesítés az új, erős egyezésekről;
