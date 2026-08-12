@@ -1,0 +1,71 @@
+name: Sajtófigyelő frissítése
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 1,7,13,19 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  collect-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Forrás letöltése
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Python beállítása
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Függőségek telepítése
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Találatok összegyűjtése
+        id: collect
+        env:
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: python scripts/collect.py
+
+      - name: Új adatok mentése
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/items.json data/meta.json feed.xml
+          git diff --cached --quiet || git commit -m "chore: sajtófigyelő frissítése [skip ci]"
+          git push
+
+      - name: Értesítő issue létrehozása
+        if: github.event_name == 'schedule' && steps.collect.outputs.high_confidence_new_count != '0'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue create --title "Új K-Monitor sajtótalálatok · $(date +%F)" --body-file data/new-items.md
+
+      - name: Pages beállítása
+        uses: actions/configure-pages@v5
+
+      - name: Oldalcsomag feltöltése
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+
+      - name: Közzététel
+        id: deployment
+        uses: actions/deploy-pages@v4
