@@ -181,6 +181,6 @@ function findRowById_(sheet, id) {
 function response_(message) {
   const json = JSON.stringify(message).replace(/</g, "\\u003c");
   return HtmlService.createHtmlOutput(
-    "<!doctype html><meta charset=\"utf-8\"><script>parent.postMessage(" + json + ", '*');<\/script>"
+    "<!doctype html><meta charset=\"utf-8\"><script>top.postMessage(" + json + ", '*');<\/script>"
   ).setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
 }
