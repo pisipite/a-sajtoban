@@ -267,6 +267,27 @@
     "context_checked_at": "2026-08-12T09:24:33+00:00"
   },
   {
+    "id": "5e82da456468481a",
+    "kind": "candidate",
+    "date": "2022-11-03",
+    "title": "A Rogán-féle Miniszterelnöki Kabinetiroda közel 20 milliárd forintot költött hirdetésekre a választás előtt",
+    "source": "Media1",
+    "url": "https://media1.hu/2022/11/03/a-rogan-fele-miniszterelnoki-kabinetiroda-kozel-20-milliard-forintot-koltott-hirdetesekre-a-valasztas-elott/",
+    "google_news_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOS2hKWXZHbk5NN0dRSHBlSmdPWEtYY2RYQVhwMnNuWTJWSHpfMkFERVJOZ1REY2d4NWJaZlRJdEJkM3NtR3NLVFhLdG1WU3lIZVN2VWMzUkc1QUlZcGtnb0ZDVHl1Yk9Sb0ZwbFBtcHROMEdFZlRPZEt0V3JmY01RODYxcUlsNWFKdHo3UFNsZU1ZNGpCVTNqU2lGeVdIZGlLWlhSWl82RWJPbG9Dd1gzY3Q4SmdMRm4ybXJyZTZHRW5PT1lSTDE1US10R2ZLaU8tYU00?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 42,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Témaegyezés: választás"
+    ],
+    "first_seen": "2026-08-12T09:52:21+00:00",
+    "context": "Közzétette a Rogán Antal által vezetett Miniszterelnöki Kabinetiroda az idei szerződéseinek a listáját – ezeket a Telex beszámolója szerint a megkötés után 60 nappal kellene nyilvánosságra hozni, de a Kabinetiroda eddig nem tette ezt meg, most is csak azt követően, hogy a K-Monitor közérdekű adatigénylést nyújtott be.",
+    "context_source": "article",
+    "context_checked_at": "2026-08-12T09:52:22+00:00"
+  },
+  {
     "id": "09040179cc7a537b",
     "kind": "candidate",
     "date": "2022-11-03",
