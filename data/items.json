@@ -19,26 +19,25 @@
     "context_checked_at": "2026-08-12T09:24:39+00:00"
   },
   {
-    "id": "b59961e1a9757ed6",
+    "id": "4aea5d546ec9bd05",
     "kind": "candidate",
     "date": "2026-07-05",
     "title": "K-Monitor szerint ebben kellene fejlődnie a Nemzeti...",
-    "source": "kontroll.hu",
+    "source": "Kontroll",
     "url": "https://kontroll.hu/cikk/belfold/2026/07/05/k-monitor-szerint-ebben-kellene-fejlodnie-a-nemzeti-vagyonvisszaszerzesi-es-vedelmi-hivatal-szabalyozasanak",
     "google_news_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPVFNmZkYwcHA3QmFObUlPVUliaWh1MTNKOHpLTkc3c21NdS11V2M3LXFNZjYybEhCV0JiSFFpYXFRNV8xbVh5alJOYjVaU0RneWpIU0tBNFJmLXA1TXNROWtNTFBmYW55dTM3UGtfTU9xQ1M4dFY2R3NpZmk0RXd5bFRWVnN4UWhWdkc5N1VyMlptMTJKS3FhLUhhQ28wMG4zQURtLURCeHE5VTVyeVZSZDZEV1FDUFNZZWc3eHhzZTI2TGxHRGNwVUhwenJiVEQ5ZHRQV0pLbDRQWVB3QWFSbk5XZHQtQQ?oc=5",
     "topic": "K-Monitor",
     "article_type": "",
-    "score": 85,
+    "score": 76,
     "reasons": [
       "Névkeresésből érkezett",
       "A név szerepel a címben",
-      "Korábban releváns forrás",
       "Korábbi témával egyezik"
     ],
-    "first_seen": "2026-08-12T09:58:26+00:00",
+    "first_seen": "2026-08-12T09:59:33+00:00",
     "context": "A törvényjavaslatról a K-Monitor Egyesület is állást foglalt, a civil szervezet közel 20 éve küzd a korrupció ellen, nevével leggyakrabban akkor találkozunk, amikor a sajtó az egyesület korrupciós vagy korrupciógyanús ügyeket összegyűjtő adatbázisára hivatkozik.",
     "context_source": "article",
-    "context_checked_at": "2026-08-12T09:58:27+00:00"
+    "context_checked_at": "2026-08-12T09:59:35+00:00"
   },
   {
     "id": "52fc9eaca38d3e84",
@@ -266,6 +265,27 @@
     "context": "Három év alatt több mint 400 cím került fel arra az interaktív térképre , amin a K-Monitor a NER-közeli arcokhoz tartozó szállodákat gyűjti össze azért, hogy ezeket elkerülve, a pénztárcájukkal szavazhassanak a vásárlók a politikai hátszéllel segített vállalkozói réteg további térhódítása ellen.",
     "context_source": "article",
     "context_checked_at": "2026-08-12T09:24:33+00:00"
+  },
+  {
+    "id": "5e82da456468481a",
+    "kind": "candidate",
+    "date": "2022-11-03",
+    "title": "A Rogán-féle Miniszterelnöki Kabinetiroda közel 20 milliárd forintot költött hirdetésekre a választás előtt",
+    "source": "Media1",
+    "url": "https://media1.hu/2022/11/03/a-rogan-fele-miniszterelnoki-kabinetiroda-kozel-20-milliard-forintot-koltott-hirdetesekre-a-valasztas-elott/",
+    "google_news_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOS2hKWXZHbk5NN0dRSHBlSmdPWEtYY2RYQVhwMnNuWTJWSHpfMkFERVJOZ1REY2d4NWJaZlRJdEJkM3NtR3NLVFhLdG1WU3lIZVN2VWMzUkc1QUlZcGtnb0ZDVHl1Yk9Sb0ZwbFBtcHROMEdFZlRPZEt0V3JmY01RODYxcUlsNWFKdHo3UFNsZU1ZNGpCVTNqU2lGeVdIZGlLWlhSWl82RWJPbG9Dd1gzY3Q4SmdMRm4ybXJyZTZHRW5PT1lSTDE1US10R2ZLaU8tYU00?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 42,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Témaegyezés: választás"
+    ],
+    "first_seen": "2026-08-12T09:59:33+00:00",
+    "context": "Közzétette a Rogán Antal által vezetett Miniszterelnöki Kabinetiroda az idei szerződéseinek a listáját – ezeket a Telex beszámolója szerint a megkötés után 60 nappal kellene nyilvánosságra hozni, de a Kabinetiroda eddig nem tette ezt meg, most is csak azt követően, hogy a K-Monitor közérdekű adatigénylést nyújtott be.",
+    "context_source": "article",
+    "context_checked_at": "2026-08-12T09:59:35+00:00"
   },
   {
     "id": "09040179cc7a537b",
