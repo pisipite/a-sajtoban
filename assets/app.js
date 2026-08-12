@@ -3,9 +3,15 @@ const state = {
   meta: {},
   integration: {},
   view: "incoming",
+  statFilter: "",
   visible: 20,
   decisions: JSON.parse(localStorage.getItem("kmonitor-decisions") || "{}"),
   synced: JSON.parse(localStorage.getItem("kmonitor-sheet-synced") || "{}"),
+  classifications: JSON.parse(localStorage.getItem("kmonitor-classifications") || "{}"),
+  options: {
+    topics: [],
+    types: ["civil kiállás", "sajtóadatbázis", "adatigénylés", "interjú", "egyéb átvétel", "említés", "blog átvétel", "közreműködés", "fb átvétel"],
+  },
   syncing: new Set(),
 };
 
@@ -28,6 +34,19 @@ const escapeHtml = (value = "") => String(value).replace(/[&<>'"]/g, (char) => (
 
 function normalize(value = "") {
   return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+}
+
+function classificationFor(item) {
+  const saved = state.classifications[item.id] || {};
+  return {
+    topic: saved.topic ?? item.topic ?? "",
+    article_type: saved.article_type ?? item.article_type ?? "",
+  };
+}
+
+function isNewCandidate(item) {
+  const sevenDaysAgo = Date.now() - 7 * 86400000;
+  return new Date(`${item.date}T23:59:59`).getTime() >= sevenDaysAgo;
 }
 
 function highlightTerm(value = "") {
@@ -56,11 +75,37 @@ function filteredItems() {
 
   return state.items
     .filter((item) => state.view === "incoming" ? item.kind === "candidate" : item.kind === "curated")
+    .filter((item) => state.view !== "incoming" || !state.statFilter
+      || state.statFilter === "new" && isNewCandidate(item)
+      || state.statFilter === "review" && !state.decisions[item.id]
+      || state.statFilter === "accepted" && state.decisions[item.id] === "yes")
     .filter((item) => !source || item.source === source)
-    .filter((item) => !query || normalize([item.title, item.source, item.topic, item.article_type, item.context].join(" ")).includes(query))
+    .filter((item) => {
+      const classification = classificationFor(item);
+      return !query || normalize([item.title, item.source, classification.topic, classification.article_type, item.context].join(" ")).includes(query);
+    })
     .filter((item) => !days || new Date(`${item.date}T23:59:59`).getTime() >= cutoff)
-    .filter((item) => state.view === "archive" || els.decided.checked || !state.decisions[item.id])
+    .filter((item) => state.view === "archive" || state.statFilter || els.decided.checked || !state.decisions[item.id])
     .sort((a, b) => b.date.localeCompare(a.date) || (b.score || 0) - (a.score || 0));
+}
+
+function classificationFields(item) {
+  if (item.kind === "curated") return "<span></span><span></span>";
+  const classification = classificationFor(item);
+  const id = escapeHtml(item.id);
+  const topicKnown = !classification.topic || state.options.topics.some((topic) => normalize(topic) === normalize(classification.topic));
+  const typeOptions = [...new Set([classification.article_type, ...state.options.types].filter(Boolean))];
+  return `<label class="classification-cell topic-cell">
+    <span class="classification-label">Téma</span>
+    <input class="${topicKnown ? "" : "new-topic"}" data-classification="topic" data-id="${id}" list="topicOptions" value="${escapeHtml(classification.topic)}" placeholder="Válassz vagy írj újat" autocomplete="off" title="Válassz a segédlista témái közül, vagy írj be új témát">
+  </label>
+  <label class="classification-cell type-cell">
+    <span class="classification-label">Típus</span>
+    <select data-classification="article_type" data-id="${id}" aria-label="Cikktípus">
+      <option value="">Válassz típust…</option>
+      ${typeOptions.map((type) => `<option value="${escapeHtml(type)}" ${type === classification.article_type ? "selected" : ""}>${escapeHtml(type)}</option>`).join("")}
+    </select>
+  </label>`;
 }
 
 function decisionButtons(item) {
@@ -82,7 +127,8 @@ function rowTemplate(item) {
   const high = (item.score || 0) >= 60;
   const scoreText = item.kind === "curated" ? "válogatott" : high ? "erős egyezés" : "ellenőrizendő";
   const scoreClass = item.kind === "curated" ? "curated" : high ? "high" : "";
-  const topic = item.topic ? `<span class="topic-tag">${escapeHtml(item.topic)}</span>` : "";
+  const selectedTopic = item.kind === "candidate" ? classificationFor(item).topic : item.topic;
+  const topic = selectedTopic ? `<span class="topic-tag">${escapeHtml(selectedTopic)}</span>` : "";
   const reasons = item.kind === "candidate" && item.reasons?.length
     ? `<span class="reasons" title="${escapeHtml(item.reasons.join("; "))}">${escapeHtml(item.reasons.slice(0, 2).join(" · "))}</span>` : "";
   const contextLabels = {
@@ -105,6 +151,7 @@ function rowTemplate(item) {
     </div>
     <div class="date-cell"><span>${escapeHtml(date.full)}</span>${date.relative ? `<small>${date.relative}</small>` : ""}</div>
     <div class="score-cell"><span class="score ${scoreClass}">${scoreText}</span>${reasons}</div>
+    ${classificationFields(item)}
     ${decisionButtons(item)}
   </article>`;
 }
@@ -115,8 +162,19 @@ function render() {
   els.list.innerHTML = shown.map(rowTemplate).join("");
   els.empty.hidden = items.length !== 0;
   els.loadMore.hidden = state.visible >= items.length;
-  els.summary.textContent = `${items.length.toLocaleString("hu-HU")} ${state.view === "incoming" ? "ellenőrizhető találat" : "korábban relevánsnak talált cikk"}`;
+  const summaryLabels = {
+    new: "7 napon belüli új találat",
+    review: "ellenőrzésre váró találat",
+    accepted: "relevánsnak jelölt találat",
+  };
+  const summaryLabel = state.view === "archive" ? "korábban relevánsnak talált cikk" : summaryLabels[state.statFilter] || "ellenőrizhető találat";
+  els.summary.textContent = `${items.length.toLocaleString("hu-HU")} ${summaryLabel}`;
   updateStats();
+}
+
+function updateClassificationOptions() {
+  const datalist = $("#topicOptions");
+  datalist.innerHTML = state.options.topics.map((topic) => `<option value="${escapeHtml(topic)}"></option>`).join("");
 }
 
 function updateSources() {
@@ -130,19 +188,25 @@ function updateSources() {
 
 function updateStats() {
   const candidates = state.items.filter((item) => item.kind === "candidate");
-  const sevenDaysAgo = Date.now() - 7 * 86400000;
-  $("#statNew").textContent = candidates.filter((item) => new Date(`${item.date}T23:59:59`).getTime() >= sevenDaysAgo).length;
+  $("#statNew").textContent = candidates.filter(isNewCandidate).length;
   $("#statReview").textContent = candidates.filter((item) => !state.decisions[item.id]).length;
-  $("#statAccepted").textContent = Object.values(state.decisions).filter((value) => value === "yes").length;
+  $("#statAccepted").textContent = candidates.filter((item) => state.decisions[item.id] === "yes").length;
   $("#statArchive").textContent = state.items.filter((item) => item.kind === "curated").length;
+  document.querySelectorAll("[data-stat-filter]").forEach((button) => {
+    const active = button.dataset.statFilter === state.statFilter;
+    button.classList.toggle("active", active);
+    button.setAttribute("aria-pressed", String(active));
+  });
 }
 
 function saveLocalState() {
   localStorage.setItem("kmonitor-decisions", JSON.stringify(state.decisions));
   localStorage.setItem("kmonitor-sheet-synced", JSON.stringify(state.synced));
+  localStorage.setItem("kmonitor-classifications", JSON.stringify(state.classifications));
 }
 
 function sheetPayload(item, action) {
+  const classification = classificationFor(item);
   return {
     action,
     id: item.id,
@@ -150,8 +214,8 @@ function sheetPayload(item, action) {
     title: item.title || "",
     source: item.source || "",
     url: item.url || "",
-    topic: item.topic || "",
-    article_type: item.article_type || "",
+    topic: classification.topic,
+    article_type: classification.article_type,
     score: item.score ?? "",
     context: item.context || "",
     accepted_at: new Date().toISOString(),
@@ -217,7 +281,15 @@ async function syncDecision(item, action, { quiet = false } = {}) {
   }
   try {
     await submitToSheet(sheetPayload(item, action));
-    if (action === "accept") state.synced[item.id] = true;
+    if (action === "accept") {
+      state.synced[item.id] = true;
+      const topic = classificationFor(item).topic;
+      if (topic && !state.options.topics.some((entry) => normalize(entry) === normalize(topic))) {
+        state.options.topics.push(topic);
+        state.options.topics.sort((a, b) => a.localeCompare(b, "hu"));
+        updateClassificationOptions();
+      }
+    }
     else delete state.synced[item.id];
     saveLocalState();
     return true;
@@ -237,6 +309,19 @@ async function setDecision(id, value) {
 
   const previous = state.decisions[id];
   const next = previous === value ? null : value;
+  if (next === "yes") {
+    const classification = classificationFor(item);
+    if (!classification.topic || !classification.article_type) {
+      const missing = !classification.topic ? "topic" : "article_type";
+      showToast(!classification.topic && !classification.article_type
+        ? "A mentéshez válassz témát és típust."
+        : !classification.topic ? "A mentéshez válassz témát." : "A mentéshez válassz típust.");
+      const control = [...document.querySelectorAll(`[data-classification="${missing}"]`)]
+        .find((element) => element.dataset.id === id);
+      control?.focus();
+      return;
+    }
+  }
   const sheetAction = next === "yes" ? "accept" : previous === "yes" ? "remove" : null;
   if (sheetAction && !await syncDecision(item, sheetAction)) return;
 
@@ -247,9 +332,46 @@ async function setDecision(id, value) {
   render();
 }
 
+async function updateClassification(id, field, value) {
+  const item = state.items.find((entry) => entry.id === id);
+  if (!item || item.kind !== "candidate") return;
+  state.classifications[id] = { ...classificationFor(item), [field]: value.trim() };
+  delete state.synced[id];
+  saveLocalState();
+
+  if (state.decisions[id] === "yes") {
+    const classification = classificationFor(item);
+    if (classification.topic && classification.article_type) {
+      const saved = await syncDecision(item, "accept");
+      if (saved) showToast("Besorolás frissítve az ai munkalapon");
+      return;
+    }
+    showToast("A mentéshez a téma és a típus is szükséges.");
+  }
+  render();
+}
+
+async function loadClassificationOptions() {
+  if (!state.integration.google_apps_script_url) return;
+  try {
+    const result = await submitToSheet({ action: "options" });
+    const topics = Array.isArray(result.options?.topics) ? result.options.topics.filter(Boolean) : [];
+    const types = Array.isArray(result.options?.types) ? result.options.types.filter(Boolean) : [];
+    if (topics.length) state.options.topics = topics;
+    if (types.length) state.options.types = types;
+    updateClassificationOptions();
+    render();
+  } catch (error) {
+    console.warn("A segédlista nem tölthető be, az ideiglenes választék marad aktív.", error);
+  }
+}
+
 async function syncStoredAccepted() {
   if (!state.integration.google_apps_script_url) return;
-  const pending = state.items.filter((item) => state.decisions[item.id] === "yes" && !state.synced[item.id]);
+  const pending = state.items.filter((item) => {
+    const classification = classificationFor(item);
+    return state.decisions[item.id] === "yes" && !state.synced[item.id] && classification.topic && classification.article_type;
+  });
   for (const item of pending) await syncDecision(item, "accept", { quiet: true });
   if (pending.length) render();
 }
@@ -267,7 +389,10 @@ function exportCsv() {
   const items = accepted.length ? accepted : filteredItems();
   const headers = ["dátum", "cím", "forrás", "link", "téma", "típus", "pontszám", "szövegkörnyezet"];
   const quote = (value) => `"${String(value ?? "").replaceAll('"', '""')}"`;
-  const rows = items.map((item) => [item.date, item.title, item.source, item.url, item.topic, item.article_type, item.score, item.context].map(quote).join(","));
+  const rows = items.map((item) => {
+    const classification = classificationFor(item);
+    return [item.date, item.title, item.source, item.url, classification.topic, classification.article_type, item.score, item.context].map(quote).join(",");
+  });
   const blob = new Blob(["\ufeff", headers.map(quote).join(","), "\n", rows.join("\n")], { type: "text/csv;charset=utf-8" });
   const link = document.createElement("a");
   link.href = URL.createObjectURL(blob);
@@ -288,12 +413,15 @@ async function loadData() {
     state.items = await itemsResponse.json();
     state.meta = metaResponse.ok ? await metaResponse.json() : {};
     state.integration = integrationResponse.ok ? await integrationResponse.json() : {};
+    state.options.topics = [...new Set(state.items.map((item) => item.topic).filter(Boolean))].sort((a, b) => a.localeCompare(b, "hu"));
     const updated = state.meta.updated_at ? new Date(state.meta.updated_at) : null;
     $("#lastUpdated").textContent = updated && !Number.isNaN(updated.getTime())
       ? `Utoljára ellenőrizve: ${new Intl.DateTimeFormat("hu-HU", { dateStyle: "medium", timeStyle: "short" }).format(updated)}`
       : "Az utolsó ellenőrzés ideje ismeretlen";
     updateSources();
+    updateClassificationOptions();
     render();
+    void loadClassificationOptions();
     void syncStoredAccepted();
   } catch (error) {
     els.summary.textContent = "Az adatok betöltése sikertelen.";
@@ -307,6 +435,7 @@ $(".view-tabs").addEventListener("click", (event) => {
   const tab = event.target.closest("[data-view]");
   if (!tab) return;
   state.view = tab.dataset.view;
+  state.statFilter = "";
   state.visible = 20;
   document.querySelectorAll(".view-tab").forEach((button) => {
     const active = button === tab;
@@ -323,9 +452,29 @@ els.list.addEventListener("click", (event) => {
   const button = event.target.closest("[data-decision]");
   if (button) void setDecision(button.dataset.id, button.dataset.decision);
 });
+els.list.addEventListener("change", (event) => {
+  const control = event.target.closest("[data-classification]");
+  if (control) void updateClassification(control.dataset.id, control.dataset.classification, control.value);
+});
+$(".stats").addEventListener("click", (event) => {
+  const button = event.target.closest("[data-stat-filter]");
+  if (!button) return;
+  state.statFilter = state.statFilter === button.dataset.statFilter ? "" : button.dataset.statFilter;
+  state.view = "incoming";
+  state.visible = 20;
+  document.querySelectorAll(".view-tab").forEach((tab) => {
+    const active = tab.dataset.view === "incoming";
+    tab.classList.toggle("active", active);
+    tab.setAttribute("aria-selected", String(active));
+  });
+  els.decided.closest("label").style.visibility = "visible";
+  updateSources();
+  render();
+  $("#talalatok").scrollIntoView({ behavior: "smooth", block: "start" });
+});
 els.loadMore.addEventListener("click", () => { state.visible += 20; render(); });
 $("#clearFilters").addEventListener("click", () => {
-  els.search.value = ""; els.source.value = ""; els.period.value = "all"; els.decided.checked = false; render();
+  els.search.value = ""; els.source.value = ""; els.period.value = "all"; els.decided.checked = false; state.statFilter = ""; render();
 });
 $("#exportButton").addEventListener("click", exportCsv);
 $("#copyQuery").addEventListener("click", async () => {
