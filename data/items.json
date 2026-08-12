@@ -40,6 +40,27 @@
     "context_checked_at": "2026-08-12T09:59:35+00:00"
   },
   {
+    "id": "158f426604a2d099",
+    "kind": "candidate",
+    "date": "2026-04-19",
+    "title": "Itthon: Az MTI is közölte a független civil szervezetek választási jelentését a visszaélésekről, csalásokról",
+    "source": "hvg.hu",
+    "url": "https://hvg.hu/itthon/20260419_valasztasi-jelentes-k-monitor-helsinki-bizottsag-20k-mertek-tasz-political-capital",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRTJsRVkycjJmMjYtQW5LblNBTXFjMENaZWJUTzczT3NDYTg2QUhsc1NZVGNjWmc3QU40Y3VCelJTR0FwNTdfWkJEaUotWTVyY2Q3VFZoU0dWTjMtYVFwdTAzdW9RRTBlWWg5blQtc1JYX2N5X0RGdlNDNDF0d3plRi1hY01RV25Ia0lhZ1R0TU1oZ0hheHlQMmFlMldMeElvZU1BMjh3a1VKa096VzEycDNYNA?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 42,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Témaegyezés: választás"
+    ],
+    "first_seen": "2026-08-12T14:33:43+00:00",
+    "context": "A 20k - Szabad Szavazat, a K-Monitor, a Magyar Helsinki Bizottság, a Mérték Médiafigyelő Műhely, a Political Capital és a TASZ közösen dolgozott azon a jelentésen , amely feltárja a kampány során tapasztalt visszaéléseket és hiányosságokat, valamint javaslatokat fogalmaz meg a választások átláthatóbbá és tisztességesebbé tétele érdekében – írták a közleményb…",
+    "context_source": "article",
+    "context_checked_at": "2026-08-12T14:33:45+00:00"
+  },
+  {
     "id": "79e19e2ffe64b93d",
     "kind": "candidate",
     "date": "2026-03-07",
@@ -243,27 +264,6 @@
     "context": "Három év alatt több mint 400 cím került fel arra az interaktív térképre , amin a K-Monitor a NER-közeli arcokhoz tartozó szállodákat gyűjti össze azért, hogy ezeket elkerülve, a pénztárcájukkal szavazhassanak a vásárlók a politikai hátszéllel segített vállalkozói réteg további térhódítása ellen.",
     "context_source": "article",
     "context_checked_at": "2026-08-12T09:24:33+00:00"
-  },
-  {
-    "id": "5e82da456468481a",
-    "kind": "candidate",
-    "date": "2022-11-03",
-    "title": "A Rogán-féle Miniszterelnöki Kabinetiroda közel 20 milliárd forintot költött hirdetésekre a választás előtt",
-    "source": "Media1",
-    "url": "https://media1.hu/2022/11/03/a-rogan-fele-miniszterelnoki-kabinetiroda-kozel-20-milliard-forintot-koltott-hirdetesekre-a-valasztas-elott/",
-    "google_news_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOS2hKWXZHbk5NN0dRSHBlSmdPWEtYY2RYQVhwMnNuWTJWSHpfMkFERVJOZ1REY2d4NWJaZlRJdEJkM3NtR3NLVFhLdG1WU3lIZVN2VWMzUkc1QUlZcGtnb0ZDVHl1Yk9Sb0ZwbFBtcHROMEdFZlRPZEt0V3JmY01RODYxcUlsNWFKdHo3UFNsZU1ZNGpCVTNqU2lGeVdIZGlLWlhSWl82RWJPbG9Dd1gzY3Q4SmdMRm4ybXJyZTZHRW5PT1lSTDE1US10R2ZLaU8tYU00?oc=5",
-    "topic": "",
-    "article_type": "",
-    "score": 42,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "Korábban releváns forrás",
-      "Témaegyezés: választás"
-    ],
-    "first_seen": "2026-08-12T11:10:04+00:00",
-    "context": "Közzétette a Rogán Antal által vezetett Miniszterelnöki Kabinetiroda az idei szerződéseinek a listáját – ezeket a Telex beszámolója szerint a megkötés után 60 nappal kellene nyilvánosságra hozni, de a Kabinetiroda eddig nem tette ezt meg, most is csak azt követően, hogy a K-Monitor közérdekű adatigénylést nyújtott be.",
-    "context_source": "article",
-    "context_checked_at": "2026-08-12T11:10:06+00:00"
   },
   {
     "id": "09040179cc7a537b",
