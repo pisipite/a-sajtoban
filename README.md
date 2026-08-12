@@ -13,6 +13,10 @@ Statikus, GitHub Pages-en futó sajtófigyelő. Naponta négyszer lekéri a Goog
 - RSS-feed és GitHub issue értesítés az új, erős egyezésekről;
 - mobilbarát GitHub Pages felület.
 
+## Éles oldal
+
+Az oldal itt érhető el: https://pisipite.github.io/a-sajtoban/
+
 ## Közzététel GitHub Pages-re
 
 1. Hozz létre egy üres GitHub repositoryt, például `kmonitor-hirfigyelo` néven.
@@ -21,7 +25,7 @@ Statikus, GitHub Pages-en futó sajtófigyelő. Naponta négyszer lekéri a Goog
 4. A **Settings → Actions → General → Workflow permissions** résznél engedélyezd a **Read and write permissions** opciót.
 5. Indítsd el kézzel a **Sajtófigyelő frissítése** workflow-t, vagy várd meg a következő ütemezett futást.
 
-Az oldal címe alapértelmezetten `https://FELHASZNÁLÓNÉV.github.io/kmonitor-hirfigyelo/` lesz.
+Másik repóba telepítve az oldal címe alapértelmezetten `https://FELHASZNÁLÓNÉV.github.io/REPÓNÉV/` lesz.
 
 ## Helyi futtatás
 
