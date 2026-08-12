@@ -353,7 +353,7 @@
     "kind": "candidate",
     "date": "2016-09-23",
     "title": "Gazdaság - Derítse fel a magyar milliomosok hálózatát!",
-    "source": "index.hu",
+    "source": "Index.hu",
     "url": "https://index.hu/gazdasag/2016/09/23/vitorlazas_kekszalag_feher_szalag_gazdagok/",
     "google_news_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOekRHOFFpeU5RdlV2REYwUVJhcm5GTUpFYUY3eERGbDd0OWJxcF9oZ3RQUV9LWk9zeDNrMVlyV211cXFSdG1jUWVUMWVQMWxZVUtWV2xEYVFOVHFSMEdfWXVoZ2h0b21YX1lPZk13aWNSOHV0VmlQczBiSzZXRzluYzI2M0U2blE?oc=5",
     "topic": "",
@@ -368,26 +368,25 @@
     "context_checked_at": "2026-08-12T09:24:35+00:00"
   },
   {
-    "id": "f4cd2e0ec87085f8",
+    "id": "6e56550f57443876",
     "kind": "candidate",
     "date": "2014-12-11",
     "title": "Civilek vagyonnyilatkozati 12 pontja",
-    "source": "transparency.hu",
+    "source": "Transparency International Magyarország",
     "url": "https://transparency.hu/hirek/civilek-vagyonnyilatkozati-12-pontja/",
     "google_news_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91SE5Rem5INGFPeUlEWDBFN0FhalRkWjFNTXpmclVxR2xrWTB6MlJjdkxUeFRjRFNXRUZHYUtKb0NnNWxnNEphX2p0bVJTSndmREx4c1JKQkVpYTJPUFFiRjFZMDVXbFkyeDRyQzBtd2g1b1hubWc?oc=5",
     "topic": "vagyonnyilatkozat",
     "article_type": "",
-    "score": 48,
+    "score": 39,
     "reasons": [
       "Névkeresésből érkezett",
-      "Korábban releváns forrás",
       "Témaegyezés: vagyon",
       "Korábbi témával egyezik"
     ],
-    "first_seen": "2026-08-12T09:01:55+00:00",
-    "context": "A Transparency International Magyarország, a K-Monitor és az Átlátszó.hu ezért minden országgyűlési képviselőtől és a kormánytól a vagyonnyilatkozati rendszer azonnali megújítását kérte.",
-    "context_source": "article",
-    "context_checked_at": "2026-08-12T09:24:37+00:00"
+    "first_seen": "2026-08-12T09:37:22+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": "2026-08-12T09:37:23+00:00"
   },
   {
     "id": "a20a5416567ad9bb",
