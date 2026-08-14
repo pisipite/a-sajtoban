@@ -39,7 +39,7 @@
     "first_seen": "2026-08-13T03:33:57+00:00",
     "context": "A 20k - Szabad Szavazat, a K-Monitor, a Magyar Helsinki Bizottság, a Mérték Médiafigyelő Műhely, a Political Capital és a TASZ közösen dolgozott azon a jelentésen , amely feltárja a kampány során tapasztalt visszaéléseket és hiányosságokat, valamint javaslatokat fogalmaz meg a választások átláthatóbbá és tisztességesebbé tétele érdekében – írták a közleményb…",
     "context_source": "article",
-    "context_checked_at": "2026-08-14T03:31:39+00:00"
+    "context_checked_at": "2026-08-14T08:40:00+00:00"
   },
   {
     "id": "79e19e2ffe64b93d",
@@ -348,26 +348,25 @@
     "context_checked_at": "2026-08-12T09:24:35+00:00"
   },
   {
-    "id": "f4cd2e0ec87085f8",
+    "id": "6e56550f57443876",
     "kind": "candidate",
     "date": "2014-12-11",
     "title": "Civilek vagyonnyilatkozati 12 pontja",
-    "source": "transparency.hu",
+    "source": "Transparency International Magyarország",
     "url": "https://transparency.hu/hirek/civilek-vagyonnyilatkozati-12-pontja/",
     "google_news_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91SE5Rem5INGFPeUlEWDBFN0FhalRkWjFNTXpmclVxR2xrWTB6MlJjdkxUeFRjRFNXRUZHYUtKb0NnNWxnNEphX2p0bVJTSndmREx4c1JKQkVpYTJPUFFiRjFZMDVXbFkyeDRyQzBtd2g1b1hubWc?oc=5",
     "topic": "vagyonnyilatkozat",
     "article_type": "",
-    "score": 48,
+    "score": 39,
     "reasons": [
       "Névkeresésből érkezett",
-      "Korábban releváns forrás",
       "Témaegyezés: vagyon",
       "Korábbi témával egyezik"
     ],
-    "first_seen": "2026-08-14T03:31:36+00:00",
+    "first_seen": "2026-08-14T08:39:54+00:00",
     "context": "A Transparency International Magyarország, a K-Monitor és az Átlátszó.hu ezért minden országgyűlési képviselőtől és a kormánytól a vagyonnyilatkozati rendszer azonnali megújítását kérte.",
     "context_source": "article",
-    "context_checked_at": "2026-08-14T03:31:37+00:00"
+    "context_checked_at": "2026-08-14T08:39:55+00:00"
   },
   {
     "id": "a20a5416567ad9bb",
