@@ -43,6 +43,27 @@
     "context_checked_at": "2026-08-15T07:47:05+00:00"
   },
   {
+    "id": "158f426604a2d099",
+    "kind": "candidate",
+    "date": "2026-04-19",
+    "title": "Itthon: Az MTI is közölte a független civil szervezetek választási jelentését a visszaélésekről, csalásokról",
+    "source": "hvg.hu",
+    "url": "https://hvg.hu/itthon/20260419_valasztasi-jelentes-k-monitor-helsinki-bizottsag-20k-mertek-tasz-political-capital",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRTJsRVkycjJmMjYtQW5LblNBTXFjMENaZWJUTzczT3NDYTg2QUhsc1NZVGNjWmc3QU40Y3VCelJTR0FwNTdfWkJEaUotWTVyY2Q3VFZoU0dWTjMtYVFwdTAzdW9RRTBlWWg5blQtc1JYX2N5X0RGdlNDNDF0d3plRi1hY01RV25Ia0lhZ1R0TU1oZ0hheHlQMmFlMldMeElvZU1BMjh3a1VKa096VzEycDNYNA?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 42,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Témaegyezés: választás"
+    ],
+    "first_seen": "2026-08-15T13:45:50+00:00",
+    "context": "A 20k - Szabad Szavazat, a K-Monitor, a Magyar Helsinki Bizottság, a Mérték Médiafigyelő Műhely, a Political Capital és a TASZ közösen dolgozott azon a jelentésen , amely feltárja a kampány során tapasztalt visszaéléseket és hiányosságokat, valamint javaslatokat fogalmaz meg a választások átláthatóbbá és tisztességesebbé tétele érdekében – írták a közleményb…",
+    "context_source": "article",
+    "context_checked_at": "2026-08-15T13:45:53+00:00"
+  },
+  {
     "id": "79e19e2ffe64b93d",
     "kind": "candidate",
     "date": "2026-03-07",
