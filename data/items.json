@@ -206,25 +206,26 @@
     "context_checked_at": "2026-08-14T19:58:28+00:00"
   },
   {
-    "id": "285eecd3a06aeb72",
+    "id": "0e5296f5383bf759",
     "kind": "candidate",
     "date": "2023-06-28",
     "title": "Így húzták fel a postások, a végrehajtók és az adófizetők vagyonából a siófoki NER-hotelt",
-    "source": "merce.hu",
+    "source": "Mérce",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPczZ6YkI4SnJLVlR6N20yaHBfRmdUNWdhblA0Mms3QlZIVThLTmQybVFfMlh5blBzR0IzMTVHclR5OEV0REttSzJXU09rLTNTRWpObzc2ajg3SUZJY0kzM2MtQ1htSWlGUzVsN0tyQ18tU2t0MGFLS1pNQmpqb2xOUjM1b1QxZmJzTmk1SkZyQlZkSjBfVmkzSW13R0VTOWNPT2xoZFdjcVI5TzNkaTFXZkNkSEt3U1hB?oc=5",
     "google_news_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPczZ6YkI4SnJLVlR6N20yaHBfRmdUNWdhblA0Mms3QlZIVThLTmQybVFfMlh5blBzR0IzMTVHclR5OEV0REttSzJXU09rLTNTRWpObzc2ajg3SUZJY0kzM2MtQ1htSWlGUzVsN0tyQ18tU2t0MGFLS1pNQmpqb2xOUjM1b1QxZmJzTmk1SkZyQlZkSjBfVmkzSW13R0VTOWNPT2xoZFdjcVI5TzNkaTFXZkNkSEt3U1hB?oc=5",
     "topic": "ner hotel",
     "article_type": "",
-    "score": 39,
+    "score": 48,
     "reasons": [
       "Névkeresésből érkezett",
+      "Korábban releváns forrás",
       "Témaegyezés: vagyon",
       "Korábbi témával egyezik"
     ],
-    "first_seen": "2026-08-16T02:35:43+00:00",
+    "first_seen": "2026-08-16T07:48:25+00:00",
     "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
     "context_source": "unavailable",
-    "context_checked_at": "2026-08-16T02:35:43+00:00"
+    "context_checked_at": "2026-08-16T07:48:26+00:00"
   },
   {
     "id": "577c60fe111a459d",
@@ -333,7 +334,7 @@
     "kind": "candidate",
     "date": "2016-09-23",
     "title": "Gazdaság - Derítse fel a magyar milliomosok hálózatát!",
-    "source": "Index.hu",
+    "source": "index.hu",
     "url": "https://index.hu/gazdasag/2016/09/23/vitorlazas_kekszalag_feher_szalag_gazdagok/",
     "google_news_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOekRHOFFpeU5RdlV2REYwUVJhcm5GTUpFYUY3eERGbDd0OWJxcF9oZ3RQUV9LWk9zeDNrMVlyV211cXFSdG1jUWVUMWVQMWxZVUtWV2xEYVFOVHFSMEdfWXVoZ2h0b21YX1lPZk13aWNSOHV0VmlQczBiSzZXRzluYzI2M0U2blE?oc=5",
     "topic": "",
@@ -346,28 +347,6 @@
     "context": "A K-monitor most elkészített egy szemléletes hálót arról, hogy ki kivel versenyzett együtt a legmenőbb versenyeken, 2014 és 2016 közt a balatoni Kékszalagon és a Fehér Szalagon. Ez a versenyeken túl olyasmire is jó jelzés, hogy kik vannak olyan viszonyban, hogy együtt nyaraljanak teljesen nyíltan is.",
     "context_source": "article",
     "context_checked_at": "2026-08-12T09:24:35+00:00"
-  },
-  {
-    "id": "4fcd1f4a08352b78",
-    "kind": "candidate",
-    "date": "2016-07-28",
-    "title": "Gazdaság: Itt megnézheti, a lakhelyén ki mennyi agrártámogatást kapott",
-    "source": "hvg.hu",
-    "url": "https://hvg.hu/gazdasag/20160728_tamogatasok_kmonitor",
-    "google_news_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1mR3NsOGRKOEMxclFFekdQNzVBNWlRZVJDVEhYdEtLTDZWdUpaQzM5dk54X183NV82bDBsVUlOUC1wMi1mYW12ckNKU0FDdVVBbDZSSWFvWHhkbThEVWdPaUgzMA?oc=5",
-    "topic": "agrár",
-    "article_type": "",
-    "score": 48,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "Korábban releváns forrás",
-      "Témaegyezés: támogatás",
-      "Korábbi témával egyezik"
-    ],
-    "first_seen": "2026-08-14T14:27:38+00:00",
-    "context": "A K-Monitor interaktív grafikonján viszont most majdnem minden településről meg lehet nézni, hogy ott ki kapta a legtöbb uniós vagy állami pénzt.",
-    "context_source": "article",
-    "context_checked_at": "2026-08-14T14:27:50+00:00"
   },
   {
     "id": "6e56550f57443876",
