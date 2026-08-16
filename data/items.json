@@ -167,6 +167,26 @@
     "context_checked_at": "2026-08-12T09:24:34+00:00"
   },
   {
+    "id": "a119b5f18abcd686",
+    "kind": "candidate",
+    "date": "2024-01-08",
+    "title": "100 politikai tanácsadó dolgozik a kormánynak, de titok, hogy kik",
+    "source": "444.hu",
+    "url": "https://444.hu/2024/01/08/100-politikai-tanacsado-dolgozik-a-kormanynak-de-titok-hogy-kik",
+    "google_news_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTkNzQjA1V3VraDlwVGdHUXp1WHoxQ1dFc3pMVi1wZHI4LW1NOGczaVVkeXB0YzJMMkFGbnVSLXpzXzhaNzQ4aE45QjJxbDByUkpjOG1zNWFpVnVUUzB6THFzaGZ3aHBiUHpnYVA3Qkxoa3h3X0NIWTZjVlRqZHc3UjNtYmt4aExIXzFPZmVyTXVuZ0U?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 37,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás"
+    ],
+    "first_seen": "2026-08-16T13:47:17+00:00",
+    "context": "Évente bruttó 1,4 milliárd forintot költ az állam annak a 100 tanácsadónak az illetményére, akik a döntések előkészítésében és egyeztetésében segítik a tárcákat és a Miniszterelnökséget – írta meg a K-Monitor.",
+    "context_source": "article",
+    "context_checked_at": "2026-08-16T13:47:20+00:00"
+  },
+  {
     "id": "629bbd67c425cea9",
     "kind": "candidate",
     "date": "2024-01-08",
@@ -185,25 +205,6 @@
     "context": "Bruttó 1,4 milliárd forintot költ az állam összesen közel száz tanácsadó bérére, akik az előkészítésben és egyeztetésben segítik a tárcákat és a Miniszterelnökséget – írta meg a K-Monitor , amely közérdekű adatigényléssel próbálta kideríteni, mennyit fordít az állam a politikai tanácsadók és főtanácsadók bérére.",
     "context_source": "article",
     "context_checked_at": "2026-08-12T09:24:35+00:00"
-  },
-  {
-    "id": "2669379121e94337",
-    "kind": "candidate",
-    "date": "2024-01-08",
-    "title": "100 politikai tanácsadó dolgozik a kormánynak, de titok, hogy kik",
-    "source": "444",
-    "url": "https://444.hu/2024/01/08/100-politikai-tanacsado-dolgozik-a-kormanynak-de-titok-hogy-kik",
-    "google_news_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTkNzQjA1V3VraDlwVGdHUXp1WHoxQ1dFc3pMVi1wZHI4LW1NOGczaVVkeXB0YzJMMkFGbnVSLXpzXzhaNzQ4aE45QjJxbDByUkpjOG1zNWFpVnVUUzB6THFzaGZ3aHBiUHpnYVA3Qkxoa3h3X0NIWTZjVlRqZHc3UjNtYmt4aExIXzFPZmVyTXVuZ0U?oc=5",
-    "topic": "",
-    "article_type": "",
-    "score": 28,
-    "reasons": [
-      "Névkeresésből érkezett"
-    ],
-    "first_seen": "2026-08-14T19:58:26+00:00",
-    "context": "Évente bruttó 1,4 milliárd forintot költ az állam annak a 100 tanácsadónak az illetményére, akik a döntések előkészítésében és egyeztetésében segítik a tárcákat és a Miniszterelnökséget – írta meg a K-Monitor.",
-    "context_source": "article",
-    "context_checked_at": "2026-08-14T19:58:28+00:00"
   },
   {
     "id": "0e5296f5383bf759",
@@ -290,24 +291,25 @@
     "context_checked_at": "2026-08-12T09:24:38+00:00"
   },
   {
-    "id": "cdd9ea330ede5c5c",
+    "id": "586617e84d0c2b71",
     "kind": "candidate",
     "date": "2020-06-08",
     "title": "Száraz István, az Origo volt tulajdonosa kettő helyett hárommilliárdért láthatja el az MNB kommunikációs feladatait",
-    "source": "444",
+    "source": "444.hu",
     "url": "https://444.hu/2020/06/08/szaraz-istvan-az-origo-volt-tulajdonosa-ketmilliardert-lathatja-el-az-mnb-kommunikacios-feladatait",
     "google_news_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMURiZ2M4YWxJdExrYkpRSGZsQkU5ZXNPSDdRYmY4WFJlUm5HbEZJdmx4aGx5dWRwZ08tWjRkVFpNXzd2dkhzQ2k1VTZyWGZ0TlBpY1hQV1NMSTMyQy1rekpURnc1S0hTTTZWRTlKcGRMVXFtTTVIZENobkVTWGVtdXVRWXRxT0E1TDNZcmZ6NjVrakFRWkRnbE5TTk9fb3p2Tlo2bHlZUm9OZVVHWVZWaFhmZE1uYVRYeXpfSVVpMnd4dw?oc=5",
     "topic": "száraz",
     "article_type": "",
-    "score": 34,
+    "score": 43,
     "reasons": [
       "Névkeresésből érkezett",
+      "Korábban releváns forrás",
       "Korábbi témával egyezik"
     ],
-    "first_seen": "2026-08-14T19:58:26+00:00",
+    "first_seen": "2026-08-16T13:47:17+00:00",
     "context": "…mmilliárd forintért* a Matolcsy György elnökölte Magyar Nemzeti Bank kommunikációs feladatait 2019-20-ban, jelentette a K-Monitor korrupciófigyelő civil szervezet.",
     "context_source": "article",
-    "context_checked_at": "2026-08-14T19:58:29+00:00"
+    "context_checked_at": "2026-08-16T13:47:20+00:00"
   },
   {
     "id": "524f2aa239c0e59b",
@@ -334,7 +336,7 @@
     "kind": "candidate",
     "date": "2016-09-23",
     "title": "Gazdaság - Derítse fel a magyar milliomosok hálózatát!",
-    "source": "index.hu",
+    "source": "Index.hu",
     "url": "https://index.hu/gazdasag/2016/09/23/vitorlazas_kekszalag_feher_szalag_gazdagok/",
     "google_news_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOekRHOFFpeU5RdlV2REYwUVJhcm5GTUpFYUY3eERGbDd0OWJxcF9oZ3RQUV9LWk9zeDNrMVlyV211cXFSdG1jUWVUMWVQMWxZVUtWV2xEYVFOVHFSMEdfWXVoZ2h0b21YX1lPZk13aWNSOHV0VmlQczBiSzZXRzluYzI2M0U2blE?oc=5",
     "topic": "",
