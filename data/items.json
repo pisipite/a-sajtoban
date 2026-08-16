@@ -206,26 +206,25 @@
     "context_checked_at": "2026-08-14T19:58:28+00:00"
   },
   {
-    "id": "0e5296f5383bf759",
+    "id": "285eecd3a06aeb72",
     "kind": "candidate",
     "date": "2023-06-28",
     "title": "Így húzták fel a postások, a végrehajtók és az adófizetők vagyonából a siófoki NER-hotelt",
-    "source": "Mérce",
-    "url": "https://merce.hu/2023/06/28/igy-huztak-fel-a-postasok-a-vegrehajtok-es-az-adofizetok-vagyonabol-a-siofoki-ner-hotelt/",
+    "source": "merce.hu",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPczZ6YkI4SnJLVlR6N20yaHBfRmdUNWdhblA0Mms3QlZIVThLTmQybVFfMlh5blBzR0IzMTVHclR5OEV0REttSzJXU09rLTNTRWpObzc2ajg3SUZJY0kzM2MtQ1htSWlGUzVsN0tyQ18tU2t0MGFLS1pNQmpqb2xOUjM1b1QxZmJzTmk1SkZyQlZkSjBfVmkzSW13R0VTOWNPT2xoZFdjcVI5TzNkaTFXZkNkSEt3U1hB?oc=5",
     "google_news_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPczZ6YkI4SnJLVlR6N20yaHBfRmdUNWdhblA0Mms3QlZIVThLTmQybVFfMlh5blBzR0IzMTVHclR5OEV0REttSzJXU09rLTNTRWpObzc2ajg3SUZJY0kzM2MtQ1htSWlGUzVsN0tyQ18tU2t0MGFLS1pNQmpqb2xOUjM1b1QxZmJzTmk1SkZyQlZkSjBfVmkzSW13R0VTOWNPT2xoZFdjcVI5TzNkaTFXZkNkSEt3U1hB?oc=5",
     "topic": "ner hotel",
     "article_type": "",
-    "score": 48,
+    "score": 39,
     "reasons": [
       "Névkeresésből érkezett",
-      "Korábban releváns forrás",
       "Témaegyezés: vagyon",
       "Korábbi témával egyezik"
     ],
-    "first_seen": "2026-08-12T09:01:55+00:00",
-    "context": "Szemléletesen vezeti le a K-Monitor kourrupciófigyelő szervezet szerdai blogbejegyzése , hogy a végrehajtók, a jelenleg is alulfizetett postások, valamint általában a magyar adófizetők vagyonának felhasználásával hogyan csinált pár hónap alatt milliárdokat egy Rogán Antal kabinetfőnökéhez köthető cég.",
-    "context_source": "article",
-    "context_checked_at": "2026-08-12T09:24:32+00:00"
+    "first_seen": "2026-08-16T02:35:43+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": "2026-08-16T02:35:43+00:00"
   },
   {
     "id": "577c60fe111a459d",
