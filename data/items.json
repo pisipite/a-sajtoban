@@ -21,12 +21,12 @@
     "context_checked_at": "2026-08-15T07:47:06+00:00"
   },
   {
-    "id": "52fc9eaca38d3e84",
+    "id": "4930b5314426c4ff",
     "kind": "candidate",
     "date": "2026-04-24",
     "title": "Követelmény a Boston Consulting Group átláthatóságára: Törvényességi eljárás indult a K-Monitor kezdeményezésére",
-    "source": "maikurir",
-    "url": "https://maikurir.hu/kovetelmeny-a-boston-consulting-group-atlathatosagara-torvenyessegi-eljaras-indult-a-k-monitor-kezdemenyezesere/",
+    "source": "maikurir.hu",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcmVyRENnNlpoWXp3amx3TXhVR2ZGM0hzUU5FVE5ObHRZS1g1NG82WElYWlFFVEVjYXpBZlh4eElsbk54RUNTTkluYm9taGtsM1JjUnpENHdReGhSZFJHVjJpdEtqaGNfUUlKWTZIMDVtYmR5d3RrTFlWc1FBczNxOHBBdWRxNHZCMXNRaUVnbVZxNDlSVDRhMzhfanhGb2pMMnRmVHptLVNjSDJZb1ZIbm5MSjBXRWp4cjIzREVlZG04YzdfUnZ5SWJzNXc?oc=5",
     "google_news_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcmVyRENnNlpoWXp3amx3TXhVR2ZGM0hzUU5FVE5ObHRZS1g1NG82WElYWlFFVEVjYXpBZlh4eElsbk54RUNTTkluYm9taGtsM1JjUnpENHdReGhSZFJHVjJpdEtqaGNfUUlKWTZIMDVtYmR5d3RrTFlWc1FBczNxOHBBdWRxNHZCMXNRaUVnbVZxNDlSVDRhMzhfanhGb2pMMnRmVHptLVNjSDJZb1ZIbm5MSjBXRWp4cjIzREVlZG04YzdfUnZ5SWJzNXc?oc=5",
     "topic": "K-Monitor",
     "article_type": "",
@@ -37,10 +37,10 @@
       "Témaegyezés: átláthatóság",
       "Korábbi témával egyezik"
     ],
-    "first_seen": "2026-08-15T07:47:02+00:00",
-    "context": "A K-Monitor kezdeményezésére törvényességi felügyeleti eljárás indult a Boston Consulting Group (BCG) ellen. A cégbíróság döntése értelmében a vállalat nem teljesítette az információszabadságról szóló törvényben előírt kötelezettségeit, mivel nem adott tájékoztatást arról, hogy milyen állami intézményekkel áll szerződésben.",
-    "context_source": "article",
-    "context_checked_at": "2026-08-15T07:47:05+00:00"
+    "first_seen": "2026-08-17T02:35:36+00:00",
+    "context": "A K-Monitor a cikk címében szerepel: „Követelmény a Boston Consulting Group átláthatóságára: Törvényességi eljárás indult a K-Monitor kezdeményezésére”.",
+    "context_source": "unavailable",
+    "context_checked_at": "2026-08-17T02:36:01+00:00"
   },
   {
     "id": "79e19e2ffe64b93d",
@@ -165,26 +165,6 @@
     "context": "“Két héten belül már másodszor javíttattuk ki Fazekas Sándor volt agrárminiszterrel a január végén közzétett 2023-as bevallását. Köszönjük, hogy segíthettünk, képviselő úr!” – jelezte a Facebookon a K-Monitor közpénz- és korrupciófigyelő civil szervezet.",
     "context_source": "article",
     "context_checked_at": "2026-08-12T09:24:34+00:00"
-  },
-  {
-    "id": "629bbd67c425cea9",
-    "kind": "candidate",
-    "date": "2024-01-08",
-    "title": "Itthon: Több száz tanácsadója van a kormánynak, a nevüket titkolják",
-    "source": "hvg.hu",
-    "url": "https://hvg.hu/itthon/20240108_KMonitor_Brutto_1_millios_fizetese_van_a_politikai_tanacsadoknak",
-    "google_news_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSy1RbTFmMXZuelY4bTQ5Uk1MOHdmLWNJczFWV1gxbVlGUUI2NndCY3UxQkJtUmNncDJTNnhXWEFKcVBvN08zOXIydTVsSmZsV3dOM0NSNGRxRFprWlBkZWJ2QXdndzJKcEZOSkdUNnQ3M3ZZSnVVem12eEtrRHppVjlYcG5pd0JvUzFqemlXVzM5bkJweVMxUnJCTQ?oc=5",
-    "topic": "",
-    "article_type": "",
-    "score": 37,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "Korábban releváns forrás"
-    ],
-    "first_seen": "2026-08-12T09:03:34+00:00",
-    "context": "Bruttó 1,4 milliárd forintot költ az állam összesen közel száz tanácsadó bérére, akik az előkészítésben és egyeztetésben segítik a tárcákat és a Miniszterelnökséget – írta meg a K-Monitor , amely közérdekű adatigényléssel próbálta kideríteni, mennyit fordít az állam a politikai tanácsadók és főtanácsadók bérére.",
-    "context_source": "article",
-    "context_checked_at": "2026-08-12T09:24:35+00:00"
   },
   {
     "id": "2669379121e94337",
