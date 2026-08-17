@@ -21,12 +21,12 @@
     "context_checked_at": "2026-08-15T07:47:06+00:00"
   },
   {
-    "id": "4930b5314426c4ff",
+    "id": "52fc9eaca38d3e84",
     "kind": "candidate",
     "date": "2026-04-24",
     "title": "Követelmény a Boston Consulting Group átláthatóságára: Törvényességi eljárás indult a K-Monitor kezdeményezésére",
-    "source": "maikurir.hu",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcmVyRENnNlpoWXp3amx3TXhVR2ZGM0hzUU5FVE5ObHRZS1g1NG82WElYWlFFVEVjYXpBZlh4eElsbk54RUNTTkluYm9taGtsM1JjUnpENHdReGhSZFJHVjJpdEtqaGNfUUlKWTZIMDVtYmR5d3RrTFlWc1FBczNxOHBBdWRxNHZCMXNRaUVnbVZxNDlSVDRhMzhfanhGb2pMMnRmVHptLVNjSDJZb1ZIbm5MSjBXRWp4cjIzREVlZG04YzdfUnZ5SWJzNXc?oc=5",
+    "source": "maikurir",
+    "url": "https://maikurir.hu/kovetelmeny-a-boston-consulting-group-atlathatosagara-torvenyessegi-eljaras-indult-a-k-monitor-kezdemenyezesere/",
     "google_news_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcmVyRENnNlpoWXp3amx3TXhVR2ZGM0hzUU5FVE5ObHRZS1g1NG82WElYWlFFVEVjYXpBZlh4eElsbk54RUNTTkluYm9taGtsM1JjUnpENHdReGhSZFJHVjJpdEtqaGNfUUlKWTZIMDVtYmR5d3RrTFlWc1FBczNxOHBBdWRxNHZCMXNRaUVnbVZxNDlSVDRhMzhfanhGb2pMMnRmVHptLVNjSDJZb1ZIbm5MSjBXRWp4cjIzREVlZG04YzdfUnZ5SWJzNXc?oc=5",
     "topic": "K-Monitor",
     "article_type": "",
@@ -37,10 +37,10 @@
       "Témaegyezés: átláthatóság",
       "Korábbi témával egyezik"
     ],
-    "first_seen": "2026-08-17T02:35:36+00:00",
-    "context": "A K-Monitor a cikk címében szerepel: „Követelmény a Boston Consulting Group átláthatóságára: Törvényességi eljárás indult a K-Monitor kezdeményezésére”.",
-    "context_source": "unavailable",
-    "context_checked_at": "2026-08-17T02:36:01+00:00"
+    "first_seen": "2026-08-17T08:03:29+00:00",
+    "context": "A K-Monitor kezdeményezésére törvényességi felügyeleti eljárás indult a Boston Consulting Group (BCG) ellen. A cégbíróság döntése értelmében a vállalat nem teljesítette az információszabadságról szóló törvényben előírt kötelezettségeit, mivel nem adott tájékoztatást arról, hogy milyen állami intézményekkel áll szerződésben.",
+    "context_source": "article",
+    "context_checked_at": "2026-08-17T08:03:33+00:00"
   },
   {
     "id": "79e19e2ffe64b93d",
@@ -145,45 +145,24 @@
     "context_checked_at": "2026-08-12T09:24:36+00:00"
   },
   {
-    "id": "11cba7c58fb17a4f",
-    "kind": "candidate",
-    "date": "2024-02-15",
-    "title": "Gazdaság: Fazekas Sándornak két héten belül másodszor is javítania kellett a vagyonnyilatkozatát",
-    "source": "hvg.hu",
-    "url": "https://hvg.hu/gazdasag/20240215_Fazekas_Sandor_vagyonnyilatkozat_K_Monitor",
-    "google_news_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVTlsaWdIenp1b1NZdmRSS2RPNUFhc2k5NmtTVWV5NmwtRW1IOHZfWkUzQ1pIYVRWQjdia2tWdjAwWkxHT3pXS1BFX29VcExaVkNoQVE0NlhTWGVsNUNXNGFaMkkyYVV3dmRQM3ROQjlNYWZudHpaSU9rZEc4RzVUMw?oc=5",
-    "topic": "vagyonnyilatkozat",
-    "article_type": "",
-    "score": 48,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "Korábban releváns forrás",
-      "Témaegyezés: vagyon",
-      "Korábbi témával egyezik"
-    ],
-    "first_seen": "2026-08-12T09:03:34+00:00",
-    "context": "“Két héten belül már másodszor javíttattuk ki Fazekas Sándor volt agrárminiszterrel a január végén közzétett 2023-as bevallását. Köszönjük, hogy segíthettünk, képviselő úr!” – jelezte a Facebookon a K-Monitor közpénz- és korrupciófigyelő civil szervezet.",
-    "context_source": "article",
-    "context_checked_at": "2026-08-12T09:24:34+00:00"
-  },
-  {
-    "id": "2669379121e94337",
+    "id": "a119b5f18abcd686",
     "kind": "candidate",
     "date": "2024-01-08",
     "title": "100 politikai tanácsadó dolgozik a kormánynak, de titok, hogy kik",
-    "source": "444",
+    "source": "444.hu",
     "url": "https://444.hu/2024/01/08/100-politikai-tanacsado-dolgozik-a-kormanynak-de-titok-hogy-kik",
     "google_news_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTkNzQjA1V3VraDlwVGdHUXp1WHoxQ1dFc3pMVi1wZHI4LW1NOGczaVVkeXB0YzJMMkFGbnVSLXpzXzhaNzQ4aE45QjJxbDByUkpjOG1zNWFpVnVUUzB6THFzaGZ3aHBiUHpnYVA3Qkxoa3h3X0NIWTZjVlRqZHc3UjNtYmt4aExIXzFPZmVyTXVuZ0U?oc=5",
     "topic": "",
     "article_type": "",
-    "score": 28,
+    "score": 37,
     "reasons": [
-      "Névkeresésből érkezett"
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás"
     ],
-    "first_seen": "2026-08-16T19:37:38+00:00",
+    "first_seen": "2026-08-17T08:03:29+00:00",
     "context": "Évente bruttó 1,4 milliárd forintot költ az állam annak a 100 tanácsadónak az illetményére, akik a döntések előkészítésében és egyeztetésében segítik a tárcákat és a Miniszterelnökséget – írta meg a K-Monitor.",
     "context_source": "article",
-    "context_checked_at": "2026-08-16T19:37:41+00:00"
+    "context_checked_at": "2026-08-17T08:03:32+00:00"
   },
   {
     "id": "0e5296f5383bf759",
@@ -270,24 +249,25 @@
     "context_checked_at": "2026-08-12T09:24:38+00:00"
   },
   {
-    "id": "cdd9ea330ede5c5c",
+    "id": "586617e84d0c2b71",
     "kind": "candidate",
     "date": "2020-06-08",
     "title": "Száraz István, az Origo volt tulajdonosa kettő helyett hárommilliárdért láthatja el az MNB kommunikációs feladatait",
-    "source": "444",
+    "source": "444.hu",
     "url": "https://444.hu/2020/06/08/szaraz-istvan-az-origo-volt-tulajdonosa-ketmilliardert-lathatja-el-az-mnb-kommunikacios-feladatait",
     "google_news_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMURiZ2M4YWxJdExrYkpRSGZsQkU5ZXNPSDdRYmY4WFJlUm5HbEZJdmx4aGx5dWRwZ08tWjRkVFpNXzd2dkhzQ2k1VTZyWGZ0TlBpY1hQV1NMSTMyQy1rekpURnc1S0hTTTZWRTlKcGRMVXFtTTVIZENobkVTWGVtdXVRWXRxT0E1TDNZcmZ6NjVrakFRWkRnbE5TTk9fb3p2Tlo2bHlZUm9OZVVHWVZWaFhmZE1uYVRYeXpfSVVpMnd4dw?oc=5",
     "topic": "száraz",
     "article_type": "",
-    "score": 34,
+    "score": 43,
     "reasons": [
       "Névkeresésből érkezett",
+      "Korábban releváns forrás",
       "Korábbi témával egyezik"
     ],
-    "first_seen": "2026-08-16T19:37:38+00:00",
+    "first_seen": "2026-08-17T08:03:29+00:00",
     "context": "…mmilliárd forintért* a Matolcsy György elnökölte Magyar Nemzeti Bank kommunikációs feladatait 2019-20-ban, jelentette a K-Monitor korrupciófigyelő civil szervezet.",
     "context_source": "article",
-    "context_checked_at": "2026-08-16T19:37:41+00:00"
+    "context_checked_at": "2026-08-17T08:03:32+00:00"
   },
   {
     "id": "fa66b8462aeaeff8",
