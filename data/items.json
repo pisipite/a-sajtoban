@@ -21,11 +21,11 @@
     "context_checked_at": "2026-08-15T07:47:06+00:00"
   },
   {
-    "id": "52fc9eaca38d3e84",
+    "id": "4930b5314426c4ff",
     "kind": "candidate",
     "date": "2026-04-24",
     "title": "Követelmény a Boston Consulting Group átláthatóságára: Törvényességi eljárás indult a K-Monitor kezdeményezésére",
-    "source": "maikurir",
+    "source": "maikurir.hu",
     "url": "https://maikurir.hu/kovetelmeny-a-boston-consulting-group-atlathatosagara-torvenyessegi-eljaras-indult-a-k-monitor-kezdemenyezesere/",
     "google_news_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcmVyRENnNlpoWXp3amx3TXhVR2ZGM0hzUU5FVE5ObHRZS1g1NG82WElYWlFFVEVjYXpBZlh4eElsbk54RUNTTkluYm9taGtsM1JjUnpENHdReGhSZFJHVjJpdEtqaGNfUUlKWTZIMDVtYmR5d3RrTFlWc1FBczNxOHBBdWRxNHZCMXNRaUVnbVZxNDlSVDRhMzhfanhGb2pMMnRmVHptLVNjSDJZb1ZIbm5MSjBXRWp4cjIzREVlZG04YzdfUnZ5SWJzNXc?oc=5",
     "topic": "K-Monitor",
@@ -37,10 +37,10 @@
       "Témaegyezés: átláthatóság",
       "Korábbi témával egyezik"
     ],
-    "first_seen": "2026-08-17T08:03:29+00:00",
+    "first_seen": "2026-08-18T19:44:29+00:00",
     "context": "A K-Monitor kezdeményezésére törvényességi felügyeleti eljárás indult a Boston Consulting Group (BCG) ellen. A cégbíróság döntése értelmében a vállalat nem teljesítette az információszabadságról szóló törvényben előírt kötelezettségeit, mivel nem adott tájékoztatást arról, hogy milyen állami intézményekkel áll szerződésben.",
     "context_source": "article",
-    "context_checked_at": "2026-08-17T08:03:33+00:00"
+    "context_checked_at": "2026-08-18T19:44:32+00:00"
   },
   {
     "id": "79e19e2ffe64b93d",
@@ -162,6 +162,26 @@
     "context": "Évente bruttó 1,4 milliárd forintot költ az állam annak a 100 tanácsadónak az illetményére, akik a döntések előkészítésében és egyeztetésében segítik a tárcákat és a Miniszterelnökséget – írta meg a K-Monitor.",
     "context_source": "article",
     "context_checked_at": "2026-08-17T13:55:55+00:00"
+  },
+  {
+    "id": "29a5d59bcac27d70",
+    "kind": "candidate",
+    "date": "2023-05-26",
+    "title": "Ma is 18-an dolgoznak a két évvel ezelőtti vadászati világkiállítás projektcégénél",
+    "source": "444",
+    "url": "https://444.hu/2023/05/26/ma-is-18-an-dolgoznak-a-ket-evvel-ezelotti-vadaszati-vilgakiallitas-projektcegenel",
+    "google_news_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSUZ4YmZQSUJMTThQSERld25pUTcxakllckdjNS1udjd3LVJia29OWlItU2p0S09FZVhHaTd0XzhOMElsZTJKcE9EUUxQSy0xSnh2X3I5SzJreHIxWTdPbVBadjVfcEl1MWloenFLbFNJVnpNRTZmbzV1bEdPdGdVaVo4NUt0Q0UxWnByU2hzblEtRmw0OTZIQkxLUjBzWXZmVjg0aV82dk1zbTNl?oc=5",
+    "topic": "vadászati világkiállítás",
+    "article_type": "",
+    "score": 34,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-08-18T19:44:29+00:00",
+    "context": "Még mindig működik a 2021-es vadászati világkiállítást szervező projektcég, írja a K-Monitor a nyilvános adatok alapján.",
+    "context_source": "article",
+    "context_checked_at": "2026-08-18T19:44:30+00:00"
   },
   {
     "id": "577c60fe111a459d",
