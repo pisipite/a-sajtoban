@@ -266,25 +266,26 @@
     "context_checked_at": "2026-08-12T09:24:35+00:00"
   },
   {
-    "id": "6e56550f57443876",
+    "id": "f4cd2e0ec87085f8",
     "kind": "candidate",
     "date": "2014-12-11",
     "title": "Civilek vagyonnyilatkozati 12 pontja",
-    "source": "Transparency International Magyarország",
+    "source": "transparency.hu",
     "url": "https://transparency.hu/hirek/civilek-vagyonnyilatkozati-12-pontja/",
     "google_news_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91SE5Rem5INGFPeUlEWDBFN0FhalRkWjFNTXpmclVxR2xrWTB6MlJjdkxUeFRjRFNXRUZHYUtKb0NnNWxnNEphX2p0bVJTSndmREx4c1JKQkVpYTJPUFFiRjFZMDVXbFkyeDRyQzBtd2g1b1hubWc?oc=5",
     "topic": "vagyonnyilatkozat",
     "article_type": "",
-    "score": 39,
+    "score": 48,
     "reasons": [
       "Névkeresésből érkezett",
+      "Korábban releváns forrás",
       "Témaegyezés: vagyon",
       "Korábbi témával egyezik"
     ],
-    "first_seen": "2026-08-14T08:39:54+00:00",
+    "first_seen": "2026-08-18T07:57:00+00:00",
     "context": "A Transparency International Magyarország, a K-Monitor és az Átlátszó.hu ezért minden országgyűlési képviselőtől és a kormánytól a vagyonnyilatkozati rendszer azonnali megújítását kérte.",
     "context_source": "article",
-    "context_checked_at": "2026-08-14T08:39:55+00:00"
+    "context_checked_at": "2026-08-18T07:57:04+00:00"
   },
   {
     "id": "a20a5416567ad9bb",
