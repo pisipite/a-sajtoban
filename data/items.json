@@ -227,27 +227,6 @@
     "context_checked_at": "2026-08-12T09:24:34+00:00"
   },
   {
-    "id": "729615f5eb4292df",
-    "kind": "candidate",
-    "date": "2020-06-16",
-    "title": "Vállalkozás: Itt a NER Hotel – térképre vitték a politikához közel állók szállodáit",
-    "source": "hvg.hu",
-    "url": "https://hvg.hu/kkv/20200616_Itt_a_NER_Hotel__terkepre_vittek_a_politikahoz_kozel_allok_szallodait",
-    "google_news_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaVFxNVA5Q2RnaVgtek5fSUV1cVVrVHlPX0JjQjY3UzdpTGJEeGdINHRQSkVXYlRpMURaSWs0aHZKMTdDOS1oVzc4SVdrWFNiMm9weW9HcWlSOTJDRVNuN1B5VVdfSnlHNm1ZUk83UGhsa1BLQ0s4eHpVa2I1NEduZnoyejlULWVaQmZ0QTVUTUlsbVFwQlNmMTM1STBNdw?oc=5",
-    "topic": "ner hotel",
-    "article_type": "",
-    "score": 43,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "Korábban releváns forrás",
-      "Korábbi témával egyezik"
-    ],
-    "first_seen": "2026-08-12T09:03:34+00:00",
-    "context": "A K-Monitor ígérete szerint mostantól bárki könnyen megnézheti, hogy kinek a szállodájában tervez szállást foglalni.",
-    "context_source": "article",
-    "context_checked_at": "2026-08-12T09:24:38+00:00"
-  },
-  {
     "id": "cdd9ea330ede5c5c",
     "kind": "candidate",
     "date": "2020-06-08",
