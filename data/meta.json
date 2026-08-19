@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-19T02:32:51+00:00",
+  "updated_at": "2026-08-19T07:57:13+00:00",
   "candidate_count": 16,
   "curated_count": 4331,
-  "new_count": 1,
-  "high_confidence_new_count": 1,
+  "new_count": 0,
+  "high_confidence_new_count": 0,
   "reference_years": [
     "2026",
     "2025",
@@ -19,5 +19,7 @@
     "2015",
     "2014"
   ],
-  "collection_errors": []
+  "collection_errors": [
+    "\"K-Monitor\" OR \"K Monitor\": Nem sikerült letölteni: https://news.google.com/rss/search?q=%22K-Monitor%22+OR+%22K+Monitor%22&hl=hu&gl=HU&ceid=HU%3Ahu"
+  ]
 }
