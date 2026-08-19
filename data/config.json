@@ -1,6 +1,8 @@
 {
   "queries": [
-    "\"K-Monitor\" OR \"K Monitor\""
+    "\"K-Monitor\" OR \"K Monitor\"",
+    "\"K-Monitor\" when:30d",
+    "\"K Monitor\" when:30d"
   ],
   "locale": {
     "hl": "hu",

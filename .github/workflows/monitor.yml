@@ -51,6 +51,12 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: sajtófigyelő frissítése [skip ci]"
           git push
 
+      - name: Keresési forrás ellenőrzése
+        if: steps.collect.outputs.successful_query_count == '0'
+        run: |
+          echo "::error::Egyetlen Google News keresés sem volt elérhető; a korábbi találatok megmaradtak, de az ellenőrzés nem tekinthető sikeresnek."
+          exit 1
+
       - name: Értesítő issue létrehozása
         if: github.event_name == 'schedule' && steps.collect.outputs.high_confidence_new_count != '0'
         continue-on-error: true

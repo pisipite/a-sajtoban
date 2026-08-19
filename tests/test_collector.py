@@ -1,4 +1,5 @@
 import importlib.util
+import json
 from pathlib import Path
 import unittest
 
@@ -44,6 +45,17 @@ class CollectorTests(unittest.TestCase):
         context = collector.sentence_context(text)
         self.assertIn("K-Monitor", context)
         self.assertIn("következő", context)
+
+    def test_recent_window_queries_are_configured(self):
+        config_path = MODULE_PATH.parents[1] / "data" / "config.json"
+        config = json.loads(config_path.read_text(encoding="utf-8"))
+        recent_queries = [query for query in config["queries"] if "when:" in query]
+        self.assertTrue(any('"K-Monitor"' in query for query in recent_queries))
+        self.assertTrue(any('"K Monitor"' in query for query in recent_queries))
+
+    def test_rss_request_asks_for_xml(self):
+        self.assertIn("application/rss+xml", collector.REQUEST_HEADERS["Accept"])
+        self.assertIn("hu-HU", collector.REQUEST_HEADERS["Accept-Language"])
 
 
 if __name__ == "__main__":

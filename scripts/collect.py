@@ -35,6 +35,11 @@ except ImportError:  # The collector remains usable without optional context ext
 
 ROOT = Path(__file__).resolve().parents[1]
 USER_AGENT = "Mozilla/5.0 (compatible; KMonitorPressWatch/2.0; +https://github.com/pisipite/a-sajtoban)"
+REQUEST_HEADERS = {
+    "User-Agent": USER_AGENT,
+    "Accept": "application/rss+xml, application/xml;q=0.9, text/html;q=0.8, */*;q=0.7",
+    "Accept-Language": "hu-HU,hu;q=0.9,en;q=0.7",
+}
 TAG_RE = re.compile(r"<[^>]+>")
 SPACE_RE = re.compile(r"\s+")
 TERM_RE = re.compile(
@@ -50,7 +55,7 @@ THEME_TERMS = {
 
 
 def fetch(url: str, attempts: int = 3) -> bytes:
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    request = urllib.request.Request(url, headers=REQUEST_HEADERS)
     last_error: Exception | None = None
     for attempt in range(attempts):
         try:
@@ -392,12 +397,18 @@ def main() -> int:
     curated_titles = {normalized(item["title"]) for item in curated}
     excluded = set(config.get("excluded_domains", []))
 
-    candidates: dict[str, dict] = {}
+    # A Google News találati sorrendje és darabszáma futásonként változhat.
+    # A korábban már felajánlott cikkeket ezért megőrizzük, és az új
+    # keresési eredményekkel frissítjük/bővítjük őket.
+    candidates: dict[str, dict] = dict(previous)
     collection_errors: list[str] = []
+    successful_query_count = 0
     for query in config["queries"]:
         url = google_news_url(query, config["locale"])
         try:
-            for raw in rss_items(fetch(url)):
+            feed_rows = list(rss_items(fetch(url)))
+            successful_query_count += 1
+            for raw in feed_rows:
                 title = strip_source_suffix(raw["title"], raw["source"])
                 if not title or not raw["url"] or host(raw["source_url"]) in excluded:
                     continue
@@ -429,9 +440,6 @@ def main() -> int:
         except Exception as error:
             collection_errors.append(f"{query}: {error}")
 
-    if collection_errors and not candidates and previous:
-        candidates = previous
-
     if not args.skip_context:
         pending = [item for item in candidates.values() if not item.get("context")]
         with ThreadPoolExecutor(max_workers=4) as executor:
@@ -456,6 +464,8 @@ def main() -> int:
         "curated_count": len(curated),
         "new_count": len(new_items),
         "high_confidence_new_count": len(relevant_new),
+        "successful_query_count": successful_query_count,
+        "configured_query_count": len(config["queries"]),
         "reference_years": reference_years,
         "collection_errors": reference_errors + collection_errors,
     })
@@ -471,6 +481,7 @@ def main() -> int:
         with open(github_output, "a", encoding="utf-8") as output:
             output.write(f"new_count={len(new_items)}\n")
             output.write(f"high_confidence_new_count={len(relevant_new)}\n")
+            output.write(f"successful_query_count={successful_query_count}\n")
     print(f"{len(candidate_list)} jelölt, {len(curated)} korábbi találat, {len(relevant_new)} új erős egyezés")
     if reference_errors or collection_errors:
         print("Figyelmeztetések: " + " | ".join(reference_errors + collection_errors), file=sys.stderr)
