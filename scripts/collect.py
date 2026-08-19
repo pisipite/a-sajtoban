@@ -350,6 +350,16 @@ def load_previous(path: Path) -> tuple[dict[str, dict], list[dict], bool]:
         return {}, [], False
 
 
+def is_within_lookback(value: str, days: int, now: datetime | None = None) -> bool:
+    """Return whether a YYYY-MM-DD value belongs to the rolling review window."""
+    try:
+        article_date = datetime.fromisoformat(value).date()
+    except (TypeError, ValueError):
+        return False
+    today = (now or datetime.now(timezone.utc)).date()
+    return article_date >= today - timedelta(days=days)
+
+
 def build_feed(items: list[dict], site_url: str, updated_at: str) -> bytes:
     rss = ET.Element("rss", version="2.0")
     channel = ET.SubElement(rss, "channel")
@@ -390,17 +400,22 @@ def main() -> int:
     args = parser.parse_args()
 
     config = json.loads(args.config.read_text(encoding="utf-8"))
-    previous, previous_curated, had_previous = load_previous(args.output)
-    curated, reference_years, reference_errors = load_reference_sheets(config, previous_curated)
+    previous, _previous_curated, had_previous = load_previous(args.output)
+    curated, _reference_years, reference_errors = load_reference_sheets(config, [])
     known_sources = {normalized(item["source"]) for item in curated if item["source"]}
     known_topics = Counter(item["topic"] for item in curated if item["topic"])
     curated_titles = {normalized(item["title"]) for item in curated}
     excluded = set(config.get("excluded_domains", []))
 
-    # A Google News találati sorrendje és darabszáma futásonként változhat.
-    # A korábban már felajánlott cikkeket ezért megőrizzük, és az új
-    # keresési eredményekkel frissítjük/bővítjük őket.
-    candidates: dict[str, dict] = dict(previous)
+    lookback_days = int(config.get("lookback_days", 30))
+
+    # A Google News találati sorrendje futásonként változhat. Az előző
+    # futás friss jelöltjeit ezért megtartjuk, de a gördülő időablaknál
+    # régebbi cikkeket nem tároljuk ebben a statikus adatfájlban.
+    candidates: dict[str, dict] = {
+        identifier: item for identifier, item in previous.items()
+        if is_within_lookback(item.get("date", ""), lookback_days)
+    }
     collection_errors: list[str] = []
     successful_query_count = 0
     for query in config["queries"]:
@@ -410,7 +425,8 @@ def main() -> int:
             successful_query_count += 1
             for raw in feed_rows:
                 title = strip_source_suffix(raw["title"], raw["source"])
-                if not title or not raw["url"] or host(raw["source_url"]) in excluded:
+                if (not title or not raw["url"] or host(raw["source_url"]) in excluded
+                        or not is_within_lookback(raw["date"], lookback_days)):
                     continue
                 if normalized(title) in curated_titles:
                     continue
@@ -452,21 +468,19 @@ def main() -> int:
                     candidates[identifier] = fetch_article_context(candidates[identifier])
 
     candidate_list = sorted(candidates.values(), key=lambda row: (row["date"], row["score"]), reverse=True)
-    all_items = candidate_list + sorted(curated, key=lambda row: row["date"], reverse=True)
     new_items = [item for item in candidate_list if item["id"] not in previous] if had_previous else []
     relevant_new = [item for item in new_items if item["score"] >= config.get("high_confidence_score", 60)]
     updated = datetime.now(timezone.utc).isoformat(timespec="seconds")
 
-    write_json(args.output, all_items)
+    write_json(args.output, candidate_list)
     write_json(args.meta_output, {
         "updated_at": updated,
         "candidate_count": len(candidate_list),
-        "curated_count": len(curated),
+        "lookback_days": lookback_days,
         "new_count": len(new_items),
         "high_confidence_new_count": len(relevant_new),
         "successful_query_count": successful_query_count,
         "configured_query_count": len(config["queries"]),
-        "reference_years": reference_years,
         "collection_errors": reference_errors + collection_errors,
     })
     args.feed_output.write_bytes(build_feed(candidate_list, args.site_url, updated))
@@ -482,7 +496,7 @@ def main() -> int:
             output.write(f"new_count={len(new_items)}\n")
             output.write(f"high_confidence_new_count={len(relevant_new)}\n")
             output.write(f"successful_query_count={successful_query_count}\n")
-    print(f"{len(candidate_list)} jelölt, {len(curated)} korábbi találat, {len(relevant_new)} új erős egyezés")
+    print(f"{len(candidate_list)} jelölt a {lookback_days} napos időablakban, {len(relevant_new)} új erős egyezés")
     if reference_errors or collection_errors:
         print("Figyelmeztetések: " + " | ".join(reference_errors + collection_errors), file=sys.stderr)
     return 0

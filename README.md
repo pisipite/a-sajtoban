@@ -1,6 +1,6 @@
 # K-Monitor sajtófigyelő
 
-Statikus, GitHub Pages-en futó sajtófigyelő. Naponta négyszer lekéri a Google News nyilvános RSS-találatait a `"K-Monitor" OR "K Monitor"` keresésre, összeveti őket a [2014–2026-os referencia-táblázattal](https://docs.google.com/spreadsheets/d/1ew6L7q_sT8C8jro0rFBAlMfx1bZGw0rWSQ5NCbNWqjw/edit?usp=sharing), majd frissíti a webes listát és az RSS-feedet.
+Statikus, GitHub Pages-en futó sajtófigyelő. Naponta négyszer lekéri a Google News nyilvános RSS-találatait a `"K-Monitor" OR "K Monitor"` keresésre, összeveti őket a [2014–2026-os referencia-táblázattal](https://docs.google.com/spreadsheets/d/1ew6L7q_sT8C8jro0rFBAlMfx1bZGw0rWSQ5NCbNWqjw/edit?usp=sharing), majd az elmúlt 30 nap jelöltjeivel frissíti a webes listát és az RSS-feedet. A referenciaadatokat nem másolja a weboldal adatfájljába.
 
 ## Mit tud?
 
@@ -10,7 +10,8 @@ Statikus, GitHub Pages-en futó sajtófigyelő. Naponta négyszer lekéri a Goog
 - a K-Monitor-említés körüli cikkrészlet automatikus kiemelése;
 - az elfogadott cikkek mentése a referencia-táblázat `ai` munkalapjára;
 - téma és típus kiválasztása a `segéd` munkalap listáiból, új téma felvitelének lehetőségével;
-- kattintható összesítő kártyák az új, ellenőrizendő és elfogadott cikkek gyors szűréséhez;
+- kattintható összesítő kártyák az elmúlt 14 nap, az ellenőrizendő és az elfogadott cikkek gyors szűréséhez;
+- gördülő, 30 napos jelöltlista historikus webes archívum nélkül;
 - böngészőben is megőrzött „releváns / kihagyás” döntés és sikertelen mentés utáni automatikus újrapróbálás;
 - CSV-export a relevánsnak jelölt tételekből;
 - RSS-feed és GitHub issue értesítés az új, erős egyezésekről;

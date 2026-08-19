@@ -35,7 +35,7 @@
       <div class="hero-copy">
         <div class="eyebrow"><span class="live-dot" aria-hidden="true"></span> Automatikus megfigyelés</div>
         <h1 id="pageTitle">A K-Monitor a sajtóban</h1>
-        <p>A nyilvános magyar sajtó találatai egy helyen, a 2014 óta gyűjtött válogatás mintái alapján rangsorolva.</p>
+        <p>Az elmúlt 30 nap K-Monitor-említései egy helyen, a korábbi válogatás mintái alapján rangsorolva.</p>
         <div class="refresh-line">
           <span id="lastUpdated">Adatok betöltése…</span>
           <span aria-hidden="true">•</span>
@@ -52,9 +52,9 @@
     </section>
 
     <section class="stats" aria-label="Összesítés és gyorsszűrők">
-      <button class="stat-card stat-accent stat-button" data-stat-filter="new" type="button" aria-pressed="false" aria-label="Az elmúlt 7 nap új találatainak szűrése">
+      <button class="stat-card stat-accent stat-button" data-stat-filter="new" type="button" aria-pressed="false" aria-label="Az elmúlt 14 nap találatainak szűrése">
         <div class="stat-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v3m0 12v3M3 12h3m12 0h3M5.6 5.6l2.1 2.1m8.6 8.6 2.1 2.1m0-12.8-2.1 2.1m-8.6 8.6-2.1 2.1"/></svg></div>
-        <div><span class="stat-label">Új, 7 napon belül</span><strong id="statNew">–</strong></div>
+        <div><span class="stat-label">Elmúlt 14 nap</span><strong id="statNew">–</strong></div>
       </button>
       <button class="stat-card stat-button" data-stat-filter="review" type="button" aria-pressed="false" aria-label="Az ellenőrzésre váró találatok szűrése">
         <div class="stat-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 5h16v14H4zM8 9h8M8 13h5"/></svg></div>
@@ -64,10 +64,6 @@
         <div class="stat-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg></div>
         <div><span class="stat-label">Relevánsnak jelölve</span><strong id="statAccepted">0</strong></div>
       </button>
-      <article class="stat-card">
-        <div class="stat-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16M6 7V4h12v3m-11 4h10v8H7z"/></svg></div>
-        <div><span class="stat-label">Korábbi válogatás</span><strong id="statArchive">–</strong></div>
-      </article>
     </section>
 
     <section class="workspace" id="talalatok" aria-labelledby="resultsTitle">
@@ -75,10 +71,6 @@
         <div>
           <h2 id="resultsTitle">Találatok</h2>
           <p id="resultsSummary">A lista előkészítése…</p>
-        </div>
-        <div class="view-tabs" role="tablist" aria-label="Lista nézete">
-          <button class="view-tab active" role="tab" aria-selected="true" data-view="incoming" type="button">Beérkezett</button>
-          <button class="view-tab" role="tab" aria-selected="false" data-view="archive" type="button">Korábbi válogatás</button>
         </div>
       </div>
 
@@ -95,10 +87,10 @@
         <label>
           <span class="sr-only">Időszak</span>
           <select id="periodFilter">
-            <option value="all">Bármikor</option>
+            <option value="all">Teljes időszak (30 nap)</option>
             <option value="7">Utolsó 7 nap</option>
+            <option value="14">Utolsó 14 nap</option>
             <option value="30">Utolsó 30 nap</option>
-            <option value="90">Utolsó 90 nap</option>
           </select>
         </label>
         <label class="toggle-wrap" title="A már eldöntött találatok megjelenítése">
@@ -126,7 +118,7 @@
       <div class="method-icon" aria-hidden="true">i</div>
       <div>
         <strong>Hogyan működik?</strong>
-        <p>A gyűjtő a Google News nyilvános RSS-találatait ellenőrzi, kizárja a K-Monitor saját oldalait, majd a névegyezés, a korábbi források és a 2014–2026-os táblázat témái alapján pontoz. A kártyákon a cikkből automatikusan kiemelt említési környezet is látható. A gépi jelzés szerkesztői előszűrés, nem végleges minősítés.</p>
+        <p>A gyűjtő a Google News nyilvános RSS-találatait ellenőrzi, kizárja a K-Monitor saját oldalait, majd a névegyezés, a korábbi források és a táblázat témái alapján pontoz. A korábbi évek adatait csak ehhez az összevetéshez olvassa be; az oldal kizárólag az elmúlt 30 nap jelöltjeit tárolja és mutatja. A gépi jelzés szerkesztői előszűrés, nem végleges minősítés.</p>
       </div>
     </aside>
   </main>

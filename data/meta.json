@@ -1,25 +1,10 @@
 {
-  "updated_at": "2026-08-19T10:49:36+00:00",
-  "candidate_count": 28,
-  "curated_count": 4331,
+  "updated_at": "2026-08-19T10:59:13+00:00",
+  "candidate_count": 6,
+  "lookback_days": 30,
   "new_count": 0,
   "high_confidence_new_count": 0,
   "successful_query_count": 3,
   "configured_query_count": 3,
-  "reference_years": [
-    "2026",
-    "2025",
-    "2024",
-    "2023",
-    "2022",
-    "2021",
-    "2020",
-    "2019",
-    "2018",
-    "2017",
-    "2016",
-    "2015",
-    "2014"
-  ],
   "collection_errors": []
 }

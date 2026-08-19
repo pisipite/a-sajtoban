@@ -1,5 +1,6 @@
 import importlib.util
 import json
+from datetime import datetime, timezone
 from pathlib import Path
 import unittest
 
@@ -56,6 +57,17 @@ class CollectorTests(unittest.TestCase):
     def test_rss_request_asks_for_xml(self):
         self.assertIn("application/rss+xml", collector.REQUEST_HEADERS["Accept"])
         self.assertIn("hu-HU", collector.REQUEST_HEADERS["Accept-Language"])
+
+    def test_review_window_excludes_historical_items(self):
+        now = datetime(2026, 8, 19, tzinfo=timezone.utc)
+        self.assertTrue(collector.is_within_lookback("2026-08-01", 30, now))
+        self.assertFalse(collector.is_within_lookback("2026-07-01", 30, now))
+        self.assertFalse(collector.is_within_lookback("", 30, now))
+
+    def test_review_window_is_configured_for_monthly_retention(self):
+        config_path = MODULE_PATH.parents[1] / "data" / "config.json"
+        config = json.loads(config_path.read_text(encoding="utf-8"))
+        self.assertEqual(config["lookback_days"], 30)
 
 
 if __name__ == "__main__":

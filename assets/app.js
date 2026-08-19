@@ -2,7 +2,6 @@ const state = {
   items: [],
   meta: {},
   integration: {},
-  view: "incoming",
   statFilter: "",
   visible: 20,
   decisions: JSON.parse(localStorage.getItem("kmonitor-decisions") || "{}"),
@@ -45,8 +44,8 @@ function classificationFor(item) {
 }
 
 function isNewCandidate(item) {
-  const sevenDaysAgo = Date.now() - 7 * 86400000;
-  return new Date(`${item.date}T23:59:59`).getTime() >= sevenDaysAgo;
+  const fourteenDaysAgo = Date.now() - 14 * 86400000;
+  return new Date(`${item.date}T23:59:59`).getTime() >= fourteenDaysAgo;
 }
 
 function highlightTerm(value = "") {
@@ -74,8 +73,8 @@ function filteredItems() {
   const cutoff = days ? Date.now() - days * 86400000 : 0;
 
   return state.items
-    .filter((item) => state.view === "incoming" ? item.kind === "candidate" : item.kind === "curated")
-    .filter((item) => state.view !== "incoming" || !state.statFilter
+    .filter((item) => item.kind === "candidate")
+    .filter((item) => !state.statFilter
       || state.statFilter === "new" && isNewCandidate(item)
       || state.statFilter === "review" && !state.decisions[item.id]
       || state.statFilter === "accepted" && state.decisions[item.id] === "yes")
@@ -85,12 +84,11 @@ function filteredItems() {
       return !query || normalize([item.title, item.source, classification.topic, classification.article_type, item.context].join(" ")).includes(query);
     })
     .filter((item) => !days || new Date(`${item.date}T23:59:59`).getTime() >= cutoff)
-    .filter((item) => state.view === "archive" || state.statFilter || els.decided.checked || !state.decisions[item.id])
+    .filter((item) => state.statFilter || els.decided.checked || !state.decisions[item.id])
     .sort((a, b) => b.date.localeCompare(a.date) || (b.score || 0) - (a.score || 0));
 }
 
 function classificationFields(item) {
-  if (item.kind === "curated") return "<span></span><span></span>";
   const classification = classificationFor(item);
   const id = escapeHtml(item.id);
   const topicKnown = !classification.topic || state.options.topics.some((topic) => normalize(topic) === normalize(classification.topic));
@@ -109,7 +107,6 @@ function classificationFields(item) {
 }
 
 function decisionButtons(item) {
-  if (item.kind === "curated") return `<span class="archive-type">${escapeHtml(item.article_type || "válogatott")}</span>`;
   const decision = state.decisions[item.id];
   const syncing = state.syncing.has(item.id);
   return `<div class="decision" role="group" aria-label="Döntés a találatról">
@@ -125,11 +122,11 @@ function decisionButtons(item) {
 function rowTemplate(item) {
   const date = dateLabel(item.date);
   const high = (item.score || 0) >= 60;
-  const scoreText = item.kind === "curated" ? "válogatott" : high ? "erős egyezés" : "ellenőrizendő";
-  const scoreClass = item.kind === "curated" ? "curated" : high ? "high" : "";
-  const selectedTopic = item.kind === "candidate" ? classificationFor(item).topic : item.topic;
+  const scoreText = high ? "erős egyezés" : "ellenőrizendő";
+  const scoreClass = high ? "high" : "";
+  const selectedTopic = classificationFor(item).topic;
   const topic = selectedTopic ? `<span class="topic-tag">${escapeHtml(selectedTopic)}</span>` : "";
-  const reasons = item.kind === "candidate" && item.reasons?.length
+  const reasons = item.reasons?.length
     ? `<span class="reasons" title="${escapeHtml(item.reasons.join("; "))}">${escapeHtml(item.reasons.slice(0, 2).join(" · "))}</span>` : "";
   const contextLabels = {
     article: "Cikkből kiemelve",
@@ -137,7 +134,7 @@ function rowTemplate(item) {
     title: "Cím alapján",
     unavailable: "Korlátozott hozzáférés",
   };
-  const context = item.kind === "candidate" && item.context
+  const context = item.context
     ? `<div class="context-box">
         <span class="context-label">${contextLabels[item.context_source] || "Szövegkörnyezet"}</span>
         <p>${highlightTerm(item.context)}</p>
@@ -163,11 +160,11 @@ function render() {
   els.empty.hidden = items.length !== 0;
   els.loadMore.hidden = state.visible >= items.length;
   const summaryLabels = {
-    new: "7 napon belüli új találat",
+    new: "14 napon belüli találat",
     review: "ellenőrzésre váró találat",
     accepted: "relevánsnak jelölt találat",
   };
-  const summaryLabel = state.view === "archive" ? "korábban relevánsnak talált cikk" : summaryLabels[state.statFilter] || "ellenőrizhető találat";
+  const summaryLabel = summaryLabels[state.statFilter] || "ellenőrizhető találat az elmúlt 30 napból";
   els.summary.textContent = `${items.length.toLocaleString("hu-HU")} ${summaryLabel}`;
   updateStats();
 }
@@ -179,7 +176,7 @@ function updateClassificationOptions() {
 
 function updateSources() {
   const sources = [...new Set(state.items
-    .filter((item) => state.view === "incoming" ? item.kind === "candidate" : item.kind === "curated")
+    .filter((item) => item.kind === "candidate")
     .map((item) => item.source).filter(Boolean))].sort((a, b) => a.localeCompare(b, "hu"));
   const current = els.source.value;
   els.source.innerHTML = `<option value="">Minden forrás</option>${sources.map((source) => `<option value="${escapeHtml(source)}">${escapeHtml(source)}</option>`).join("")}`;
@@ -191,7 +188,6 @@ function updateStats() {
   $("#statNew").textContent = candidates.filter(isNewCandidate).length;
   $("#statReview").textContent = candidates.filter((item) => !state.decisions[item.id]).length;
   $("#statAccepted").textContent = candidates.filter((item) => state.decisions[item.id] === "yes").length;
-  $("#statArchive").textContent = state.items.filter((item) => item.kind === "curated").length;
   document.querySelectorAll("[data-stat-filter]").forEach((button) => {
     const active = button.dataset.statFilter === state.statFilter;
     button.classList.toggle("active", active);
@@ -431,22 +427,6 @@ async function loadData() {
   }
 }
 
-$(".view-tabs").addEventListener("click", (event) => {
-  const tab = event.target.closest("[data-view]");
-  if (!tab) return;
-  state.view = tab.dataset.view;
-  state.statFilter = "";
-  state.visible = 20;
-  document.querySelectorAll(".view-tab").forEach((button) => {
-    const active = button === tab;
-    button.classList.toggle("active", active);
-    button.setAttribute("aria-selected", String(active));
-  });
-  els.decided.closest("label").style.visibility = state.view === "incoming" ? "visible" : "hidden";
-  updateSources();
-  render();
-});
-
 $("#filters").addEventListener("input", () => { state.visible = 20; render(); });
 els.list.addEventListener("click", (event) => {
   const button = event.target.closest("[data-decision]");
@@ -471,14 +451,7 @@ $(".stats").addEventListener("click", (event) => {
   const button = event.target.closest("[data-stat-filter]");
   if (!button) return;
   state.statFilter = state.statFilter === button.dataset.statFilter ? "" : button.dataset.statFilter;
-  state.view = "incoming";
   state.visible = 20;
-  document.querySelectorAll(".view-tab").forEach((tab) => {
-    const active = tab.dataset.view === "incoming";
-    tab.classList.toggle("active", active);
-    tab.setAttribute("aria-selected", String(active));
-  });
-  els.decided.closest("label").style.visibility = "visible";
   updateSources();
   render();
   $("#talalatok").scrollIntoView({ behavior: "smooth", block: "start" });
