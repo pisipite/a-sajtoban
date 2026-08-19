@@ -58,6 +58,25 @@
     "context_checked_at": "2026-08-19T11:05:41+00:00"
   },
   {
+    "id": "467326980adbdbd5",
+    "kind": "candidate",
+    "date": "2026-08-18",
+    "title": "Közösségi tulajdonban alakít ki magának új helyet a Társadalomelméleti Kollégium",
+    "source": "magyarnarancs.hu",
+    "url": "https://magyarnarancs.hu/belpol/maguk-alakitjak-279963",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBXSVlKUUZLWl9iOVlCMWRTQzd4eUF3RnhOWDUtNWtfUGtKLUt4NGgwamYtY1F6OEUtMG9vejJWQUIxVGswcmxIdzNTWVdjR05fWGtzSkJEcFgwazdDMkJQQmJ6Ym8?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 28,
+    "reasons": [
+      "Névkeresésből érkezett"
+    ],
+    "first_seen": "2026-08-19T19:43:22+00:00",
+    "context": "Az önszerveződő szakmai közösséghez olyan tudományos és aktivista projektek kapcsolódnak, mint A Város Mindenkié, az Utcajogász, a Helyzet Műhely, a Kritikai Városkutatás Műhely, az Utcáról Lakásba Egyesület, a Deviszont közösségi tér, a K-Monitor vagy a Gólya.",
+    "context_source": "article",
+    "context_checked_at": "2026-08-19T19:43:23+00:00"
+  },
+  {
     "id": "d0e250dfb9d42479",
     "kind": "candidate",
     "date": "2026-08-12",
@@ -114,6 +133,25 @@
     "context": "A HVG a K-Monitor korrupcióellenes civil szervezet közösségi oldalon közzétett bejegyzése alapján írta meg, hogy az ügy a 2025 őszén indult kampányhoz kapcsolódik. A kampányt az akkori kormány részben egy Index-cikkre építette, amely egy „kiszivárgott dokumentumra” hivatkozva azt állította, hogy a Tisza Párt jelentős adóemelésre készül.",
     "context_source": "article",
     "context_checked_at": "2026-08-12T09:24:39+00:00"
+  },
+  {
+    "id": "6cb23c099c1b486b",
+    "kind": "candidate",
+    "date": "2026-07-24",
+    "title": "Nyomozás indult a Tisza Párt miatt indított nemzeti konzultáció ügyében",
+    "source": "blikk.hu",
+    "url": "https://www.blikk.hu/politika/magyar-politika/nyomozas-rendorseg-tisza-nemzeti-konzultacio/pfk3vq3",
+    "google_news_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOS0NRbHk1TGgtVjJlbkhrOUljbTdjMVNtaWxTWTZkYzEyQml1WlFzX2tEUzdxYzl0dkJreU9rU1ROb1dYT0phNk95MWJDMnhiU2JEb1BzYnRJRXdKT1p2WmRmTDlNTGhsNWZsN29pbkNFd0QtS1NSNktZeG5zMmhhWnJza3pNc1Fzeko5UVhyR3ZxUXRXQ0tiWDhDRDBpWkk?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 28,
+    "reasons": [
+      "Névkeresésből érkezett"
+    ],
+    "first_seen": "2026-08-19T19:43:22+00:00",
+    "context": "Nyomozás indult a 2025 őszén indított nemzeti konzultáció ügyében, miután az ügyészség megváltoztatta a rendőrség korábbi elutasító döntését. A K-Monitor szerint a mintegy 12 milliárd forint közpénzből finanszírozott kampány nem a lakosság tájékoztatását szolgálta, hanem a Tisza Párt lejáratására irányult.",
+    "context_source": "article",
+    "context_checked_at": "2026-08-19T19:43:23+00:00"
   },
   {
     "id": "63f40374651141b5",
