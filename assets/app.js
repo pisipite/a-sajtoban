@@ -84,7 +84,9 @@ function filteredItems() {
       return !query || normalize([item.title, item.source, classification.topic, classification.article_type, item.context].join(" ")).includes(query);
     })
     .filter((item) => !days || new Date(`${item.date}T23:59:59`).getTime() >= cutoff)
-    .filter((item) => state.statFilter || els.decided.checked || !state.decisions[item.id])
+    .filter((item) => state.statFilter === "accepted"
+      ? state.decisions[item.id] === "yes"
+      : els.decided.checked || !state.decisions[item.id])
     .sort((a, b) => b.date.localeCompare(a.date) || (b.score || 0) - (a.score || 0));
 }
 
@@ -185,8 +187,9 @@ function updateSources() {
 
 function updateStats() {
   const candidates = state.items.filter((item) => item.kind === "candidate");
-  $("#statNew").textContent = candidates.filter(isNewCandidate).length;
-  $("#statReview").textContent = candidates.filter((item) => !state.decisions[item.id]).length;
+  const undecided = candidates.filter((item) => !state.decisions[item.id]);
+  $("#statNew").textContent = undecided.filter(isNewCandidate).length;
+  $("#statReview").textContent = undecided.length;
   $("#statAccepted").textContent = candidates.filter((item) => state.decisions[item.id] === "yes").length;
   document.querySelectorAll("[data-stat-filter]").forEach((button) => {
     const active = button.dataset.statFilter === state.statFilter;
