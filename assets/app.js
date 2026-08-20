@@ -272,6 +272,46 @@ function submitToSheet(payload) {
   });
 }
 
+function acceptedIdsUrl() {
+  const spreadsheetId = String(state.integration.google_spreadsheet_id || "").trim();
+  const sheetName = String(state.integration.accepted_sheet_name || "ai").trim();
+  if (!/^[a-zA-Z0-9_-]+$/.test(spreadsheetId) || !sheetName) return "";
+  const params = new URLSearchParams({
+    tqx: "out:csv",
+    sheet: sheetName,
+    tq: "select J where J is not null",
+    headers: "1",
+  });
+  return `https://docs.google.com/spreadsheets/d/${spreadsheetId}/gviz/tq?${params}`;
+}
+
+async function loadAcceptedDecisions() {
+  const url = acceptedIdsUrl();
+  if (!url) return;
+  try {
+    const response = await fetch(url, { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const acceptedIds = new Set(((await response.text()).match(/\b[a-f0-9]{16}\b/gi) || [])
+      .map((id) => id.toLowerCase()));
+    const currentIds = new Set(state.items.map((item) => item.id));
+
+    currentIds.forEach((id) => {
+      if (state.decisions[id] === "yes" && state.synced[id] && !acceptedIds.has(id)) {
+        delete state.decisions[id];
+        delete state.synced[id];
+      }
+    });
+    acceptedIds.forEach((id) => {
+      if (!currentIds.has(id)) return;
+      state.decisions[id] = "yes";
+      state.synced[id] = true;
+    });
+    saveLocalState();
+  } catch (error) {
+    console.warn("Az elfogadott cikkek listája nem tölthető be; a helyi állapot marad aktív.", error);
+  }
+}
+
 async function syncDecision(item, action, { quiet = false } = {}) {
   state.syncing.add(item.id);
   if (!quiet) {
@@ -412,6 +452,7 @@ async function loadData() {
     state.items = await itemsResponse.json();
     state.meta = metaResponse.ok ? await metaResponse.json() : {};
     state.integration = integrationResponse.ok ? await integrationResponse.json() : {};
+    await loadAcceptedDecisions();
     state.options.topics = [...new Set(state.items.map((item) => item.topic).filter(Boolean))].sort((a, b) => a.localeCompare(b, "hu"));
     const updated = state.meta.updated_at ? new Date(state.meta.updated_at) : null;
     $("#lastUpdated").textContent = updated && !Number.isNaN(updated.getTime())

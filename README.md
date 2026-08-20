@@ -9,6 +9,7 @@ Statikus, GitHub Pages-en futó sajtófigyelő. Naponta négyszer lekéri a Goog
 - átlátható, szabályalapú relevanciapontozás;
 - a K-Monitor-említés körüli cikkrészlet automatikus kiemelése;
 - az elfogadott cikkek mentése a referencia-táblázat `ai` munkalapjára;
+- az `ai` munkalap visszaolvasása, hogy a már elfogadott cikkek újratöltés és másik böngésző esetén se kerüljenek vissza az aktív listába;
 - téma és típus kiválasztása a `segéd` munkalap listáiból, új téma felvitelének lehetőségével;
 - kattintható összesítő kártyák az elmúlt 14 nap, az ellenőrizendő és az elfogadott cikkek gyors szűréséhez;
 - gördülő, 30 napos jelöltlista historikus webes archívum nélkül;
@@ -49,7 +50,7 @@ A keresés, a kizárt saját domainek, a referenciaévek és az erős egyezés p
 
 A GitHub Pages önmagában nem kaphat szerkesztési jogot egy Google-táblázathoz, ezért a mentést a táblázat tulajdonosának nevében futó, kis Apps Script-webalkalmazás végzi. Az egyszeri telepítés pontos lépései és a teljes kód a `google-apps-script` mappában találhatók. A telepítésből kapott `/exec` URL-t a `data/integration.json` fájlban kell megadni.
 
-Az `ai` munkalap első mentéskor automatikusan megkapja a következő oszlopokat: dátum, cím, forrás, link, téma, típus, pontszám, szövegkörnyezet, elfogadás ideje és egy technikai azonosító. Az azonosító megakadályozza a duplikált sorokat; egy elfogadás visszavonása törli az adott sort.
+Az `ai` munkalap első mentéskor automatikusan megkapja a következő oszlopokat: dátum, cím, forrás, link, téma, típus, pontszám, szövegkörnyezet, elfogadás ideje és egy technikai azonosító. Az azonosító megakadályozza a duplikált sorokat; egy elfogadás visszavonása törli az adott sort. A felület betöltéskor az `ai` munkalap azonosítóit is lekéri, ezért a már elfogadott cikkek a böngésző helyi állapotától függetlenül rejtve maradnak.
 
 ## Fontos korlátok
 
