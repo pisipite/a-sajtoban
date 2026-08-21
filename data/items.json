@@ -136,6 +136,26 @@
     "context_checked_at": "2026-08-20T07:59:35+00:00"
   },
   {
+    "id": "f349da7f8b252506",
+    "kind": "candidate",
+    "date": "2026-08-05",
+    "title": "Lassan kiakad a Hankó-csuszka állása az arcátlanság-mérőn",
+    "source": "Városi Kurír",
+    "url": "https://varosikurir.hu/lassan-kiakad-a-hanko-csuszka-allasasa-az-ostobasagmeron/",
+    "google_news_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVnZDckloOWtoLTNrRHp5VjNQeWlKeU9EQkFHY2R3NFFPdmFiM3J5clFrVFhLSDNsWnFWMVUxTzh3UllpcE9LbEFOTGdDQXIzb1ZtdTV4anptLWtTZ2RSUjJPT1ZxdHpuQ29OcUdETkRJYjBNUkZhaTFkN2N6UGwyeGdobkRuUjQ?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 37,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás"
+    ],
+    "first_seen": "2026-08-21T02:37:58+00:00",
+    "context": "…sság elől tudatosan elrejtett „pályázatokban” milliós támogatásokat ítélt oda, alapvetően politikai szívesség alapon. A K-monitor pedig arra mutatott rá, hogy a tízmilliós nagyságrendű támogatásokat szinte forintra pontosan 100 millió forintonként osztották el választókerületenként.",
+    "context_source": "article",
+    "context_checked_at": "2026-08-21T02:38:00+00:00"
+  },
+  {
     "id": "890ca3f277f78dc9",
     "kind": "candidate",
     "date": "2026-07-30",
@@ -231,24 +251,5 @@
     "context": "Nyomozás indult a 2025 őszén indított nemzeti konzultáció ügyében, miután az ügyészség megváltoztatta a rendőrség korábbi elutasító döntését. A K-Monitor szerint a mintegy 12 milliárd forint közpénzből finanszírozott kampány nem a lakosság tájékoztatását szolgálta, hanem a Tisza Párt lejáratására irányult.",
     "context_source": "article",
     "context_checked_at": "2026-08-19T19:43:23+00:00"
-  },
-  {
-    "id": "63f40374651141b5",
-    "kind": "candidate",
-    "date": "2026-07-21",
-    "title": "Az NKA-botrány miatt foglalta le a Fidesz szervereit az ügyészség",
-    "source": "444",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMl84U1Z5T0ZwalU5czEzdFJaUE9rY3JSWVc0YlVIcnNMQTh0Y3V3aFk5VHdscVhnMzZpenAwQkhBdzZ2NERvRk5IZ29kNVRGVjFEaWp3bUpYdzQ5V0dSNTd4bWN6ZThESFNubXMzaUZWdDY3V19yY0VKTDRiNFpqZDJid1BHeWZL?oc=5",
-    "google_news_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMl84U1Z5T0ZwalU5czEzdFJaUE9rY3JSWVc0YlVIcnNMQTh0Y3V3aFk5VHdscVhnMzZpenAwQkhBdzZ2NERvRk5IZ29kNVRGVjFEaWp3bUpYdzQ5V0dSNTd4bWN6ZThESFNubXMzaUZWdDY3V19yY0VKTDRiNFpqZDJid1BHeWZL?oc=5",
-    "topic": "",
-    "article_type": "",
-    "score": 28,
-    "reasons": [
-      "Névkeresésből érkezett"
-    ],
-    "first_seen": "2026-08-19T10:35:49+00:00",
-    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
-    "context_source": "unavailable",
-    "context_checked_at": ""
   }
 ]
