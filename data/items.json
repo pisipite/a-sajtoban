@@ -22,6 +22,46 @@
     "context_checked_at": "2026-08-24T02:38:49+00:00"
   },
   {
+    "id": "23a31a61a8d6cbe8",
+    "kind": "candidate",
+    "date": "2026-08-24",
+    "title": "Ma megkezdődik a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal vezetőinek kiválasztása",
+    "source": "ORIGO",
+    "url": "https://www.origo.hu/belpol/2026/08/nvvh-hivatal-vezetok-tisza",
+    "google_news_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8tcEpaeDNPa2IwUG54bDhOSXdjSHBpVXJFaXdDc2RkS3Rpb3pmLXp2a0VzUG1NS1JlU2hwcWdsNkdzR1JjcFJybjRRS2QwSXpESkRFaU9rWjhkeEt5WWNqZEE4WmFtelBmZU9yQk83bw?oc=5",
+    "topic": "vagyonvisszaszerzés",
+    "article_type": "",
+    "score": 44,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Témaegyezés: vagyon, választás",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-08-24T08:06:54+00:00",
+    "context": "Hantosi István vasárnap délután közösségi oldalán azt írta, a Tisza javaslatára három civil szervezetet vesz majd részt a meghallgatásokon: a Társaság a Szabadságjogokért (TASZ), a Magyar Helsinki Bizottság, és a K-Monitor Közhasznú Egyesület.",
+    "context_source": "article",
+    "context_checked_at": "2026-08-24T08:06:57+00:00"
+  },
+  {
+    "id": "c725cdadc5581e97",
+    "kind": "candidate",
+    "date": "2026-08-24",
+    "title": "AI a kirakatokban, Putyin bajban",
+    "source": "444",
+    "url": "https://444.hu/2026/08/24/ai-a-kirakatokban-putyin-bajban",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DOTVnZk0xV0stMXhlV1hZZlNyQjIwc1g1UThqVXdTekduTDgtdlQ4T3JhbTAwc1BQN0d0U3FzaXJUcVpma3pKMTVfUnphaUUycnpXZ3BVaWVTVmdTdURWeW1vYW5DMFhU?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 28,
+    "reasons": [
+      "Névkeresésből érkezett"
+    ],
+    "first_seen": "2026-08-24T08:06:54+00:00",
+    "context": "Kapcsolódó hír volt, hogy a hétvégén kiderült, a TASZ és a K-Monitor mellett a Mi Hazánk kérésére a Magyarok Világszövetsége is segítheti a hivatal elindítását. Vendégszerzőnk a tiszás Közhang nemzetközi előzményeinek történetét mutatta be, és hír volt még, hogy",
+    "context_source": "article",
+    "context_checked_at": "2026-08-24T08:06:57+00:00"
+  },
+  {
     "id": "4557a3a99a6dc32c",
     "kind": "candidate",
     "date": "2026-08-23",
@@ -420,6 +460,28 @@
     "context_checked_at": "2026-08-23T19:40:09+00:00"
   },
   {
+    "id": "46a68220555c88b5",
+    "kind": "candidate",
+    "date": "2026-08-23",
+    "title": "Csütörtökön már meg is választhatják a vagyonvisszaszerzési hivatal vezetőjét – frissítve",
+    "source": "mfor.hu",
+    "url": "https://mfor.hu/cikkek/kozelet/csutortokon-mar-meg-is-valaszthatjak-a-vagyonvisszaszerzesi-hivatal-vezetojet.html?utm_source=rss&utm_medium=referral&ref=unbiasednews_hirtalalo",
+    "google_news_url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOU2lSV1Y5ejFfbXdYZnkwcWV3WnBjZ3pYam4yZjFsMUxxaUhuNms2NTNzTy0xb1BDeFZBb2V3dkNkYUJXbTVNQjk3RTV3MjBkc1RkRlNPSTR0WDlVMmF3TXROZnNlaGt2M2d0TG1TTXdkT1pBd0JWS2JKMC1OZjU5MzdRZjhZdTJvV2hGTjNzX0VDSWhsZFdrendOQXpGeGpxaEVnNFAyNVlhWWpxTVhia0JWdnZxdXc1dFRwcFdxSm9fU2NHU2xCUjNmUHdSU256V1l6WEZlYkpsejQ5S0kyOFBzMUtlZVlkZEU2NUE3VTBISG8tSnA3d3JQaS0xN05WMFhoaHZB?oc=5",
+    "topic": "vagyonvisszaszerzés",
+    "article_type": "",
+    "score": 48,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Témaegyezés: vagyon",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-08-24T08:06:54+00:00",
+    "context": "Ezzel a lehetőséggel a TISZA és a Mi Hazánk élt és a következő négy civil szervezet vehet részt tanácskozási joggal az eljárás teljes folyamatában. A TISZA javaslatára: – Társaság a Szabadságjogokért (TASZ) – Magyar Helsinki Bizottság – K-Monitor Közhasznú Egyesület A Mi Hazánk javaslatára: – Magyar Világszövetsége”",
+    "context_source": "article",
+    "context_checked_at": "2026-08-24T08:06:55+00:00"
+  },
+  {
     "id": "df0aff83b57892ef",
     "kind": "candidate",
     "date": "2026-08-23",
@@ -481,6 +543,26 @@
     "context": "…ek kiválasztási folyamatában való segédkezésre. A Társaság a Szabadságjogokért (TASZ), a Magyar Helsinki Bizottság és a K-Monitor Közhasznú Egyesület egyaránt tanácskozási jogot kapott a feladat végrehatjásához.",
     "context_source": "article",
     "context_checked_at": "2026-08-23T19:40:09+00:00"
+  },
+  {
+    "id": "6e9cd15adc8cc712",
+    "kind": "candidate",
+    "date": "2026-08-23",
+    "title": "A Magyarok Világszövetsége beleszól a Vagyonvédelmi Hivatal vezetőinek kiválasztásába – Hantosi István posztja alapján – maikurir",
+    "source": "maikurir",
+    "url": "https://maikurir.hu/a-magyarok-vilagszovetsege-beleszol-a-vagyonvedelmi-hivatal-vezetoinek-kivalasztasaba-hantosi-istvan-posztja-alapjan/",
+    "google_news_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdjF1RnJ4aU41Z2hhRFJMeU1Ma3JLSVlQVGJ4RmU2bkhjNVppMVlCM1ZNeVE5RVBLbHNFSl9YdTB3M0FTVVRxYmp3VHFOei1neGVSUU1BelBaMFBBZ09aZUR3Z1pvcGk5eVhoTDRuc2U0a0xkNWFaUGszenJGTk5yZEhmOERMSlpabG1tbUVaWkdsQU9zemlLNGphTmlHSUNNam5qa1l5UWw0RGY1dzMyOFVVNVZsdm1yNE51UFJlSDd2VHR5WDZENGlYVTQ0LUUtcURN?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 38,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Témaegyezés: vagyon, választás"
+    ],
+    "first_seen": "2026-08-24T08:06:54+00:00",
+    "context": "Az eredeti posztban szerepelt, hogy a Társaság a Szabadságjogokért (TASZ), a Magyar Helsinki Bizottság, a K-Monitor Közhasznú Egyesület mellett a Magyarok Világszövetsége is tanácsadóként vesz részt, azonban később tévedésnek minősítették ezt az információt.",
+    "context_source": "article",
+    "context_checked_at": "2026-08-24T08:06:59+00:00"
   },
   {
     "id": "f8c351ccb3e3180e",
