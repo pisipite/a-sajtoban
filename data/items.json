@@ -1,5 +1,47 @@
 [
   {
+    "id": "09c25e6cfbb88699",
+    "kind": "candidate",
+    "date": "2026-08-25",
+    "title": "A TASZ, a Helsinki Bizottság és a K-Monitor is beleszólhat, ki vezesse a vagyonvisszaszerzési hivatalt",
+    "source": "Szeretlek Magyarország",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOTUlwTjNtVkRxVEQ5cE9nd1BzeXhkTkNmSnNSSWw5ZURDejZWSXd6MEJzYnJibWNrVEVfcU1ndUhDSURVVVhLamhkSlU1bVF6dDMzVXpGOXM1eHB4OW5nbWZJMFlUMWptaHNBUFBIT1VvblpMTUx3SDJDb3g2Mlh6WGNRWWx0MUQzSDNHRDZDOENZcXBjdzJVbVpfZ1hVUFFCV2MzVnNLR05pTFBSWXdaODB4UGRtWnZCQ1V6Q29td2JFU0tqOVFYVVZBZTFaMFBscUtRcFFmUmhNcTVUOC1xY0NhSUNSckhrWEozQkthTWhSUQ?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOTUlwTjNtVkRxVEQ5cE9nd1BzeXhkTkNmSnNSSWw5ZURDejZWSXd6MEJzYnJibWNrVEVfcU1ndUhDSURVVVhLamhkSlU1bVF6dDMzVXpGOXM1eHB4OW5nbWZJMFlUMWptaHNBUFBIT1VvblpMTUx3SDJDb3g2Mlh6WGNRWWx0MUQzSDNHRDZDOENZcXBjdzJVbVpfZ1hVUFFCV2MzVnNLR05pTFBSWXdaODB4UGRtWnZCQ1V6Q29td2JFU0tqOVFYVVZBZTFaMFBscUtRcFFmUmhNcTVUOC1xY0NhSUNSckhrWEozQkthTWhSUQ?oc=5",
+    "topic": "vagyonvisszaszerzés",
+    "article_type": "",
+    "score": 90,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "A név szerepel a címben",
+      "Korábban releváns forrás",
+      "Témaegyezés: vagyon",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-08-25T08:02:44+00:00",
+    "context": "A K-Monitor a cikk címében szerepel: „A TASZ, a Helsinki Bizottság és a K-Monitor is beleszólhat, ki vezesse a vagyonvisszaszerzési hivatalt”.",
+    "context_source": "unavailable",
+    "context_checked_at": "2026-08-25T08:02:46+00:00"
+  },
+  {
+    "id": "1e8f75c858da0931",
+    "kind": "candidate",
+    "date": "2026-08-25",
+    "title": "Hamarosan kezdődik a meghallgatása a jelölteknek az NVVH elnöki posztjára – élőben az Origón",
+    "source": "ORIGO",
+    "url": "https://www.origo.hu/belpol/2026/08/nvvh-elnoki-meghallgatas-parlament-2026-08-25",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVkdNWnhQWGFWYnZkQWZCZ3dxNHdKMXplMDNFbmR3Sm1LcjAwQk5uZDRYWEFkbHIyMkVwd2ZIRWZjMFdlZUJyWmlWRE5veExjQ3JqWjBZb2RXUWJxVjNCaXE3Z2hldW90RUJ0UWxQQW43Qlo5NEQyOEFSWF9nakx0NE5XdWhWaXFp?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 28,
+    "reasons": [
+      "Névkeresésből érkezett"
+    ],
+    "first_seen": "2026-08-25T08:02:45+00:00",
+    "context": "A Tisza javaslatára három civil szervezetet vesz részt a meghallgatásokon: a Társaság a Szabadságjogokért (TASZ), a Magyar Helsinki Bizottság, és a K-Monitor Közhasznú Egyesület. A Fidesz nem javasolt civil szervezetet, a Mi Hazánk javaslatára pedig a Magyarok Világszövetsége csatlakozott.",
+    "context_source": "article",
+    "context_checked_at": "2026-08-25T08:02:46+00:00"
+  },
+  {
     "id": "e3ae5f849ed758bb",
     "kind": "candidate",
     "date": "2026-08-24",
