@@ -23,6 +23,27 @@
     "context_checked_at": "2026-08-25T08:02:46+00:00"
   },
   {
+    "id": "93c3b06ee8e4090e",
+    "kind": "candidate",
+    "date": "2026-08-25",
+    "title": "„Meg kell értenünk, mi történt a közvagyon kárára” – meghallgatták az NVVH három elnökjelöltjét",
+    "source": "Infostart",
+    "url": "https://infostart.hu/belfold/2026/08/25/meg-kell-ertenunk-mi-tortent-a-kozvagyon-karara-meghallgattak-az-nvvh-harom-elnokjeloltjet/amp",
+    "google_news_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRVVXMEpScjFQVHN2TVhUam83cDFQczlWQmRFSTF0YnBZTldCYWJZdDFkOHBrNmFqeGRncDE4LUF3WkhNWHh2Q1UyOFhFTUFNNFZKRFZGMnJKbF9PR3dLQ0NLTDUxbmxBbTFfdHY2M1Y0d0RJYzhxSDZocVgtUDVBaWtwQ0xIZHc4NlEweHVsM2NpcHRZZDJ4bDVEME11cUVlZzhscFBadWE1VlR0SzVSdl9CczRIQzEzTmcxaFNtZDd3cFBZQS12WjdSbklidjjSAc8BQVVfeXFMUEVVVzBKUnIxUFRzdk1YVGpvN3AxUHM5VkJkRUkxdGJwWU5XQmFiWXQxZDhwazZhanhkZ3AxOC1Bd1pITVh4dkNVMjhYRU1BTTRWSkRWRjJySmxfT0d3S0NDS0w1MW5sQW0xX3R2NjNWNHdESWM4cUg2aHFYLVA1QWlrcENMSGR3ODZRMHh1bDNjaXB0WWQyeGw1RDBNdXFFZWc4bHBQWnVhNVZUdEs1UnZfQnM0SEMxM05nMWhTbWQ3d3BQWUEtdlo3Um5JYnY4?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 42,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Témaegyezés: vagyon"
+    ],
+    "first_seen": "2026-08-25T19:48:45+00:00",
+    "context": "A bizottság ülésén és a kiválasztási folyamatban – az előzetes jelzésnek megfelelően – a Fidesz képviselői nem vettek részt. Tanácskozási joggal képviseltette magát a Társaság a Szabadságjogokért (TASZ), a Magyar Helsinki Bizottság, a K-Monitor Közhasznú Egyesület és a Magyarok Világszövetsége.",
+    "context_source": "article",
+    "context_checked_at": "2026-08-25T19:48:47+00:00"
+  },
+  {
     "id": "ca2b79b99f30f5c8",
     "kind": "candidate",
     "date": "2026-08-25",
@@ -42,6 +63,26 @@
     "context": "A Társaság a Szabadságjogokért (TASZ), a Magyar Helsinki Bizottság és a K-Monitor Közhasznú Egyesület mellett a Mi Hazánk javaslatára a Magyarok Világszövetsége (MVSZ) is tanácskozási joggal vesz részt az eljárásban, a bizottság ülésére ők is delegáltak embert.",
     "context_source": "article",
     "context_checked_at": "2026-08-25T14:08:41+00:00"
+  },
+  {
+    "id": "cf21bca278d5a658",
+    "kind": "candidate",
+    "date": "2026-08-25",
+    "title": "„Ez több mint korrupció, ez feudalizmus, ettől meg kell szabadítani az országot”",
+    "source": "444",
+    "url": "https://444.hu/2026/08/25/ez-tobb-mint-korrupcio-ez-feudalizmus-ettol-meg-kell-szabaditani-az-orszagot",
+    "google_news_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVFUxb2sweVlLV0dGaHVZQkltYmV4RnZRdTA2dmJ2cmNJZFBLanQ1SzJpVElaRXU1TUdpMDdTNkRqeTJTZy0tbFZvMUlLa3JjdHQwSHZDQlBpQjRCYjIyN0t3Z2VBUWtqOWxldW1NdnlZeTRuaG84YjFsRk83b2IwaklrQTgtSVJxX2RYVFlXWE9vdG1kdmNyanduNjZZNkRycHBqcQ?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 33,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Témaegyezés: korrupció"
+    ],
+    "first_seen": "2026-08-25T19:48:45+00:00",
+    "context": "A kiválasztási folyamatban tanácsadóként négy civil szervezet vett részt: a TASZ, a Magyar Helsinki Bizottság, a K-Monitor Közhasznú Egyesület és a Magyarok Világszövetsége. A meghallgatáson a Fidesz nem jelent meg.",
+    "context_source": "article",
+    "context_checked_at": "2026-08-25T19:48:46+00:00"
   },
   {
     "id": "1e8f75c858da0931",
