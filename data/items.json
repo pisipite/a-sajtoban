@@ -126,6 +126,28 @@
     "context_checked_at": "2026-08-24T02:38:49+00:00"
   },
   {
+    "id": "08736f7a6798a374",
+    "kind": "candidate",
+    "date": "2026-08-24",
+    "title": "Pénteken választhatják meg a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal vezetőit",
+    "source": "nyugat.hu",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBXd01zbEg4eUg1OWxYN28xSnU2LUhac0hCUS1PMDA3RXhxSkNDb01uRVpBOE5VOFgxTGFwRlpjVXVPb1YzY0RzbkNFS01OZWZPb25VM0xyMVlNZ2ZRVWdTSnZzb08zbzhJVHpxc3F0SzlxZFVxRlpVcHRyZWZwamc?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBXd01zbEg4eUg1OWxYN28xSnU2LUhac0hCUS1PMDA3RXhxSkNDb01uRVpBOE5VOFgxTGFwRlpjVXVPb1YzY0RzbkNFS01OZWZPb25VM0xyMVlNZ2ZRVWdTSnZzb08zbzhJVHpxc3F0SzlxZFVxRlpVcHRyZWZwamc?oc=5",
+    "topic": "vagyonvisszaszerzés",
+    "article_type": "",
+    "score": 48,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Témaegyezés: vagyon",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-08-26T22:17:36+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": "2026-08-26T22:17:37+00:00"
+  },
+  {
     "id": "23a31a61a8d6cbe8",
     "kind": "candidate",
     "date": "2026-08-24",
