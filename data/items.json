@@ -44,6 +44,29 @@
     "context_checked_at": "2026-08-25T08:02:46+00:00"
   },
   {
+    "id": "579afd64bb0acde5",
+    "kind": "candidate",
+    "date": "2026-08-25",
+    "title": "A TASZ, a Helsinki Bizottság és a K-Monitor is beleszólhat, ki vezesse a vagyonvisszaszerzési hivatalt",
+    "source": "szeretlekmagyarorszag.hu",
+    "url": "https://www.szeretlekmagyarorszag.hu/hirek/hantosi-istvan-bejelentette-a-tasz-es-a-helsinki-bizottsag-is-beleszolhat-ki-vezesse-a-vagyonvisszaszerzesi-hivatalt/?utm-source=kapcsolodo",
+    "google_news_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNYVJYOVltVmdwMG9FT1hCY2ZPaGU4Q3RhT3NRMHhoVXRCX1dZOWxsR1kyTEtPRWdKWlZmVXdKMzZYYWRrOW45RDFES21mTGNzU081TTBVRF9IVk03U1pDUVdiNl9iZlE2VzA3Wjc3THhpa3N3dFZFZ2V5UmpkV0RZT1ZobGpqN09rWjRGM2VZVVNGZ0RsV0pReGcwS05mSGJFWTJLWFZrSWhFR2ZteGo3V2dEZDkwOXNiNjhTUjFIX0hjZGZTT3E4ZW4wZjlPbTNTcDJkR2QwdTllUWtiSnE4a214MzU1UUk5aUI2dmpUSTdNakh4dlBRdDdzRmtfWGpFMTRqUGpwcl9DaTZVQnow?oc=5",
+    "topic": "vagyonvisszaszerzés",
+    "article_type": "",
+    "score": 90,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "A név szerepel a címben",
+      "Korábban releváns forrás",
+      "Témaegyezés: vagyon",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-09-01T21:50:03+00:00",
+    "context": "A kiválasztási folyamatba a parlamenti bizottság tanácskozási joggal három ismert civil szervezetet is bevont: a Társaság a Szabadságjogokért, a Magyar Helsinki Bizottság és a K-Monitor Közhasznú Egyesület is részt vesz az eljárásban.",
+    "context_source": "article",
+    "context_checked_at": "2026-09-01T21:50:04+00:00"
+  },
+  {
     "id": "93c3b06ee8e4090e",
     "kind": "candidate",
     "date": "2026-08-25",
@@ -577,6 +600,28 @@
     "context_checked_at": "2026-08-23T19:40:07+00:00"
   },
   {
+    "id": "b69bdefe5496ca01",
+    "kind": "candidate",
+    "date": "2026-08-23",
+    "title": "A TASZ és a K-Monitor mellet a szélsőjobbal tüntető Magyarok Világszövetsége is segít a vagyonvisszaszerző hivatal felállításában",
+    "source": "hirnavigator.hu",
+    "url": "https://hirnavigator.hu/hir/10672878-a-tasz-es-a-k-monitor-mellet-a-szelsojobbal-tunteto-magyarok-vilagszovetsege-is-segit-a-vagyonvisszaszerzo-hivatal-felallitasaban",
+    "google_news_url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQdHVZLW1YcWh5WVA0UzVYTmF1Q3E3T3RJNUtoR2NNY25TazVoYW5hR2tyZUoyMTliZHdoSkRoTld1LVk3NVF5OVRIU2ZxNnVoZHJGa01hOXRTZmRoc2tWNVQzNjhWajdXLThhY0xMLWhvWGhQNzhBR0FCa3ZTQWctMmlGNFZXUXVkT2tOZFIyakdkdC1udElfZUs0VVpoRHEyRjE3Ym1TWm51bWhwZVUxaXRReUlZTFpRdkV0Y0JrODFFcHB2Q3RIU2ltaXJ0cTQ5bUxHTjlKakMyX0hoNUxfTmgzMVZZSldPcjBNbjV6YVAxRXhKOXVKbkxB?oc=5",
+    "topic": "K-Monitor",
+    "article_type": "",
+    "score": 81,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "A név szerepel a címben",
+      "Témaegyezés: vagyon",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-09-01T21:50:03+00:00",
+    "context": "…avigator_cikk_leaderboard_top_1'); { \"@context\": \"https://schema.org\", \"@type\": \"NewsArticle\", \"headline\": \"A TASZ és a K-Monitor mellet a szélsőjobbal tüntető Magyarok Világszövetsége is segít a vagyonvisszaszerző hivatal felállításában\", \"description\": \"A jogvédők mellett az oltásellenességgel új életre éledő fura jobbos szervezetet is bevonnak a vagyonvis…",
+    "context_source": "article",
+    "context_checked_at": "2026-09-01T21:50:05+00:00"
+  },
+  {
     "id": "40710ee729a9021d",
     "kind": "candidate",
     "date": "2026-08-23",
@@ -596,6 +641,27 @@
     "context": "A 444.hu szerint a vagyonvisszaszerző hivatal felállításához a Tasz és a K-Monitor mellett a Mi Hazánk kérésére a Magyarok Világszövetsége is szerepet kaphatna.",
     "context_source": "article",
     "context_checked_at": "2026-08-23T19:40:05+00:00"
+  },
+  {
+    "id": "d95745840f0adc68",
+    "kind": "candidate",
+    "date": "2026-08-23",
+    "title": "A TASZ, a Helsinki és a K-Monitor segít majd kiválasztani a tiszásoknak az új ÁVH vezetőit",
+    "source": "magyarnemzet.hu",
+    "url": "https://magyarnemzet.hu/belfold/2026/08/tasz-helsinki-k-monitor-uj-avh-hantosi-istvan-nvvh-tisza",
+    "google_news_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWmVoYnh6VDZoN1V3YjN1eHlnVVlqSkR5YWpIX21QbnpVTzdwX2h3QVQzOTFSQnloU1hsUDV1cFhZVmJ3cGM3eG8yYnJWMklacmtwWUhXWk9DSlBiOGdzWXBZOFBfVTRkMEJBakhIb2FBN3BDb05HUDA1cVpxcWhVODRhR05mRlZvSDgySGJ3Z3JpLWNMT3RjN05rNDk?oc=5",
+    "topic": "K-Monitor",
+    "article_type": "",
+    "score": 76,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "A név szerepel a címben",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-09-01T21:50:03+00:00",
+    "context": "…d ávh tiszás helsinki tasz nemzeti vagyonvisszaszerzési és vagyonvédelmi hivatal hantosi istván A TASZ, a Helsinki és a K-Monitor segít majd kiválasztani a tiszásoknak az új ÁVH vezetőit Itt állíthatja be, hogy a Google keresőben elsők között legyen a Magyar Nemzet Hétfőn zárt ülés, majd kedden és szerdán nyilvános bizottsági meghallgatások jönnek Hantosi Is…",
+    "context_source": "article",
+    "context_checked_at": "2026-09-01T21:50:06+00:00"
   },
   {
     "id": "8f53e5e6e4985218",
