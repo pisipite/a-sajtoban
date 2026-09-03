@@ -926,6 +926,27 @@
     "context_checked_at": "2026-08-24T08:06:55+00:00"
   },
   {
+    "id": "66c5c7b8145c36b8",
+    "kind": "candidate",
+    "date": "2026-08-23",
+    "title": "Bejelentették, visszavonták, megint bejelentették: a Magyarok Világszövetsége is tanácsot adhat a Vagyonvédelmi Hivatal vezetőinek kiválasztásában",
+    "source": "Telex",
+    "url": "https://telex.hu/belfold/2026/08/23/magyarok-vilagszovetsege-nvvh-vagyonvedelmi-hivatal",
+    "google_news_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSmFjaU1PWDEzY0ZGOHJDRTBFVmZwb25DRjlIR2R6Vkc5T1U2MmlNcFZkcm5nV0hHRWJZN0ZpbE9mVExnYUlCVlF5OTdHdmRfZjZNZTZDSmt3aTlLODdySlFGOFFJR0RxM1BiQnN3c0R6aWs3cG1jbWtsNlBJUEFNejY0dlBILUlxcUVPZERmMXM?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 47,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Témaegyezés: vagyon, választás"
+    ],
+    "first_seen": "2026-09-03T05:53:30+00:00",
+    "context": "A posztban eredetileg az szerepelt, hogy a Társaság a Szabadságjogokért (TASZ), a Magyar Helsinki Bizottság és a K-Monitor Közhasznú Egyesület mellett a Magyarok Világszövetsége is részt vesz a tanácsadói munkában, később azonban a Tisza-frakció sajtóosztálya jelezte, hogy tévedés történt, a Magyarok Világszövetségét nem kérték fel és nem is választották ki…",
+    "context_source": "article",
+    "context_checked_at": "2026-09-03T05:53:31+00:00"
+  },
+  {
     "id": "df0aff83b57892ef",
     "kind": "candidate",
     "date": "2026-08-23",
@@ -1047,6 +1068,26 @@
     "context": "A Tisza frakció javaslatára a Társaság a Szabadságjogokért, a Magyar Helsinki Bizottság és K-Monitor Közhasznú Egyesület míg a Mi Hazánk kezdeményezésére a Magyarok Világszövetsége képviselője.",
     "context_source": "article",
     "context_checked_at": "2026-08-24T02:38:49+00:00"
+  },
+  {
+    "id": "34134b7e79f84044",
+    "kind": "candidate",
+    "date": "2026-08-23",
+    "title": "Fontos döntés csütörtökön: megválaszthatják a Vagyonvédelmi Hivatal elnökét",
+    "source": "blikk.hu",
+    "url": "https://www.blikk.hu/politika/magyar-politika/vagyonvedelmi-hivatal-vezeto/p3gesn3",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNThmbXJWNTdVTUtqMzdrRjZfX3kzSjhPNHpmR0U1TmZ5STVQUFZkZ0F1SjRlbUE3OGdNUjA1cDFPSmdDdGdKdGZNemRZcjcwOWI5Z0w5QmVQRUh6clp2cDYxOGdTSS1WS0VrTjhyRU4zaUNQb19vekJlamNzXzRRa2NCVVJvQTVfS0E?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 33,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Témaegyezés: vagyon"
+    ],
+    "first_seen": "2026-09-03T05:53:30+00:00",
+    "context": "Három civil szervezet - a Társaság a Szabadságjogokért (TASZ), a Magyar Helsinki Bizottság és a K-Monitor Közhasznú Egyesület – is részt vesz tanácskozási joggal a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal (NVVH) vezetői kiválasztási folyamatában – közölte Hantosi István, a parlament igazságügyi és alkotmányügyi bizottságának tiszás elnöke vasárn…",
+    "context_source": "article",
+    "context_checked_at": "2026-09-03T05:53:31+00:00"
   },
   {
     "id": "c7af2bd54313f12d",
