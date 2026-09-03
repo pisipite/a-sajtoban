@@ -19,6 +19,28 @@
     "context_checked_at": "2026-09-02T21:52:22+00:00"
   },
   {
+    "id": "15dda9d7791a71ad",
+    "kind": "candidate",
+    "date": "2026-08-29",
+    "title": "„Hosszú lesz az éjszaka” – így készült a TASZ a Vagyonvisszaszerzési Hivatal vezetőjelöljeinek meghallgatására",
+    "source": "Szeretlek Magyarország",
+    "url": "https://www.szeretlekmagyarorszag.hu/szempont/hosszu-lesz-az-ejszaka-igy-keszul-a-tasz-a-vagyonvisszaszerzesi-hivatal-vezetojeloljeinek-meghallgatasara/?utm-source=kapcsolodo",
+    "google_news_url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOaWJLaWFhWnBVanRGTFljSVVqd2hvQzdrRlRIT0RIV3FjNHJrT1FfZjBJbmphZmpVRGY1dEJMa1AwcUxVay1KTXV5M1FjdElienN1X09mZ19zNzhWQzEtVFF4MHl1dDMxTWtqT3AtS0laU1E4RFQzRUJaM0NyNVI1aEZIcEdVRW00M21KM3lPNXVMWmRMbXd3T3dZT21oSmFwRW5PWVJxWkJkeXBZeDV0MnFYM182X2JHSE1KYUlKX09scWJWdGNfcEhfU1RVcWlkTDNGeTNXSHphN0E4QmJZQnZyLXFvVF9obzZjQnF6Umx6clJEc2paR0FNVVBQVzdYZDJobw?oc=5",
+    "topic": "vagyonvisszaszerzés",
+    "article_type": "",
+    "score": 48,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Témaegyezés: vagyon",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-09-03T12:08:57+00:00",
+    "context": "Kedden és szerdán az Országgyűlés Igazságügyi bizottsága fogla meghallgatni azokat a jelölteket, melyeket előzetesen kiválasztottak a 96 jelentkező közül. Az ülésen tanácskozási joggal részt vesznek a Helsinki Bizottság, a TASZ, a K-Monitor és a Magyarok Világszövetsége képviselői.",
+    "context_source": "article",
+    "context_checked_at": "2026-09-03T12:08:58+00:00"
+  },
+  {
     "id": "f15110b55df5e0d3",
     "kind": "candidate",
     "date": "2026-08-28",
@@ -392,6 +414,25 @@
     "context": "Ők a Magyarok Világszövetsége nevű szervezetet választották, míg a TISZA javaslatára a Társaság a Szabadságjogokért (TASZ), a Magyar Helsinki Bizottság, valamint a K-Monitor Közhasznú Egyesület segíti a munkát.",
     "context_source": "article",
     "context_checked_at": "2026-08-24T14:05:41+00:00"
+  },
+  {
+    "id": "7f681b701523033d",
+    "kind": "candidate",
+    "date": "2026-08-24",
+    "title": "444 Napindító Hírlevél – 2026. augusztus 23.",
+    "source": "maikurir",
+    "url": "https://maikurir.hu/444-napindito-hirlevel-2026-augusztus-23/",
+    "google_news_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16ejk2NFhkMUc0LVFQR3FKcHJVSUwxeHVGNnBwekN4ZGE3bHEydlJ1YUpEM3otMjFBQ2IzZkMzbzJTb0ZGeDBhSXExZGlTaHozblp0THJJME53MWRpRjRTeGFsMUFBVTg0bnJsM2pn?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 28,
+    "reasons": [
+      "Névkeresésből érkezett"
+    ],
+    "first_seen": "2026-09-03T12:08:57+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": "2026-09-03T12:08:58+00:00"
   },
   {
     "id": "e96bb9137e52ff01",
