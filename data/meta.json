@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-04T12:09:57+00:00",
+  "updated_at": "2026-09-04T16:53:29+00:00",
   "candidate_count": 66,
   "lookback_days": 30,
-  "new_count": 1,
+  "new_count": 0,
   "high_confidence_new_count": 0,
   "successful_query_count": 3,
   "configured_query_count": 3,
