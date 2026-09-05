@@ -1364,25 +1364,5 @@
     "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
     "context_source": "unavailable",
     "context_checked_at": "2026-08-24T14:05:42+00:00"
-  },
-  {
-    "id": "f349da7f8b252506",
-    "kind": "candidate",
-    "date": "2026-08-05",
-    "title": "Lassan kiakad a Hankó-csuszka állása az arcátlanság-mérőn",
-    "source": "Városi Kurír",
-    "url": "https://varosikurir.hu/lassan-kiakad-a-hanko-csuszka-allasasa-az-ostobasagmeron/",
-    "google_news_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVnZDckloOWtoLTNrRHp5VjNQeWlKeU9EQkFHY2R3NFFPdmFiM3J5clFrVFhLSDNsWnFWMVUxTzh3UllpcE9LbEFOTGdDQXIzb1ZtdTV4anptLWtTZ2RSUjJPT1ZxdHpuQ29OcUdETkRJYjBNUkZhaTFkN2N6UGwyeGdobkRuUjQ?oc=5",
-    "topic": "",
-    "article_type": "",
-    "score": 37,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "Korábban releváns forrás"
-    ],
-    "first_seen": "2026-08-21T02:37:58+00:00",
-    "context": "…sság elől tudatosan elrejtett „pályázatokban” milliós támogatásokat ítélt oda, alapvetően politikai szívesség alapon. A K-monitor pedig arra mutatott rá, hogy a tízmilliós nagyságrendű támogatásokat szinte forintra pontosan 100 millió forintonként osztották el választókerületenként.",
-    "context_source": "article",
-    "context_checked_at": "2026-08-21T02:38:00+00:00"
   }
 ]
