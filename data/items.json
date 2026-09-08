@@ -22,6 +22,27 @@
     "context_checked_at": "2026-09-08T17:16:57+00:00"
   },
   {
+    "id": "e44eabfbab885985",
+    "kind": "candidate",
+    "date": "2026-09-08",
+    "title": "Jancsics Dávid: Ötszörösére nőtt az Orbán család megjelenése a korrupciós ügyekben",
+    "source": "Szeretlek Magyarország",
+    "url": "https://www.szeretlekmagyarorszag.hu/szempont/nvvh-orban-csalad-korrupcios-halozat-elemzes/",
+    "google_news_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPR0doSGJibEhRekxVQ2xCY09qTUdVeVVHQ1JqN2FHVEJqTEZoak5DLTIxYWxhN0xpc3dPUFNTVkptS2dfMHVFcXBOQm9TN0R6amR2cXNWNHlSVUtoQXJKU080X1BjRHpBSUlXaFVHalFDdVFORmEzeHZ2aEtqcnJ5blBBNWpnc3dVaXo3RXlZQ1hPRDAwX1E?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 42,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Témaegyezés: korrupció"
+    ],
+    "first_seen": "2026-09-08T21:54:28+00:00",
+    "context": "Jancsics Dávid: Ötszörösére nőtt az Orbán család megjelenése a korrupciós ügyekben A korrupciókutató a K-Monitor adatbázisát vizsgálta, amelyben az Orbán Viktorhoz köthető cikkeket elemezte.",
+    "context_source": "meta",
+    "context_checked_at": "2026-09-08T21:54:30+00:00"
+  },
+  {
     "id": "2722df024399b802",
     "kind": "candidate",
     "date": "2026-09-01",
@@ -1253,6 +1274,25 @@
     "context": "A TASZ, a Magyar Helsinki Bizottság és a K-Monitor nem egyszerűen kívülről figyeli az államot: szerepet kapnak abban is, kik vezessék az új Vagyonvédelmi Hivatalt. Ezt lehet „civil kontrollnak” nevezni, de ettől még politikai befolyásgyakorlásról beszélünk.",
     "context_source": "article",
     "context_checked_at": "2026-09-01T06:16:37+00:00"
+  },
+  {
+    "id": "fad880769bf2e38c",
+    "kind": "candidate",
+    "date": "2026-08-23",
+    "title": "AI a kirakatokban, Putyin bajban",
+    "source": "444",
+    "url": "https://444.hu/2026/08/24/ai-a-kirakatokban-putyin-bajban",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DOTVnZk0xV0stMXhlV1hZZlNyQjIwc1g1UThqVXdTekduTDgtdlQ4T3JhbTAwc1BQN0d0U3FzaXJUcVpma3pKMTVfUnphaUUycnpXZ3BVaWVTVmdTdURWeW1vYW5DMFhU?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 28,
+    "reasons": [
+      "Névkeresésből érkezett"
+    ],
+    "first_seen": "2026-09-08T21:54:28+00:00",
+    "context": "Kapcsolódó hír volt, hogy a hétvégén kiderült, a TASZ és a K-Monitor mellett a Mi Hazánk kérésére a Magyarok Világszövetsége is segítheti a hivatal elindítását. Vendégszerzőnk a tiszás Közhang nemzetközi előzményeinek történetét mutatta be, és hír volt még, hogy",
+    "context_source": "article",
+    "context_checked_at": "2026-09-08T21:54:31+00:00"
   },
   {
     "id": "062875e95599034a",
