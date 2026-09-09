@@ -123,6 +123,46 @@
     "context_checked_at": "2026-09-09T12:22:13+00:00"
   },
   {
+    "id": "cd2841b11b031840",
+    "kind": "candidate",
+    "date": "2026-09-02",
+    "title": "Szinte csak annyit kellett mondani Zemplénben, „turizmus”, és már dőltek a százmilliók?!",
+    "source": "borsod24.hu",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY0pJamp5cXhhSFZFUWtMVnhTb0dmWnFhcHZROUE5T3BNWVN4T3RQU2hzR19NSEd6M3pIdFlvS01VSFVvWVNrdElRZ3Z5RlFYbU5laFRVOF9PaDhRNkhLblBNQzlPaVhVS0x6WGhjcldyVktWaFQwbldOcGNhcjRoMUNyZmJoZ05POC1FekgzYndYTWtjaGFBWkdVTTBrdUoxVVd1R3NCbDdYSlpqeHAzVzJoRm0?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY0pJamp5cXhhSFZFUWtMVnhTb0dmWnFhcHZROUE5T3BNWVN4T3RQU2hzR19NSEd6M3pIdFlvS01VSFVvWVNrdElRZ3Z5RlFYbU5laFRVOF9PaDhRNkhLblBNQzlPaVhVS0x6WGhjcldyVktWaFQwbldOcGNhcjRoMUNyZmJoZ05POC1FekgzYndYTWtjaGFBWkdVTTBrdUoxVVd1R3NCbDdYSlpqeHAzVzJoRm0?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 28,
+    "reasons": [
+      "Névkeresésből érkezett"
+    ],
+    "first_seen": "2026-09-09T17:11:03+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": "2026-09-09T17:11:04+00:00"
+  },
+  {
+    "id": "e24598669c1b1951",
+    "kind": "candidate",
+    "date": "2026-09-01",
+    "title": "Unger Annát jelölik a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal élére",
+    "source": "egriugyek.hu",
+    "url": "https://egriugyek.hu/mindenki-ugye/unger-annat-jelolik-a-nemzeti-vagyonvisszaszerzesi-es-vagyonvedelmi-hivatal-elere",
+    "google_news_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdHNJSFNtempiSVQ0ZnhBRGt4MjhFWW5oeFF2Mld3bVBVaUJMcWRDMG9ZMTdYcVhITGpXT0M4MXZJUUNjWEQwbUk2SDFKdWZrSFAyNjhBZ3JFeUt5X2xYaW9hUTY3RVMwRnREZXMzeVdMQndxWTJVV3A1T3N3SjFTU1BlQVBmaGlGZnl3Z3hMLTVCSnN2VkRKeGx3RUpBdC1od2FMZzlnN1plcHA0VEhnak5Pa1RLcnc?oc=5",
+    "topic": "vagyonvisszaszerzés",
+    "article_type": "",
+    "score": 39,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Témaegyezés: vagyon",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-09-09T17:11:03+00:00",
+    "context": "A kiválasztási folyamatban civil szervezetek is részt vettek tanácsadóként: a Társaság a Szabadságjogokért, a Magyar Helsinki Bizottság, a K-Monitor Közhasznú Egyesület, valamint a Mi Hazánk javaslatára a Magyarok Világszövetsége.",
+    "context_source": "article",
+    "context_checked_at": "2026-09-09T17:11:05+00:00"
+  },
+  {
     "id": "1d0cf75f870c41f0",
     "kind": "candidate",
     "date": "2026-09-01",
@@ -266,6 +306,27 @@
     "context": "A kiválasztási folyamatban négy civil szervezet – a TASZ, a Magyar Helsinki Bizottság, a K-Monitor és a Magyarok Világszövetsége – is részt vett tanácsadóként. Az elnöki posztra összesen 96, az elnökhelyettesire 68 pályázat érkezett.",
     "context_source": "article",
     "context_checked_at": "2026-09-09T12:22:10+00:00"
+  },
+  {
+    "id": "1e56efe64ed09e5e",
+    "kind": "candidate",
+    "date": "2026-08-27",
+    "title": "Unger Annát jelölik a vagyonvisszaszerzési hivatal élére",
+    "source": "klubradio.hu",
+    "url": "https://www.klubradio.hu/hirek/unger-annat-jelolik-a-vagyonvisszaszerzesi-hivatal-elere-163335",
+    "google_news_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQUNSWTFQS1pDNVY4VnRPTGhiSUlFX1Ftd2ZjSXRMUVJPVmpoSmJGLS1CSUZmYWF6R2YzSnFjd25XN1JBOERkSEFmUHlwb0RUTlp0NjJKSXlYOVY0OVVPcmI1WnlMNl80aTZTMUltbm9NYlZKbHlSUDVFYnpraGlPeHRtTFhvU0pNb3ZqQlhINElXQ0VUM0J4cm53?oc=5",
+    "topic": "vagyonvisszaszerzés",
+    "article_type": "",
+    "score": 39,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Témaegyezés: vagyon",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-09-09T17:11:03+00:00",
+    "context": "A kiválasztási folyamatban négy civil szervezet – a TASZ, a Magyar Helsinki Bizottság, a K-Monitor és a Magyarok Világszövetsége – is részt vett tanácsadóként. Az elnöki posztra összesen 96, az elnökhelyettesire 68 pályázat érkezett.",
+    "context_source": "article",
+    "context_checked_at": "2026-09-09T17:11:04+00:00"
   },
   {
     "id": "46a1493b74b23e06",
@@ -544,6 +605,27 @@
     "context": "Az Igazságügyi és Alkotmányügyi Bizottságba négy civil szervezet, a Társaság a Szabadságjogokért, a Magyar Helsinki Bizottság, a K-Monitor Közhasznú Egyesület és a Magyarok Világszövetsége küldött delegáltat.",
     "context_source": "article",
     "context_checked_at": "2026-09-09T06:03:31+00:00"
+  },
+  {
+    "id": "f0bc5f5b003d8d75",
+    "kind": "candidate",
+    "date": "2026-08-25",
+    "title": "Ligeti Miklós: Nem boszorkányüldözésre készül a vagyonvisszaszerzési hivatal",
+    "source": "klubradio.hu",
+    "url": "https://www.klubradio.hu/hirek/ligeti-miklos-nem-boszorkanyuldozesre-keszul-a-vagyonvisszaszerzesi-hivatal-163273",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeTh2V3BKcFgweGR2WmxCSmlQajlLTmZHaW1fLW5OTnRmSVFycEFmdzI0cDlERlo2bWNtSFZ4WVBsXzlfQkswNkVHbXVMVlI2aGJUZUV1b1ExRFRyRmxGaTBzZ2llRUN1cnVvUzdoNmhkVFNTdDV6SUkyS2Vpek82amtaWVpTN2FacVhvS2pMOFlYSmxweThadnNfTENvZ2pYVFJKY2RIM3d1YmpVeE5xbDh4aw?oc=5",
+    "topic": "vagyonvisszaszerzés",
+    "article_type": "",
+    "score": 39,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Témaegyezés: vagyon",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-09-09T17:11:03+00:00",
+    "context": "A kiválasztási folyamatban négy civil szervezet vesz részt tanácsadóként: a TASZ, a Magyar Helsinki Bizottság, a K-Monitor és a Mi Hazánk javaslatára a Magyarok Világszövetsége. A Fidesz és a KDNP korábban jelezte, hogy nem vesz részt a meghallgatásokon.",
+    "context_source": "article",
+    "context_checked_at": "2026-09-09T17:11:04+00:00"
   },
   {
     "id": "cf21bca278d5a658",
@@ -834,6 +916,26 @@
     "context": "…ek kiválasztási folyamatában való segédkezésre. A Társaság a Szabadságjogokért (TASZ), a Magyar Helsinki Bizottság és a K-Monitor Közhasznú Egyesület egyaránt tanácskozási jogot kapott a feladat végrehajtásához.",
     "context_source": "article",
     "context_checked_at": "2026-09-09T12:22:14+00:00"
+  },
+  {
+    "id": "8ab6dcf62696ae7a",
+    "kind": "candidate",
+    "date": "2026-08-24",
+    "title": "A legtisztább eljárás kellett volna legyen az NVVH-elnök kiválasztása, ehelyett katyvaszt csinált belőle a Tisza",
+    "source": "444",
+    "url": "https://444.hu/2026/08/25/a-legtisztabb-eljaras-kellett-volna-legyen-az-nvvh-elnok-kivalasztasa-ehelyett-katyvaszt-csinalt-belole-a-tisza",
+    "google_news_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRGtRRW4xbnJ1bXlKX1JvNlVhMXpjMFhMMDZYalpJdzFxR0FxLTFTVU16U2VKaE54YXBkSlpLSzdRS0RZYlZlY0hPT0hXZ1psRE9zUml3Z3puZDhZVjhqYnBrVklTSDQxcVhrVXM4MGlSTVpnWkdocnNiOHZjOW51TENqaXRjR0xaNTlZd3hyVzBrUTd5NWJ2U0R5bEhEY0NJQm9abThHQkJwVXh1a0hkZDRnYWg2S05oMngzWWpQTnRPRkFrZkhNRGRMZkNMVlRSMzNZ?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 33,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Témaegyezés: választás"
+    ],
+    "first_seen": "2026-09-09T17:11:03+00:00",
+    "context": "…aszerzési és Vagyonvédelmi Hivatal ner magyar péter ügyészség tisza-frakció ligeti miklós Kapcsolódó cikkek A TASZ és a K-Monitor mellett a Mi Hazánk kérésére a Magyarok Világszövetsége is segítheti a vagyonvisszaszerző hivatal felállítását A tiszás Hantosi István eredeti posztja alapján jogvédők mellett az oltásellenességgel új életre éledő fura jobbos szer…",
+    "context_source": "article",
+    "context_checked_at": "2026-09-09T17:11:05+00:00"
   },
   {
     "id": "c725cdadc5581e97",
