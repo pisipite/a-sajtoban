@@ -21,6 +21,26 @@
     "context_checked_at": "2026-09-09T12:22:15+00:00"
   },
   {
+    "id": "65600f1b1e148cb5",
+    "kind": "candidate",
+    "date": "2026-09-09",
+    "title": "Újra kiírják az NVVH három elnökhelyettesi pályázatát",
+    "source": "Telex",
+    "url": "https://telex.hu/belfold/2026/09/09/ujra-kiirjak-az-nvvh-harom-elnokhelyettesi-palyazatat",
+    "google_news_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaHphc1lXemNnMXBYQ2RFYkFOUGIwQ0ktTGw0NEFiOGFDQ1gwUHRTT0hVaUtzZC1zTkdjb09FWkpZNEF0Q1ByQlRfOWRpMjc1TmZ1RWtIbGtCejlOa2IwbnM3djFENlVIdll1eWM3eExBdVc0c04xaHNYUkpCVzlweFE0NG02a051SUdhSldSNVR5a0k?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 37,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás"
+    ],
+    "first_seen": "2026-09-10T06:03:17+00:00",
+    "context": "A kiválasztási folyamatban négy civil szervezet is részt vett , a Társaság a Szabadságjogokért (TASZ), a Magyar Helsinki Bizottság, a K-Monitor Közhasznú Egyesület és a Magyarok Világszövetsége.",
+    "context_source": "article",
+    "context_checked_at": "2026-09-10T06:03:18+00:00"
+  },
+  {
     "id": "c971a4bb7819e1d4",
     "kind": "candidate",
     "date": "2026-09-08",
@@ -415,6 +435,28 @@
     "context_checked_at": "2026-09-01T21:50:04+00:00"
   },
   {
+    "id": "52b82ace67cf827f",
+    "kind": "candidate",
+    "date": "2026-08-25",
+    "title": "Török Gábor szerint a vezető kiválasztása előrejelezheti, milyen szerepet szán a tiszás többség a vagyonvisszaszerzési hivatalnak",
+    "source": "Telex",
+    "url": "https://telex.hu/belfold/2026/08/25/torok-gabor-a-vezeto-kivalasztasa-elore-is-jelezheti-milyen-szerepet-szan-a-kormanyparti-tobbseg-az-nvvh-nak",
+    "google_news_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbWRPS2JFcEVqOV96RTJSS01uSWpwYTBXajVJNGpCS3o2TGxEZEE4YXBNRFJ0UERGaTdKQlNWOHlCRnU0TUtzRkRvak1wS1RDNGJtQ1VTc1JTdXN5N19GMjRhMGRnVzNaT2xuaU5oSU9PZkhwcHhYU01URnBhWlpJSjFrdlM4eEVabGs2WHpyYjcxQ0FBSV9DeGFZcGp3dXJycTlwc21Pdlplb2tldWotWkV6UEtqd3hocHZfLXBpM0lzRVo3SG84QTF1bDk3NDJtdXlIUFZ6WUZ2dFFq?oc=5",
+    "topic": "vagyonvisszaszerzés",
+    "article_type": "",
+    "score": 53,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Témaegyezés: vagyon, választás",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-09-10T06:03:17+00:00",
+    "context": "A kiválasztási folyamatban tanácsadóként négy civil szervezet is részt vesz , a Társaság a Szabadságjogokért (TASZ), a Magyar Helsinki Bizottság, a K-Monitor Közhasznú Egyesület és – a Mi Hazánk frakciójának javaslatára – a Magyarok Világszövetsége .",
+    "context_source": "article",
+    "context_checked_at": "2026-09-10T06:03:18+00:00"
+  },
+  {
     "id": "8b6d986f1aa232d6",
     "kind": "candidate",
     "date": "2026-08-25",
@@ -479,6 +521,28 @@
     "context": "A kiválasztási folyamatban négy civil szervezet vesz részt tanácsadóként: a TASZ, a Magyar Helsinki Bizottság, a K-Monitor és a Mi Hazánk javaslatára a Magyarok Világszövetsége. A Fidesz és a KDNP korábban jelezte, hogy nem vesz részt a meghallgatásokon.",
     "context_source": "article",
     "context_checked_at": "2026-09-09T12:22:10+00:00"
+  },
+  {
+    "id": "328f836645ef5b58",
+    "kind": "candidate",
+    "date": "2026-08-25",
+    "title": "Közvagyon, elszámoltatás, offshore pénzek – ezt mondták az NVVH jelöltjei",
+    "source": "kontroll.hu",
+    "url": "https://kontroll.hu/cikk/belfold/2026/08/25/koezvagyon-elszamoltatas-offshore-penzek-ezt-mondtak-az-nvvh-jeloeltjei",
+    "google_news_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOelUtN2htdEZKX05faElPdlhCRTU1MlFLNGhSOTJYMFFfTTUyeDJ2NGZhZXB5bElMLWVaeDR5bW94SVJtdmxqNmZQcEljNlg0ekhFSWFBQ3R2X3Z3YmNYQklyX3JDWWYxTEJBaXd2VU9fUUhYeXRNS3FhS1NYZDduamFDeVpYdG9ESmREYVIxcS1TWk5mOWk3ZVpZVGFoWkFqQUIzeXlmTElZZ1ZFTHBKRHZHd2M4QQ?oc=5",
+    "topic": "elszámoltatás",
+    "article_type": "",
+    "score": 48,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Témaegyezés: vagyon",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-09-10T06:03:17+00:00",
+    "context": "Az Igazságügyi és Alkotmányügyi Bizottságba négy civil szervezet, a Társaság a Szabadságjogokért, a Magyar Helsinki Bizottság, a K-Monitor Közhasznú Egyesület és a Magyarok Világszövetsége küldött delegáltat.",
+    "context_source": "article",
+    "context_checked_at": "2026-09-10T06:03:18+00:00"
   },
   {
     "id": "91ff59be6f6798f5",
