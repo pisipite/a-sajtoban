@@ -1643,6 +1643,27 @@
     "context_checked_at": "2026-09-01T21:50:06+00:00"
   },
   {
+    "id": "f764e70e1445f267",
+    "kind": "candidate",
+    "date": "2026-08-23",
+    "title": "A TASZ-t, a Helsinkit, a K-Monitort is felkérte a Tisza",
+    "source": "hang.hu",
+    "url": "https://hang.hu/belfold/a-tasz-t-a-helsinkit-a-k-monitort-is-felkerte-a-tisza-191639",
+    "google_news_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRkxySmRsSk5hNG9ld0hvajNPNWhhV29HaWQ5eGtodGJWRzFVeU0zRGpXQTF5aDF6TG55T09ZQWxNa2d5MldHLTRMZWFZODhqV3htX1FIUkN3cTJwT1pOcXpUYXVqdzhrTHl5amQzN0NocjBTMnd4N3JGZUQxZm05QlY5aFRGRWlLZUNadQ?oc=5",
+    "topic": "K-Monitor",
+    "article_type": "",
+    "score": 76,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "A név szerepel a címben",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-09-11T21:45:40+00:00",
+    "context": "Három szervezetet kértek fel, hogy tanácskozási joggal részt vegyenek az eljárás teljes folyamatában: • Társaság a Szabadságjogokért (TASZ) • Magyar Helsinki Bizottság • K-Monitor Közhasznú Egyesület",
+    "context_source": "article",
+    "context_checked_at": "2026-09-11T21:45:42+00:00"
+  },
+  {
     "id": "8f53e5e6e4985218",
     "kind": "candidate",
     "date": "2026-08-23",
