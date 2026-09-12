@@ -326,6 +326,28 @@
     "context_checked_at": "2026-09-03T12:08:58+00:00"
   },
   {
+    "id": "4e71bcfc53ef2b84",
+    "kind": "candidate",
+    "date": "2026-08-28",
+    "title": "Megválasztották Unger Annát a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal vezetőjének",
+    "source": "Telex",
+    "url": "https://telex.hu/belfold/2026/08/28/unger-anna-nemzeti-vagyonvisszaszerzesi-es-vagyonvedelmi-hivatal-szavazas-orszaggyules",
+    "google_news_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYmk1RS1yQVNOUWRTU0dtTm11RWpBejVsMlFFMnZaaTBZZkV0OWZOT2FNNkdxNkRnQUJXOVN3elB2NUQxQ0s5cnhObDR5Rno3c0FTZnVzS2dseHJqbjNMeDgyV1FaZE9ld2pJQmNPZXZqeFludUwxNlNHUGNrZTJGeVNGT3hLWUdtMXBRMW1rSmJjcDhNaHg0QTJXa0RWalhWWVgxWGdkR0RubGdVbWhBQk84WUktZTg3QVgweEY2bw?oc=5",
+    "topic": "vagyonvisszaszerzés",
+    "article_type": "",
+    "score": 48,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Témaegyezés: vagyon",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-09-12T16:21:54+00:00",
+    "context": "A kiválasztási folyamatban négy civil szervezet is részt vett , a Társaság a Szabadságjogokért (TASZ), a Magyar Helsinki Bizottság, a K-Monitor Közhasznú Egyesület és a Magyarok Világszövetsége.",
+    "context_source": "article",
+    "context_checked_at": "2026-09-12T16:21:55+00:00"
+  },
+  {
     "id": "f15110b55df5e0d3",
     "kind": "candidate",
     "date": "2026-08-28",
