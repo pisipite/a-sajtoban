@@ -1,10 +1,14 @@
 {
-  "updated_at": "2026-09-19T21:29:02+00:00",
-  "candidate_count": 112,
+  "updated_at": "2026-09-20T06:24:21+00:00",
+  "candidate_count": 111,
   "lookback_days": 30,
   "new_count": 0,
   "high_confidence_new_count": 0,
-  "successful_query_count": 3,
+  "successful_query_count": 0,
   "configured_query_count": 3,
-  "collection_errors": []
+  "collection_errors": [
+    "\"K-Monitor\" OR \"K Monitor\": Nem sikerült letölteni: https://news.google.com/rss/search?q=%22K-Monitor%22+OR+%22K+Monitor%22&hl=hu&gl=HU&ceid=HU%3Ahu",
+    "\"K-Monitor\" when:30d: Nem sikerült letölteni: https://news.google.com/rss/search?q=%22K-Monitor%22+when%3A30d&hl=hu&gl=HU&ceid=HU%3Ahu",
+    "\"K Monitor\" when:30d: Nem sikerült letölteni: https://news.google.com/rss/search?q=%22K+Monitor%22+when%3A30d&hl=hu&gl=HU&ceid=HU%3Ahu"
+  ]
 }
