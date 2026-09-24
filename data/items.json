@@ -125,6 +125,28 @@
     "context_checked_at": "2026-09-24T12:45:48+00:00"
   },
   {
+    "id": "9b1f5b496c8be949",
+    "kind": "candidate",
+    "date": "2026-09-18",
+    "title": "K-Monitor: új kormány, régi reflexek a közbeszerzéseknél",
+    "source": "Hirnavigator",
+    "url": "https://hirnavigator.hu/hir/10810696-k-monitor-uj-kormany-regi-reflexek-a-kozbeszerzeseknel",
+    "google_news_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObmVtenpPNUJvdEVMa1NqdzUwaHpQajJ6V0dDM1UyVXAxV3R6TFE5UEE1SUNMMkJUWTBXSkE0V3h5Z01GV1FFN0tESmp1TWR6NmZGeHY5V0c5T2x2aFRGWkFra0tQUWRINE45aWlPU3hyT0kxWnBNblRxNmtaOUJoLWc4WVROQXlwUnRPaGpuVlZaNHpxWUE?oc=5",
+    "topic": "közbeszerzés",
+    "article_type": "",
+    "score": 81,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "A név szerepel a címben",
+      "Témaegyezés: közbeszerzés",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-09-24T22:28:49+00:00",
+    "context": "…Banner('hirnavigator_cikk_leaderboard_top_1'); { \"@context\": \"https://schema.org\", \"@type\": \"NewsArticle\", \"headline\": \"K-Monitor: új kormány, régi reflexek a közbeszerzéseknél\", \"description\": \"Nem látnak érdemi változást a rendszerben.\", \"image\": \"https://img.hirnavigator.hu/696/10810696.jpg\", \"url\": \"https:\\/\\/hirnavigator.hu\\/hir\\/10810696-k-monitor-uj-k…",
+    "context_source": "article",
+    "context_checked_at": "2026-09-24T22:28:50+00:00"
+  },
+  {
     "id": "e174b27b6736883d",
     "kind": "candidate",
     "date": "2026-09-17",
