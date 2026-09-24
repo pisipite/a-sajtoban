@@ -1,5 +1,50 @@
 [
   {
+    "id": "e0a47a69cf11e50d",
+    "kind": "candidate",
+    "date": "2026-09-24",
+    "title": "K-Monitor: új kormány, régi reflexek a közbeszerzéseknél",
+    "source": "Mfor.hu",
+    "url": "https://mfor.hu/cikkek/makro/k-monitor-uj-kormany-regi-reflexek-a-kozbeszerzeseknel.html",
+    "google_news_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYXVYb3NtandwSFJCVnRNVjg1dXl0TnpJd1ZvaWFJNTZ2d1dvNDJGVEpFT1VPTUVKc2Y1eVM0QXpjNzVCNFNnY1hRVDRuNWRtcWMtY2Iyek5TN3gtSFVRWHJBQXkyVGV1cks4V1BkTFM5a2RKOXpXUzJKVGJHaS1TdDRpN2o5SnRydFRVM0dNM2lYUQ?oc=5",
+    "topic": "közbeszerzés",
+    "article_type": "",
+    "score": 90,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "A név szerepel a címben",
+      "Korábban releváns forrás",
+      "Témaegyezés: közbeszerzés",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-09-24T17:53:06+00:00",
+    "context": "A kormányzati érvelés szerint a közbeszerzési kommunikáció „levéltitok”, a széttagolt adatinfrastruktúra pedig továbbra is lehetetlenné teszi a rendszerszintű, gépi korrupciószűrést Magyarországon – írja legfrissebb elemzésében a K-Monitor.",
+    "context_source": "article",
+    "context_checked_at": "2026-09-24T17:53:07+00:00"
+  },
+  {
+    "id": "e586421f191188fd",
+    "kind": "candidate",
+    "date": "2026-09-24",
+    "title": "K-Monitor: új kormány, régi reflexek a közbeszerzéseknél",
+    "source": "Hirnavigator",
+    "url": "https://hirnavigator.hu/hir/10810696-k-monitor-uj-kormany-regi-reflexek-a-kozbeszerzeseknel",
+    "google_news_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObmVtenpPNUJvdEVMa1NqdzUwaHpQajJ6V0dDM1UyVXAxV3R6TFE5UEE1SUNMMkJUWTBXSkE0V3h5Z01GV1FFN0tESmp1TWR6NmZGeHY5V0c5T2x2aFRGWkFra0tQUWRINE45aWlPU3hyT0kxWnBNblRxNmtaOUJoLWc4WVROQXlwUnRPaGpuVlZaNHpxWUE?oc=5",
+    "topic": "közbeszerzés",
+    "article_type": "",
+    "score": 81,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "A név szerepel a címben",
+      "Témaegyezés: közbeszerzés",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-09-24T17:53:06+00:00",
+    "context": "…Banner('hirnavigator_cikk_leaderboard_top_1'); { \"@context\": \"https://schema.org\", \"@type\": \"NewsArticle\", \"headline\": \"K-Monitor: új kormány, régi reflexek a közbeszerzéseknél\", \"description\": \"Nem látnak érdemi változást a rendszerben.\", \"image\": \"https://img.hirnavigator.hu/696/10810696.jpg\", \"url\": \"https:\\/\\/hirnavigator.hu\\/hir\\/10810696-k-monitor-uj-k…",
+    "context_source": "article",
+    "context_checked_at": "2026-09-24T17:53:07+00:00"
+  },
+  {
     "id": "e5786afeccc03130",
     "kind": "candidate",
     "date": "2026-09-23",
