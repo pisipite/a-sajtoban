@@ -1,5 +1,128 @@
 [
   {
+    "id": "6569ca4fa91deb84",
+    "kind": "candidate",
+    "date": "2026-09-29",
+    "title": "Kevesebb a hálapénzes boríték, de tízből csaknem hét orvostól kérnek a páciensek soron kívüli ellátást vagy más előnyt",
+    "source": "Népszava",
+    "url": "https://nepszava.hu/3333817_orvos-halapenz-felmeres-magyar-orvosi-kamara",
+    "google_news_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5rVTRLVWVzZFQ3YUFVVzBTbG1ZMWttR3FoNDlSanRqTUJpc3pIMnhkTnB0Tnk0eVFOYm1PX3BmNFhOVjNsbVhHLWhyNFczbVBsSDd3eVBYQklKTG1QRUY1bGpzVDJoUTUwYlM2cldfY2Vab1U1X040SVBVUVc?oc=5",
+    "topic": "hálapénz",
+    "article_type": "",
+    "score": 43,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-09-29T14:07:30+00:00",
+    "context": "Jelentősen visszaszorult a hálapénz a magyar egészségügyben, az informális kapcsolatok szerepe azonban továbbra is erős – egyebek mellett ez derül ki a K-Monitor és a Magyar Orvosi Kamara (MOK) közös felméréséből.",
+    "context_source": "article",
+    "context_checked_at": "2026-09-29T14:07:31+00:00"
+  },
+  {
+    "id": "014e85f309fef2a5",
+    "kind": "candidate",
+    "date": "2026-09-29",
+    "title": "Hálapénz utáni egészségügy: celebek soron kívüli ellátása, kórházi osztályokon párhuzamosan zajló köz- és magánellátás, indokolatlan vizsgálatok",
+    "source": "Hírstart",
+    "url": "https://www.hirstart.hu/hk/20260929_halapenz_utani_egeszsegugy_celebek_soron_kivuli_ellatasa_korhazi_osztalyokon_parhuzamosan_zajlo_koz-_es_maganellatas_indokolatlan_vizsgalatok",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNRUN6VUYtcTFlTDRPS1ZiaFN3SGg4V0tmR2JWZGdReVlUckd5Tlg5WjNCODF6bl9VQkJQQTd0TDNGV25FZ3poVU80d3FvRlMyQWhxUVhjaXpiQXlRS09jTGZHVDdna3BSWGM0UUhPMnRkSjdlZmlaeHZ3RnF6dmtFUjF2Zy11NWJWbjR0SEs5ZEdSZHBFbVQyRllLLUIwSVNNWlQ1eXhQRFRXOGM0SHRNQmVZQUdCc1hfNU0xZ083SUFqbnk5c0phQ3RuMlpCdjhMYlo1R0QtN1lMSy15N1BNUWZ6UnR6T3JTSGd1U3hsOWFhaldNTVZyX3ZhNGpDbTNlQzlLRktudmQ?oc=5",
+    "topic": "hálapénz",
+    "article_type": "",
+    "score": 43,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-09-29T14:07:30+00:00",
+    "context": "A K-Monitor és a Magyar Orvosi Kamara (MOK) közel kétezer orvos részvételével készült felmérése szerint a teljesítményértékelés és az átlátható előmenetel hiánya, a kapcsolati alapú érvényesülés, a beszerzési rendszer…",
+    "context_source": "article",
+    "context_checked_at": "2026-09-29T14:07:32+00:00"
+  },
+  {
+    "id": "0bf1f6b3cc4861ec",
+    "kind": "candidate",
+    "date": "2026-09-29",
+    "title": "Így zajlik a korrupció a magyar egészségügyben",
+    "source": "24.hu",
+    "url": "https://24.hu/belfold/2026/09/29/korrupcio-halapenz-egeszsegugy-maganellatas-orvoskutatas-mok-k-monitor/",
+    "google_news_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcm1wRTh5RWw0a3NqcEN1c3dTYkRqT01oTUNXVGtERUdDeDlnMWNwR3I5M0ZlX3VyWmxzM0FyaVZ4bUJ0a29BQ0VWbkpzVDhJakVhamdmT25HUmxEcG85ZW1ZSFVKb01FU1RRcHRqamtfVFdqUGJ6RGZSa2hLNTdKenFmTDNCUGdoZnFmYXlvNjRsYlBoODdQUjVHd09iRWJ5TlhmWDFlbw?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 42,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Témaegyezés: korrupció"
+    ],
+    "first_seen": "2026-09-29T14:07:30+00:00",
+    "context": "Az egészségügyben tapasztalható korrupcióról készített kutatást a K-Monitor a Magyar Orvosi Kamarával. A felmérésben – amelyben az online kérdőívet február 20.",
+    "context_source": "article",
+    "context_checked_at": "2026-09-29T14:07:31+00:00"
+  },
+  {
+    "id": "4ec08a5ae273177a",
+    "kind": "candidate",
+    "date": "2026-09-29",
+    "title": "Egészségügy alulnézetből: kétezer magyar orvos mondta el a véleményét",
+    "source": "Mfor.hu",
+    "url": "https://mfor.hu/cikkek/egeszsegugy/egeszsegugy-alulnezetbol-ketezer-magyar-orvos-mondta-el-a-velemenyet.html",
+    "google_news_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcFpCNnM1RDc4d3EtQXZrNDNwU0d1WFRSZzBnNzd3ZmZhLWxqVkhITm9uQWdOdDlreEtuZXRpVGxjbzN4Z1VyU0F6V1NrWGpGa0RYajlUS2dWTVBDNWI0a1ZtVnNNUWR2WUJKS2lTaV9lVUZ4UlVlaHMwUGN2c3ByeG9DemNjRkM2UG9tNFJGcU1RbGZhRE1YQ3JfaHphTUNESDdwNTJSajBxdFZW?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 37,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás"
+    ],
+    "first_seen": "2026-09-29T14:07:30+00:00",
+    "context": "A K-Monitor és a Magyar Orvosi Kamara (MOK) közel kétezer orvos részvételével készült felmérése szerint a teljesítményértékelés és az átlátható előmenetel hiánya, a kapcsolati alapú érvényesülés, a beszerzési rendszer problémái, valamint az állami és a magánegészségügy összemosódása ma is alapvetően befolyásolják az egészségügy működését.",
+    "context_source": "article",
+    "context_checked_at": "2026-09-29T14:07:32+00:00"
+  },
+  {
+    "id": "14553d406720c24e",
+    "kind": "candidate",
+    "date": "2026-09-29",
+    "title": "Az orvosok háromnegyede szerint gyakori a VIP-ellátás – Kiszorult a hálapénz, de a kapcsolatok számítanak",
+    "source": "WMN",
+    "url": "https://wmn.hu/wmn-szuro/68246-egeszsegugyi-korrupcio-kutatas-halapenz-varolista-VIP",
+    "google_news_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNckVWSVFTcUdWa3BWMHpVSE1ORldmYVZBaUZNcjROOVRlQVBxVW9zX3N3QkVNZ1BTTEVnVkRmZWVoc1JwcXdvS3AyS2p5U0dSM2pZSUlDcjItYzlxQ1lVMV93dnlhXzdyVVVvMFlBYlNjbzBhS0h4b2Z6NURWc19DMXpVQVZWbk1tMk5Wdw?oc=5",
+    "topic": "hálapénz",
+    "article_type": "",
+    "score": 34,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-09-29T14:07:30+00:00",
+    "context": "A hálapénz nagyrészt kiszorult a magyar egészségügyből, de a betegek közötti különbségtétel nem tűnt el: a kapcsolatok, a protekció és a magán- és közellátás összefonódása továbbra is komoly problémát jelent – ismerteti a K-Monitor és a Magyar Orvosi Kamara közös kutatásának eredményeit a 24.hu .",
+    "context_source": "article",
+    "context_checked_at": "2026-09-29T14:07:31+00:00"
+  },
+  {
+    "id": "b3f7897b0b969b31",
+    "kind": "candidate",
+    "date": "2026-09-29",
+    "title": "Kutatás a magyar orvosok korrupcióérzékeléséről",
+    "source": "medicalonline.hu",
+    "url": "https://medicalonline.hu/eu_gazdasag/cikk/kutatas_a_magyar_orvosok_korrupcioerzekeleserol_az_egeszsegugyben",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUHhia2lXWmFTWmpuWW15LXN2Y3dYQ21xVktqNFZDNDFfcWx1R184NTZsd2ZMem1ENTFXNk1OWkRWZXotQjhQTlFuZi1sVXF4NW1rQUtlVDI3MXlfc21yZ09LNDQxb0laSXBfZERlaGw4eXJ5eEhxb0ZmaHF4clc1SzF6bVF6S2lqRVhvVFBpSHA3WGREQ2NYX0xtcUQzdkQ2UVV0cmQzUDJiVkU?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 33,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Témaegyezés: korrupció"
+    ],
+    "first_seen": "2026-09-29T14:07:30+00:00",
+    "context": "Az orvosok kétharmadát próbálta valaki ismeretség alapján befolyásolni az elmúlt egy évben, miközben a hálapénz a 2021-es tiltás óta a korábbi töredékére szorult vissza – ez derül ki a K-Monitor és a Magyar Orvosi Kamara közel kétezer orvos részvételével készült kutatásából.",
+    "context_source": "article",
+    "context_checked_at": "2026-09-29T14:07:32+00:00"
+  },
+  {
     "id": "e7cc0259aff6a27e",
     "kind": "candidate",
     "date": "2026-09-28",
@@ -18,6 +141,26 @@
     "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
     "context_source": "unavailable",
     "context_checked_at": "2026-09-29T06:59:47+00:00"
+  },
+  {
+    "id": "869c0b6fcd0ef498",
+    "kind": "candidate",
+    "date": "2026-09-28",
+    "title": "Hálapénz helyett így próbálnak ma előnyhöz jutni a betegek – 3-ból 2 orvos találkozik a jelenséggel",
+    "source": "Házipatika",
+    "url": "https://www.hazipatika.com/tarsadalom/egeszsegugy/cikkek/halapenz-magyarorszagon-2026",
+    "google_news_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPXy1yYXFvTl9Gc2ZqQTYxMlNRYm1TSlRNQ1BlRWRIZzNqRWI2ZExNSU1QQTdwNnNQLXpka1VIdEFFcTY4TElzQ1NBRF9sWVRURVA3X2hlTGxGbzFMUnUxdFVtZ2RnczdONDVtUzZHWTg2Wi1GOXUyZ0NLTm1tVXhldVZiaTJmQksyU25wX0hn?oc=5",
+    "topic": "hálapénz",
+    "article_type": "",
+    "score": 34,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-09-29T14:07:30+00:00",
+    "context": "Az orvosok kétharmadát próbálták ismeretség alapján befolyásolni az elmúlt egy évben, miközben a hálapénz a 2021-es tiltás óta a korábbi töredékére szorult vissza – derült ki a K-Monitor és a Magyar Orvosi Kamara közel kétezer orvos bevonásával készült felméréséből.",
+    "context_source": "article",
+    "context_checked_at": "2026-09-29T14:07:31+00:00"
   },
   {
     "id": "270e74ae4681f4cc",
