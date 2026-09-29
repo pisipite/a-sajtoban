@@ -1,5 +1,25 @@
 [
   {
+    "id": "e7cc0259aff6a27e",
+    "kind": "candidate",
+    "date": "2026-09-28",
+    "title": "Két évig sem volt miniszter, és öt hónap kellett ahhoz, hogy utolérje az igazságszolgáltatás",
+    "source": "Telex",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZWx3RzI3N3FpRXo3cnVCSUZndXdVa0NpXzJQOFFMVXdBLS0zZWRvYnpZNnpZOE0zdXZlYXJ4czlhdVJObVVfeTVxOWxrSUVUd3pvLTBkN0Y2cGhMT3J0S1M2N2pCWmNzaWRLeHpVTl9fM0dHcmR2YUNFdGdpcV9yUVZoS05NUmhGS29feUYxVWJVZC02UnJmaUhhdw?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZWx3RzI3N3FpRXo3cnVCSUZndXdVa0NpXzJQOFFMVXdBLS0zZWRvYnpZNnpZOE0zdXZlYXJ4czlhdVJObVVfeTVxOWxrSUVUd3pvLTBkN0Y2cGhMT3J0S1M2N2pCWmNzaWRLeHpVTl9fM0dHcmR2YUNFdGdpcV9yUVZoS05NUmhGS29feUYxVWJVZC02UnJmaUhhdw?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 37,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás"
+    ],
+    "first_seen": "2026-09-29T06:59:46+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": "2026-09-29T06:59:47+00:00"
+  },
+  {
     "id": "270e74ae4681f4cc",
     "kind": "candidate",
     "date": "2026-09-28",
@@ -659,27 +679,5 @@
     "context": "Igyekeztük összeszedni a K-Monitor Parlamonitor felületének segítségével, mik voltak eddig a legmeredekebb megszólalásai.",
     "context_source": "article",
     "context_checked_at": "2026-09-02T21:52:22+00:00"
-  },
-  {
-    "id": "15dda9d7791a71ad",
-    "kind": "candidate",
-    "date": "2026-08-29",
-    "title": "„Hosszú lesz az éjszaka” – így készült a TASZ a Vagyonvisszaszerzési Hivatal vezetőjelöljeinek meghallgatására",
-    "source": "Szeretlek Magyarország",
-    "url": "https://www.szeretlekmagyarorszag.hu/szempont/hosszu-lesz-az-ejszaka-igy-keszul-a-tasz-a-vagyonvisszaszerzesi-hivatal-vezetojeloljeinek-meghallgatasara/?utm-source=kapcsolodo",
-    "google_news_url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOaWJLaWFhWnBVanRGTFljSVVqd2hvQzdrRlRIT0RIV3FjNHJrT1FfZjBJbmphZmpVRGY1dEJMa1AwcUxVay1KTXV5M1FjdElienN1X09mZ19zNzhWQzEtVFF4MHl1dDMxTWtqT3AtS0laU1E4RFQzRUJaM0NyNVI1aEZIcEdVRW00M21KM3lPNXVMWmRMbXd3T3dZT21oSmFwRW5PWVJxWkJkeXBZeDV0MnFYM182X2JHSE1KYUlKX09scWJWdGNfcEhfU1RVcWlkTDNGeTNXSHphN0E4QmJZQnZyLXFvVF9obzZjQnF6Umx6clJEc2paR0FNVVBQVzdYZDJobw?oc=5",
-    "topic": "vagyonvisszaszerzés",
-    "article_type": "",
-    "score": 48,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "Korábban releváns forrás",
-      "Témaegyezés: vagyon",
-      "Korábbi témával egyezik"
-    ],
-    "first_seen": "2026-09-03T12:08:57+00:00",
-    "context": "Kedden és szerdán az Országgyűlés Igazságügyi bizottsága fogla meghallgatni azokat a jelölteket, melyeket előzetesen kiválasztottak a 96 jelentkező közül. Az ülésen tanácskozási joggal részt vesznek a Helsinki Bizottság, a TASZ, a K-Monitor és a Magyarok Világszövetsége képviselői.",
-    "context_source": "article",
-    "context_checked_at": "2026-09-03T12:08:58+00:00"
   }
 ]
