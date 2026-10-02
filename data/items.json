@@ -1,5 +1,26 @@
 [
   {
+    "id": "c704c0dc1538df23",
+    "kind": "candidate",
+    "date": "2026-10-02",
+    "title": "A magyar orvosok elégedettsége a K-Monitor kutatása szerint",
+    "source": "maikurir",
+    "url": "https://maikurir.hu/a-magyar-orvosok-elegedettsege-a-k-monitor-kutatasa-szerint/",
+    "google_news_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNc0VHQkRIWHFWczE5Zlg5emYwNGEyY2QyQlNMR3E0azVqUTVJNm1sTUo1bFRkNW9CYzVjSF9oTWwzdGNRc2tUbkhmeHF6T1k4OXZTY3FwZFRzYXpFTmlmOTh0SzdEOUFJOXpoUlFUU3JCRWpQWGxSOXNDTURUN0ZzWkM2aktfZ28?oc=5",
+    "topic": "K-Monitor",
+    "article_type": "",
+    "score": 76,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "A név szerepel a címben",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-10-02T07:03:40+00:00",
+    "context": "Az egészségügyben dolgozó orvosok nagy része elégedetlennek érzi magát a jelenlegi helyzettel, derült ki a K-Monitor és a Magyar Orvosi Kamara közös kutatásából, amelyben közel kétezer orvos vett részt.",
+    "context_source": "article",
+    "context_checked_at": "2026-10-02T07:03:42+00:00"
+  },
+  {
     "id": "952cecd12fba973f",
     "kind": "candidate",
     "date": "2026-10-01",
@@ -102,6 +123,27 @@
     "context": "A K-Monitor és a Magyar Orvosi Kamara (MOK) közel kétezer orvos részvételével készült felmérése szerint a teljesítményértékelés és az átlátható előmenetel hiánya, a kapcsolati alapú érvényesülés, a beszerzési rendszer…",
     "context_source": "article",
     "context_checked_at": "2026-09-29T14:07:32+00:00"
+  },
+  {
+    "id": "9c92e11cdd622475",
+    "kind": "candidate",
+    "date": "2026-09-29",
+    "title": "Az orvosok háromnegyede szerint gyakori a VIP-ellátás – Kiszorult a hálapénz, de a kapcsolatok számítanak",
+    "source": "Hírstart",
+    "url": "https://www.hirstart.hu/hk/20260929_halapenz_utani_egeszsegugy_celebek_soron_kivuli_ellatasa_korhazi_osztalyokon_parhuzamosan_zajlo_koz-_es_maganellatas_indokolatlan_vizsgalatok",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNRUN6VUYtcTFlTDRPS1ZiaFN3SGg4V0tmR2JWZGdReVlUckd5Tlg5WjNCODF6bl9VQkJQQTd0TDNGV25FZ3poVU80d3FvRlMyQWhxUVhjaXpiQXlRS09jTGZHVDdna3BSWGM0UUhPMnRkSjdlZmlaeHZ3RnF6dmtFUjF2Zy11NWJWbjR0SEs5ZEdSZHBFbVQyRllLLUIwSVNNWlQ1eXhQRFRXOGM0SHRNQmVZQUdCc1hfNU0xZ083SUFqbnk5c0phQ3RuMlpCdjhMYlo1R0QtN1lMSy15N1BNUWZ6UnR6T3JTSGd1U3hsOWFhaldNTVZyX3ZhNGpDbTNlQzlLRktudmQ?oc=5",
+    "topic": "hálapénz",
+    "article_type": "",
+    "score": 43,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-10-02T07:03:41+00:00",
+    "context": "A K-Monitor és a Magyar Orvosi Kamara (MOK) közel kétezer orvos részvételével készült felmérése szerint a teljesítményértékelés és az átlátható előmenetel hiánya, a kapcsolati alapú érvényesülés, a beszerzési rendszer…",
+    "context_source": "article",
+    "context_checked_at": "2026-10-02T07:03:42+00:00"
   },
   {
     "id": "0bf1f6b3cc4861ec",
@@ -223,6 +265,28 @@
     "context": "Az orvosok kétharmadát próbálta valaki ismeretség alapján befolyásolni az elmúlt egy évben, miközben a hálapénz a 2021-es tiltás óta a korábbi töredékére szorult vissza – ez derül ki a K-Monitor és a Magyar Orvosi Kamara közel kétezer orvos részvételével készült kutatásából.",
     "context_source": "article",
     "context_checked_at": "2026-09-29T14:07:32+00:00"
+  },
+  {
+    "id": "5202fd8ce501b1b8",
+    "kind": "candidate",
+    "date": "2026-09-28",
+    "title": "K-Monitor: új kormány, régi reflexek a közbeszerzéseknél",
+    "source": "Hirnavigator",
+    "url": "https://hirnavigator.hu/hir/10810696-k-monitor-uj-kormany-regi-reflexek-a-kozbeszerzeseknel",
+    "google_news_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObmVtenpPNUJvdEVMa1NqdzUwaHpQajJ6V0dDM1UyVXAxV3R6TFE5UEE1SUNMMkJUWTBXSkE0V3h5Z01GV1FFN0tESmp1TWR6NmZGeHY5V0c5T2x2aFRGWkFra0tQUWRINE45aWlPU3hyT0kxWnBNblRxNmtaOUJoLWc4WVROQXlwUnRPaGpuVlZaNHpxWUE?oc=5",
+    "topic": "közbeszerzés",
+    "article_type": "",
+    "score": 81,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "A név szerepel a címben",
+      "Témaegyezés: közbeszerzés",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-10-02T07:03:40+00:00",
+    "context": "…Banner('hirnavigator_cikk_leaderboard_top_1'); { \"@context\": \"https://schema.org\", \"@type\": \"NewsArticle\", \"headline\": \"K-Monitor: új kormány, régi reflexek a közbeszerzéseknél\", \"description\": \"Nem látnak érdemi változást a rendszerben.\", \"image\": \"https://img.hirnavigator.hu/696/10810696.jpg\", \"url\": \"https:\\/\\/hirnavigator.hu\\/hir\\/10810696-k-monitor-uj-k…",
+    "context_source": "article",
+    "context_checked_at": "2026-10-02T07:03:42+00:00"
   },
   {
     "id": "e7cc0259aff6a27e",
@@ -864,65 +928,5 @@
     "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
     "context_source": "unavailable",
     "context_checked_at": "2026-09-09T17:11:04+00:00"
-  },
-  {
-    "id": "e24598669c1b1951",
-    "kind": "candidate",
-    "date": "2026-09-01",
-    "title": "Unger Annát jelölik a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal élére",
-    "source": "egriugyek.hu",
-    "url": "https://egriugyek.hu/mindenki-ugye/unger-annat-jelolik-a-nemzeti-vagyonvisszaszerzesi-es-vagyonvedelmi-hivatal-elere",
-    "google_news_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdHNJSFNtempiSVQ0ZnhBRGt4MjhFWW5oeFF2Mld3bVBVaUJMcWRDMG9ZMTdYcVhITGpXT0M4MXZJUUNjWEQwbUk2SDFKdWZrSFAyNjhBZ3JFeUt5X2xYaW9hUTY3RVMwRnREZXMzeVdMQndxWTJVV3A1T3N3SjFTU1BlQVBmaGlGZnl3Z3hMLTVCSnN2VkRKeGx3RUpBdC1od2FMZzlnN1plcHA0VEhnak5Pa1RLcnc?oc=5",
-    "topic": "vagyonvisszaszerzés",
-    "article_type": "",
-    "score": 39,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "Témaegyezés: vagyon",
-      "Korábbi témával egyezik"
-    ],
-    "first_seen": "2026-09-09T17:11:03+00:00",
-    "context": "A kiválasztási folyamatban civil szervezetek is részt vettek tanácsadóként: a Társaság a Szabadságjogokért, a Magyar Helsinki Bizottság, a K-Monitor Közhasznú Egyesület, valamint a Mi Hazánk javaslatára a Magyarok Világszövetsége.",
-    "context_source": "article",
-    "context_checked_at": "2026-09-09T17:11:05+00:00"
-  },
-  {
-    "id": "1d0cf75f870c41f0",
-    "kind": "candidate",
-    "date": "2026-09-01",
-    "title": "„Rendelkezem akkora intelligenciával, hogy egyikünk sem tudja, mit hoz a holnap” – Pócs János legemlékezetesebb parlamenti trollkodásai a kormányváltás óta",
-    "source": "444.hu",
-    "url": "https://444.hu/2026/09/01/rendelkezem-akkora-intelligenciaval-hogy-egyikunk-sem-tudja-mit-hoz-a-holnap-pocs-janos-legemlekezetesebb-parlamenti-trollkodasai-a-kormanyvaltas-ota",
-    "google_news_url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPTGIwZ1AwcjNLRXRFdTVxVU9YQ2hDRE4wWWRONnVCLWgxdVBXbXFNSGRsbk9GVXdOeDJCYjM0OUFxWlh5S0lDUXVHTmlxRmN6Q0NEOEhHZU9jNjRIdWFkc19YQ3JPZ0QzRFRSVmNTX2tmaUtGLWhFVjI0TlB5cVBObWduV0hSdEtObTJuaWdqVmJBWm5hLVI4VmxsWXl6bkp4ZTVaLTNlMkJ4M2dWazdMVTEySnAtcWk3cW53ZWgteFRrSDN2ZXpkU05tRUJONFJNTnk4TnV6aEV4cWVpazdTM2VEdnBpYkxSLXQtUWlHWVV5d1Q0SHBqeXkyU2p4RUhEX2dvZFlB?oc=5",
-    "topic": "",
-    "article_type": "",
-    "score": 37,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "Korábban releváns forrás"
-    ],
-    "first_seen": "2026-09-09T06:03:28+00:00",
-    "context": "Igyekeztük összeszedni a K-Monitor Parlamonitor felületének segítségével, mik voltak eddig a legmeredekebb megszólalásai.",
-    "context_source": "article",
-    "context_checked_at": "2026-09-09T06:03:31+00:00"
-  },
-  {
-    "id": "2722df024399b802",
-    "kind": "candidate",
-    "date": "2026-09-01",
-    "title": "„Rendelkezem akkora intelligenciával, hogy egyikünk sem tudja, mit hoz a holnap” – Pócs János legemlékezetesebb parlamenti trollkodásai a kormányváltás óta",
-    "source": "444",
-    "url": "https://444.hu/2026/09/01/rendelkezem-akkora-intelligenciaval-hogy-egyikunk-sem-tudja-mit-hoz-a-holnap-pocs-janos-legemlekezetesebb-parlamenti-trollkodasai-a-kormanyvaltas-ota?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-    "google_news_url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxPREpWR2dfQXVrMnlaOG1OU2NqVXNaSnkwcVZZdDRzUGw5Mkx5ajV1Uy0xOEROSlFsZWpwcENLcFp1T0gtMFFGNGZGTmZhRVFPcnFFYzFWTUdub3JHcVREbzFQOFFQQTg5ci1LdzNaQ09QSFdqeVY5Q3Fjb1ZlQi11cU0wcTVYOHQtNEppMUJ2Z2RvbjNJX0VVTm1YdWdCMWxXbHRsUVU5NUJXczV5YVBoWEJpQkJwMTlqUF80TUtlUmZEblFZNklCQ0ctcTNtR05lRldaRENCbzR1d1pfLW1Ibk1Hal9Rcm4yYWp5QndJU1M2TGpDeVRqSGNTYl9QUlZXWnBlSVoyanBKTlJYenlJWkROWlVlN3RmUTBBUDliSFNYTHRYd2ZtTnhHVWRfSGI5YzJnQk9WUDB2QkVsbkh4M0ZiU0lQR2hZU3BIdkZFcmFlWkh4SnNKaGZJTQ?oc=5",
-    "topic": "",
-    "article_type": "",
-    "score": 28,
-    "reasons": [
-      "Névkeresésből érkezett"
-    ],
-    "first_seen": "2026-09-02T21:52:21+00:00",
-    "context": "Igyekeztük összeszedni a K-Monitor Parlamonitor felületének segítségével, mik voltak eddig a legmeredekebb megszólalásai.",
-    "context_source": "article",
-    "context_checked_at": "2026-09-02T21:52:22+00:00"
   }
 ]
