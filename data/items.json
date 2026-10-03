@@ -21,6 +21,27 @@
     "context_checked_at": "2026-10-02T07:03:42+00:00"
   },
   {
+    "id": "d134bd0716db3938",
+    "kind": "candidate",
+    "date": "2026-10-02",
+    "title": "A magyar orvosok elégedettsége a K-Monitor kutatása szerint",
+    "source": "maikurir.hu",
+    "url": "https://maikurir.hu/a-magyar-orvosok-elegedettsege-a-k-monitor-kutatasa-szerint/",
+    "google_news_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNc0VHQkRIWHFWczE5Zlg5emYwNGEyY2QyQlNMR3E0azVqUTVJNm1sTUo1bFRkNW9CYzVjSF9oTWwzdGNRc2tUbkhmeHF6T1k4OXZTY3FwZFRzYXpFTmlmOTh0SzdEOUFJOXpoUlFUU3JCRWpQWGxSOXNDTURUN0ZzWkM2aktfZ28?oc=5",
+    "topic": "K-Monitor",
+    "article_type": "",
+    "score": 76,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "A név szerepel a címben",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-10-03T06:36:35+00:00",
+    "context": "Az egészségügyben dolgozó orvosok nagy része elégedetlennek érzi magát a jelenlegi helyzettel, derült ki a K-Monitor és a Magyar Orvosi Kamara közös kutatásából, amelyben közel kétezer orvos vett részt.",
+    "context_source": "article",
+    "context_checked_at": "2026-10-03T06:36:39+00:00"
+  },
+  {
     "id": "952cecd12fba973f",
     "kind": "candidate",
     "date": "2026-10-01",
@@ -911,44 +932,5 @@
     "context": "Így aztán nem meglepő, hogy az 54 ezer magyarországi civil szervezet közül három olyat választottak ki, amelyeket ugyanazok a nemzetközi körök finanszíroznak (igen, Soros is), hogy segítsen dönteni (TASZ, Helsinki Bizottság, K-Monitor).",
     "context_source": "article",
     "context_checked_at": "2026-09-09T12:22:15+00:00"
-  },
-  {
-    "id": "0d742a8fece626f9",
-    "kind": "candidate",
-    "date": "2026-09-02",
-    "title": "Szinte csak annyit kellett mondani Zemplénben, „turizmus”, és már dőltek a százmilliók?!",
-    "source": "Borsod24",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY0pJamp5cXhhSFZFUWtMVnhTb0dmWnFhcHZROUE5T3BNWVN4T3RQU2hzR19NSEd6M3pIdFlvS01VSFVvWVNrdElRZ3Z5RlFYbU5laFRVOF9PaDhRNkhLblBNQzlPaVhVS0x6WGhjcldyVktWaFQwbldOcGNhcjRoMUNyZmJoZ05POC1FekgzYndYTWtjaGFBWkdVTTBrdUoxVVd1R3NCbDdYSlpqeHAzVzJoRm0?oc=5",
-    "google_news_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY0pJamp5cXhhSFZFUWtMVnhTb0dmWnFhcHZROUE5T3BNWVN4T3RQU2hzR19NSEd6M3pIdFlvS01VSFVvWVNrdElRZ3Z5RlFYbU5laFRVOF9PaDhRNkhLblBNQzlPaVhVS0x6WGhjcldyVktWaFQwbldOcGNhcjRoMUNyZmJoZ05POC1FekgzYndYTWtjaGFBWkdVTTBrdUoxVVd1R3NCbDdYSlpqeHAzVzJoRm0?oc=5",
-    "topic": "",
-    "article_type": "",
-    "score": 37,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "Korábban releváns forrás"
-    ],
-    "first_seen": "2026-09-09T12:22:09+00:00",
-    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
-    "context_source": "unavailable",
-    "context_checked_at": "2026-09-09T12:22:13+00:00"
-  },
-  {
-    "id": "cd2841b11b031840",
-    "kind": "candidate",
-    "date": "2026-09-02",
-    "title": "Szinte csak annyit kellett mondani Zemplénben, „turizmus”, és már dőltek a százmilliók?!",
-    "source": "borsod24.hu",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY0pJamp5cXhhSFZFUWtMVnhTb0dmWnFhcHZROUE5T3BNWVN4T3RQU2hzR19NSEd6M3pIdFlvS01VSFVvWVNrdElRZ3Z5RlFYbU5laFRVOF9PaDhRNkhLblBNQzlPaVhVS0x6WGhjcldyVktWaFQwbldOcGNhcjRoMUNyZmJoZ05POC1FekgzYndYTWtjaGFBWkdVTTBrdUoxVVd1R3NCbDdYSlpqeHAzVzJoRm0?oc=5",
-    "google_news_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY0pJamp5cXhhSFZFUWtMVnhTb0dmWnFhcHZROUE5T3BNWVN4T3RQU2hzR19NSEd6M3pIdFlvS01VSFVvWVNrdElRZ3Z5RlFYbU5laFRVOF9PaDhRNkhLblBNQzlPaVhVS0x6WGhjcldyVktWaFQwbldOcGNhcjRoMUNyZmJoZ05POC1FekgzYndYTWtjaGFBWkdVTTBrdUoxVVd1R3NCbDdYSlpqeHAzVzJoRm0?oc=5",
-    "topic": "",
-    "article_type": "",
-    "score": 28,
-    "reasons": [
-      "Névkeresésből érkezett"
-    ],
-    "first_seen": "2026-09-09T17:11:03+00:00",
-    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
-    "context_source": "unavailable",
-    "context_checked_at": "2026-09-09T17:11:04+00:00"
   }
 ]
