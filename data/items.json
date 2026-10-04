@@ -353,6 +353,27 @@
     "context_checked_at": "2026-10-02T23:02:06+00:00"
   },
   {
+    "id": "60a74725f7f2c460",
+    "kind": "candidate",
+    "date": "2026-09-28",
+    "title": "Hálapénz helyett így próbálnak ma előnyhöz jutni a betegek – 3-ból 2 orvos találkozik a jelenséggel",
+    "source": "hazipatika.com",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPXy1yYXFvTl9Gc2ZqQTYxMlNRYm1TSlRNQ1BlRWRIZzNqRWI2ZExNSU1QQTdwNnNQLXpka1VIdEFFcTY4TElzQ1NBRF9sWVRURVA3X2hlTGxGbzFMUnUxdFVtZ2RnczdONDVtUzZHWTg2Wi1GOXUyZ0NLTm1tVXhldVZiaTJmQksyU25wX0hn?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPXy1yYXFvTl9Gc2ZqQTYxMlNRYm1TSlRNQ1BlRWRIZzNqRWI2ZExNSU1QQTdwNnNQLXpka1VIdEFFcTY4TElzQ1NBRF9sWVRURVA3X2hlTGxGbzFMUnUxdFVtZ2RnczdONDVtUzZHWTg2Wi1GOXUyZ0NLTm1tVXhldVZiaTJmQksyU25wX0hn?oc=5",
+    "topic": "hálapénz",
+    "article_type": "",
+    "score": 43,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-10-04T13:16:32+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "e7cc0259aff6a27e",
     "kind": "candidate",
     "date": "2026-09-28",
