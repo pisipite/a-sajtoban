@@ -65,6 +65,27 @@
     "context_checked_at": ""
   },
   {
+    "id": "7c41dcc689764740",
+    "kind": "candidate",
+    "date": "2026-10-05",
+    "title": "A boríték eltűnt, a hálapénz maradt – így él az informális korrupció az egészségügyben",
+    "source": "YouTube",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1Ndk11bEpDcDdkQS00S2FwYmFJckUyejlzb1dWRTRocm1GTjJOUjBJYVViSl9aZTlBeHlVaUwxWVNPbF9xMlp2TnZBOEROT3pXWXBfNjdBbDdkb0Rk?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1Ndk11bEpDcDdkQS00S2FwYmFJckUyejlzb1dWRTRocm1GTjJOUjBJYVViSl9aZTlBeHlVaUwxWVNPbF9xMlp2TnZBOEROT3pXWXBfNjdBbDdkb0Rk?oc=5",
+    "topic": "hálapénz",
+    "article_type": "",
+    "score": 39,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Témaegyezés: korrupció",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-10-08T19:18:31+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "08f455c289ec296c",
     "kind": "candidate",
     "date": "2026-10-03",
@@ -146,6 +167,26 @@
     "context": "Az egészségügyben dolgozó orvosok nagy része elégedetlennek érzi magát a jelenlegi helyzettel, derült ki a K-Monitor és a Magyar Orvosi Kamara közös kutatásából, amelyben közel kétezer orvos vett részt.",
     "context_source": "article",
     "context_checked_at": "2026-10-03T06:36:39+00:00"
+  },
+  {
+    "id": "482ff68e2e922f39",
+    "kind": "candidate",
+    "date": "2026-10-02",
+    "title": "Hálapénz helyett ezzel trükköznek az egészségügyben",
+    "source": "tudasfaja.com",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQV0YwcEpfTUp1NEF0aklkTHN0N1lqT1ZKMTJZMEZIYkhrZHZ2YkNiWUNQaXJfLTl6eGwxNlpfMFo2ZUxqNDFjU2IzOGdFeG1obm05Skh2anVocGYtMk5CT2Y4S25YMWg0eTJmQ1pTOExQR1V2SXZiMGtERG5PRWRDTXFFY0Y?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQV0YwcEpfTUp1NEF0aklkTHN0N1lqT1ZKMTJZMEZIYkhrZHZ2YkNiWUNQaXJfLTl6eGwxNlpfMFo2ZUxqNDFjU2IzOGdFeG1obm05Skh2anVocGYtMk5CT2Y4S25YMWg0eTJmQ1pTOExQR1V2SXZiMGtERG5PRWRDTXFFY0Y?oc=5",
+    "topic": "hálapénz",
+    "article_type": "",
+    "score": 34,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-10-08T19:18:31+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
   },
   {
     "id": "952cecd12fba973f",
