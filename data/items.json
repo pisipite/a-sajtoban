@@ -314,6 +314,27 @@
     "context_checked_at": "2026-10-02T07:03:42+00:00"
   },
   {
+    "id": "74143f9263b5c71b",
+    "kind": "candidate",
+    "date": "2026-09-29",
+    "title": "A hálapénz visszaszorult, a kapcsolatok maradtak – így látják belülről az orvosok a magyar egészségügyet",
+    "source": "Borsod24",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPR1VCeDFmS2FHX1h0QllhNzJDMmJrdlYwcFZiNG92Mllrb0VtVm4wMERmNGdmNDVYMmdlNTJ0Q21IS280dnBjdGRXTnJHVEE2MUxvV3gwNkZOT29uOGZBLXVaSHY2LUVjSnd2N3RKSnhZU21vNjNWRVIwTDcxWXEwblVrdVZzZ2tzTlp1U1BzNWNFY2M4cDBKMVl5WlhZR3dsbFVrdURUd0xwSmdXYlpWUUw5cHduY1FHY3prUmxpT1hxeUxBeE1BbFhMd0pBUQ?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPR1VCeDFmS2FHX1h0QllhNzJDMmJrdlYwcFZiNG92Mllrb0VtVm4wMERmNGdmNDVYMmdlNTJ0Q21IS280dnBjdGRXTnJHVEE2MUxvV3gwNkZOT29uOGZBLXVaSHY2LUVjSnd2N3RKSnhZU21vNjNWRVIwTDcxWXEwblVrdVZzZ2tzTlp1U1BzNWNFY2M4cDBKMVl5WlhZR3dsbFVrdURUd0xwSmdXYlpWUUw5cHduY1FHY3prUmxpT1hxeUxBeE1BbFhMd0pBUQ?oc=5",
+    "topic": "hálapénz",
+    "article_type": "",
+    "score": 43,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-10-09T07:27:55+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "0bf1f6b3cc4861ec",
     "kind": "candidate",
     "date": "2026-09-29",
@@ -997,109 +1018,5 @@
     "context": "A kiválasztási folyamatban négy civil szervezet is részt vett , a Társaság a Szabadságjogokért (TASZ), a Magyar Helsinki Bizottság, a K-Monitor Közhasznú Egyesület és a Magyarok Világszövetsége.",
     "context_source": "article",
     "context_checked_at": "2026-09-10T21:41:00+00:00"
-  },
-  {
-    "id": "c971a4bb7819e1d4",
-    "kind": "candidate",
-    "date": "2026-09-08",
-    "title": "Gazdaság: Hogyan eredhet a vagyonvisszaszerzési hivatal a korrupt NER-családok nyomába?",
-    "source": "hvg.hu",
-    "url": "https://hvg.hu/gazdasag/20260908_hogyan-eredhet-az-nvvh-a-korrupt-ner-csaladok-nyomaba",
-    "google_news_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSmtXN21NQkZGQ0hXSThKaDE0SHhsV0tPRTBRVzZjakZ3bk55ZVMwcm1uVThLczVVbGtuSjByVmR1SXNKVVZBXzVfa05wQ0IwZ0JjTURpVXhYV3lrUENrZW1uVlJWS2hSSkhYVjlDYVYtYWVZdnJGcTFTYWd3LUZEbGN1NWdVQ3d2RlNfTGtNTQ?oc=5",
-    "topic": "vagyonvisszaszerzés",
-    "article_type": "",
-    "score": 48,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "Korábban releváns forrás",
-      "Témaegyezés: vagyon",
-      "Korábbi témával egyezik"
-    ],
-    "first_seen": "2026-09-08T17:16:55+00:00",
-    "context": "Ehhez a cikkhez a K-Monitor korrupciós adatbázisának teljes, Orbán Viktorhoz kapcsolódó anyagát – összesen 2040 cikket – elemeztem, és az eredmény egybecseng a korábbi tézisemmel. A K-Monitor anyagában egyre több családi szereplő válik láthatóvá, és egyre sűrűbb együtt-előfordulási háló rajzolódik ki közöttük.",
-    "context_source": "article",
-    "context_checked_at": "2026-09-08T17:16:57+00:00"
-  },
-  {
-    "id": "e44eabfbab885985",
-    "kind": "candidate",
-    "date": "2026-09-08",
-    "title": "Jancsics Dávid: Ötszörösére nőtt az Orbán család megjelenése a korrupciós ügyekben",
-    "source": "Szeretlek Magyarország",
-    "url": "https://www.szeretlekmagyarorszag.hu/szempont/nvvh-orban-csalad-korrupcios-halozat-elemzes/",
-    "google_news_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPR0doSGJibEhRekxVQ2xCY09qTUdVeVVHQ1JqN2FHVEJqTEZoak5DLTIxYWxhN0xpc3dPUFNTVkptS2dfMHVFcXBOQm9TN0R6amR2cXNWNHlSVUtoQXJKU080X1BjRHpBSUlXaFVHalFDdVFORmEzeHZ2aEtqcnJ5blBBNWpnc3dVaXo3RXlZQ1hPRDAwX1E?oc=5",
-    "topic": "",
-    "article_type": "",
-    "score": 42,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "Korábban releváns forrás",
-      "Témaegyezés: korrupció"
-    ],
-    "first_seen": "2026-09-08T21:54:28+00:00",
-    "context": "Jancsics Dávid: Ötszörösére nőtt az Orbán család megjelenése a korrupciós ügyekben A korrupciókutató a K-Monitor adatbázisát vizsgálta, amelyben az Orbán Viktorhoz köthető cikkeket elemezte.",
-    "context_source": "meta",
-    "context_checked_at": "2026-09-08T21:54:30+00:00"
-  },
-  {
-    "id": "6b9d78aa94a0d099",
-    "kind": "candidate",
-    "date": "2026-09-08",
-    "title": "Jancsics Dávid: Ötszörösére nőtt az Orbán család megjelenése a korrupciós ügyekben",
-    "source": "szeretlekmagyarorszag.hu",
-    "url": "https://www.szeretlekmagyarorszag.hu/szempont/nvvh-orban-csalad-korrupcios-halozat-elemzes/",
-    "google_news_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPR0doSGJibEhRekxVQ2xCY09qTUdVeVVHQ1JqN2FHVEJqTEZoak5DLTIxYWxhN0xpc3dPUFNTVkptS2dfMHVFcXBOQm9TN0R6amR2cXNWNHlSVUtoQXJKU080X1BjRHpBSUlXaFVHalFDdVFORmEzeHZ2aEtqcnJ5blBBNWpnc3dVaXo3RXlZQ1hPRDAwX1E?oc=5",
-    "topic": "",
-    "article_type": "",
-    "score": 42,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "Korábban releváns forrás",
-      "Témaegyezés: korrupció"
-    ],
-    "first_seen": "2026-09-10T17:01:30+00:00",
-    "context": "Jancsics Dávid: Ötszörösére nőtt az Orbán család megjelenése a korrupciós ügyekben A korrupciókutató a K-Monitor adatbázisát vizsgálta, amelyben az Orbán Viktorhoz köthető cikkeket elemezte.",
-    "context_source": "meta",
-    "context_checked_at": "2026-09-10T17:01:32+00:00"
-  },
-  {
-    "id": "e540f00d7d8322b8",
-    "kind": "candidate",
-    "date": "2026-09-08",
-    "title": "NKA-ügy: a Fásy családhoz köthető méregdrága dokumentumfilm miatt vettek őrizetbe két embert hétfőn",
-    "source": "hvg.hu",
-    "url": "https://hvg.hu/kkv/20260908_fasy-csalad-meregdraga-dokumentumfilm-orizetbevetel-ket-ember-hetfo-nav",
-    "google_news_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYndGY0pkNDB4d2xZV1lheHkyTFUyeGFNMlZxSG55NTdhWERtNWo2akljWE9zN1Nzc3F6TFNHWjl2Ti1MaklDZXdDczZlNXpfTElKWUo3azdObURWemNiVmhaZHdCSTdHSWpCZF85bzhsQkxkV0p3cmNnZnFtS2RlbzBXQk9jempFYzBaTWRtcENPcHZ0WFRGZUZDTmFzLXIz?oc=5",
-    "topic": "",
-    "article_type": "",
-    "score": 37,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "Korábban releváns forrás"
-    ],
-    "first_seen": "2026-09-09T12:22:09+00:00",
-    "context": "A kulturális pénzek szétosztásáról később a K-Monitor mutatta ki, hogy a hivatalosan kizárólag az országgyűlési képviselők választásának rendszerében számontartott, a közigazgatás egyéb feladatai szempontjából teljesen indifferens országgyűlési egyéni választókerületeket követi és főleg fideszes szervezetek kaptak belőle.",
-    "context_source": "article",
-    "context_checked_at": "2026-09-09T12:22:14+00:00"
-  },
-  {
-    "id": "11b033ec6d9cee29",
-    "kind": "candidate",
-    "date": "2026-09-08",
-    "title": "Vállalkozás: NKA-ügy: a Fásy családhoz köthető méregdrága dokumentumfilm miatt vettek őrizetbe két embert hétfőn",
-    "source": "hvg.hu",
-    "url": "https://hvg.hu/kkv/20260908_fasy-csalad-meregdraga-dokumentumfilm-orizetbevetel-ket-ember-hetfo-nav",
-    "google_news_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYndGY0pkNDB4d2xZV1lheHkyTFUyeGFNMlZxSG55NTdhWERtNWo2akljWE9zN1Nzc3F6TFNHWjl2Ti1MaklDZXdDczZlNXpfTElKWUo3azdObURWemNiVmhaZHdCSTdHSWpCZF85bzhsQkxkV0p3cmNnZnFtS2RlbzBXQk9jempFYzBaTWRtcENPcHZ0WFRGZUZDTmFzLXIz?oc=5",
-    "topic": "",
-    "article_type": "",
-    "score": 37,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "Korábban releváns forrás"
-    ],
-    "first_seen": "2026-09-10T12:15:47+00:00",
-    "context": "A kulturális pénzek szétosztásáról később a K-Monitor mutatta ki, hogy a hivatalosan kizárólag az országgyűlési képviselők választásának rendszerében számontartott, a közigazgatás egyéb feladatai szempontjából teljesen indifferens országgyűlési egyéni választókerületeket követi és főleg fideszes szervezetek kaptak belőle.",
-    "context_source": "article",
-    "context_checked_at": "2026-09-10T12:15:48+00:00"
   }
 ]
