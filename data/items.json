@@ -21,6 +21,26 @@
     "context_checked_at": ""
   },
   {
+    "id": "0753e729a498da0f",
+    "kind": "candidate",
+    "date": "2026-10-13",
+    "title": "Orbán Viktor: családja kimaradhat a NAV ellenőrzéséből",
+    "source": "Contextus",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRGJkSzl1anprcnhWQlR1QzBTamU0TllGY1FpNHkzREF5SURSOUNERks4T3ZfRjVmZDdjU3VVdWRaUkFKMTQ3dEJnMGVyWmh6U045bnlCSW9LZmN0YmhYZVlibjZlOVNObjJ1V3k4bzhHVVdwSWF1eE9QTDdRR0N1aFc1NA?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRGJkSzl1anprcnhWQlR1QzBTamU0TllGY1FpNHkzREF5SURSOUNERks4T3ZfRjVmZDdjU3VVdWRaUkFKMTQ3dEJnMGVyWmh6U045bnlCSW9LZmN0YmhYZVlibjZlOVNObjJ1V3k4bzhHVVdwSWF1eE9QTDdRR0N1aFc1NA?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 37,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás"
+    ],
+    "first_seen": "2026-10-13T19:53:29+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "b8d2903452c6f47f",
     "kind": "candidate",
     "date": "2026-10-13",
@@ -351,6 +371,27 @@
     "context_checked_at": ""
   },
   {
+    "id": "066c9802f9d5b675",
+    "kind": "candidate",
+    "date": "2026-10-08",
+    "title": "A magyaroknak csak a negyede szólna, ha korrupciót látna, sokan azt se tudják, kihez forduljanak",
+    "source": "Telex",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVk81TjV5a1lMeTdJdmVHbDd6cmljU1ZJNzlIa0Q4N2Y0V1FnUmZ0ajRhQkdyWXlXQXVuUy1hMlJJWjZqVXVHVkRTbEo3TUIxLWFMVVl1dmxhWXEzUEIxQ1pvR1NlbjQtcmxRODl5LVpNdWdfeVplczl3a1h1MnpYTC14UVRTajFJU1ZFaWVKLU81RGpTWWc?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVk81TjV5a1lMeTdJdmVHbDd6cmljU1ZJNzlIa0Q4N2Y0V1FnUmZ0ajRhQkdyWXlXQXVuUy1hMlJJWjZqVXVHVkRTbEo3TUIxLWFMVVl1dmxhWXEzUEIxQ1pvR1NlbjQtcmxRODl5LVpNdWdfeVplczl3a1h1MnpYTC14UVRTajFJU1ZFaWVKLU81RGpTWWc?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 42,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Témaegyezés: korrupció"
+    ],
+    "first_seen": "2026-10-13T19:53:30+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "99470b6689145ad9",
     "kind": "candidate",
     "date": "2026-10-08",
@@ -451,6 +492,28 @@
       "Korábbi témával egyezik"
     ],
     "first_seen": "2026-10-13T07:47:48+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
+    "id": "fead22040bf8b5e4",
+    "kind": "candidate",
+    "date": "2026-10-06",
+    "title": "Kult: Tarr Zoltán: 20 százalékról 5-re csökkentettük az NKA-támogatások miniszteri keretét",
+    "source": "hvg.hu",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTUt4Yk9pRnF5SUdCR3d5TjRjcHJMeGdpWkZsNE1HN2JQMUJkMnhtbjFVT0p1dW44STNTWlZwYmp5dW5tNV9KU1hpR3ptOVA0bUNFMkUzYXV2Y3NKcGlIcC0zM2lKZ2xEek5QNUN2aEU2Y0loSXV2ZmxIcVVWQXp4OUVCOHpaZHBBalM1OW1vZzFvZw?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTUt4Yk9pRnF5SUdCR3d5TjRjcHJMeGdpWkZsNE1HN2JQMUJkMnhtbjFVT0p1dW44STNTWlZwYmp5dW5tNV9KU1hpR3ptOVA0bUNFMkUzYXV2Y3NKcGlIcC0zM2lKZ2xEek5QNUN2aEU2Y0loSXV2ZmxIcVVWQXp4OUVCOHpaZHBBalM1OW1vZzFvZw?oc=5",
+    "topic": "NKA-támogatások",
+    "article_type": "",
+    "score": 48,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Témaegyezés: támogatás",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-10-13T19:53:30+00:00",
     "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
     "context_source": "unavailable",
     "context_checked_at": ""
@@ -823,6 +886,25 @@
     "context_checked_at": ""
   },
   {
+    "id": "437d2f27a77e72e0",
+    "kind": "candidate",
+    "date": "2026-09-30",
+    "title": "Most aztán tényleg szorul a hurok Hankó körül: választókerületekre szabhatták az NKA milliárdjait",
+    "source": "Kontroll",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQOXdHcG5WZnhCWjlzUGc0ZkFraFhJTFZJNUpEa0VEVVBRWnJCSmV2UnZaTGlPWXRnbzdlZWVDUzczbjJfX0Y3aUlWRGM3OU8tbVBnNmotQmJJbm8zMVVKS3QyOXlHUG4wTXR6aDVqLUY4YkYyakh5WDBXSmZ6VXZpeGNJY0kweXR6QUxuaC1EQW9yaWVUNlBraXJaR05WUjBUVnU0OEhEM0pCSXNDbExlcHBrMFVsLTQyeVpxWXktM0VPTXRiQ1BhVkI2RFcxaF9LN0lLTElpb28yMnpYNWc?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQOXdHcG5WZnhCWjlzUGc0ZkFraFhJTFZJNUpEa0VEVVBRWnJCSmV2UnZaTGlPWXRnbzdlZWVDUzczbjJfX0Y3aUlWRGM3OU8tbVBnNmotQmJJbm8zMVVKS3QyOXlHUG4wTXR6aDVqLUY4YkYyakh5WDBXSmZ6VXZpeGNJY0kweXR6QUxuaC1EQW9yaWVUNlBraXJaR05WUjBUVnU0OEhEM0pCSXNDbExlcHBrMFVsLTQyeVpxWXktM0VPTXRiQ1BhVkI2RFcxaF9LN0lLTElpb28yMnpYNWc?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 28,
+    "reasons": [
+      "Névkeresésből érkezett"
+    ],
+    "first_seen": "2026-10-13T19:53:30+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "6569ca4fa91deb84",
     "kind": "candidate",
     "date": "2026-09-29",
@@ -902,6 +984,27 @@
       "Korábbi témával egyezik"
     ],
     "first_seen": "2026-10-09T07:27:55+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
+    "id": "26f188a76c7c263b",
+    "kind": "candidate",
+    "date": "2026-09-29",
+    "title": "Itthon: Havasi Bertalan: Hankó Balázs politikai fogoly",
+    "source": "hvg.hu",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQUlMeXVtbXFLenNjeEduZlp6N2lBaXlKZ2dMZVdCVVhaRGRFbzdkOFByZFNwdnZaNGFFWDJxVG5RZ1NUemMyWHQ2c2VWQXZ2eGFaNjZSM2FtMjFUaTQ0aW00VkFzLXNaSnhPSFhmdWpPTTBhTnl6X0Vna3NPQjBiRmVn?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQUlMeXVtbXFLenNjeEduZlp6N2lBaXlKZ2dMZVdCVVhaRGRFbzdkOFByZFNwdnZaNGFFWDJxVG5RZ1NUemMyWHQ2c2VWQXZ2eGFaNjZSM2FtMjFUaTQ0aW00VkFzLXNaSnhPSFhmdWpPTTBhTnl6X0Vna3NPQjBiRmVn?oc=5",
+    "topic": "Havasi",
+    "article_type": "",
+    "score": 43,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-10-13T19:53:30+00:00",
     "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
     "context_source": "unavailable",
     "context_checked_at": ""
