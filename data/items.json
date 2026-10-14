@@ -1132,6 +1132,26 @@
     "context_checked_at": ""
   },
   {
+    "id": "3684b7122f589f48",
+    "kind": "candidate",
+    "date": "2026-09-29",
+    "title": "Hankó Balázs: A kulturális programoknak mindig is velejárója volt, hogy oda politikusokat meghívtak",
+    "source": "hvg.hu",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNU3ItejFyY0tWOGVNaXQ5WVJiMHdLUjJlUzJKcDAtVnNDcjlrSlZFZjJ3MURkT1V2Ri1qNXVOeGs4bGpxTVN5UlVuTEFCeUYzNlExQWtqVXJXbUJ3YmNyQ0gtbURLeS1TVFFiUXlKQnhiVjBuWE9vNEY0VDJOYkFhcUM0bXIzUQ?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNU3ItejFyY0tWOGVNaXQ5WVJiMHdLUjJlUzJKcDAtVnNDcjlrSlZFZjJ3MURkT1V2Ri1qNXVOeGs4bGpxTVN5UlVuTEFCeUYzNlExQWtqVXJXbUJ3YmNyQ0gtbURLeS1TVFFiUXlKQnhiVjBuWE9vNEY0VDJOYkFhcUM0bXIzUQ?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 37,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás"
+    ],
+    "first_seen": "2026-10-14T06:12:30+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "14553d406720c24e",
     "kind": "candidate",
     "date": "2026-09-29",
@@ -1187,6 +1207,26 @@
       "Korábbi témával egyezik"
     ],
     "first_seen": "2026-10-07T19:23:16+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
+    "id": "a42b31e2d5b67d99",
+    "kind": "candidate",
+    "date": "2026-09-29",
+    "title": "A hálapénz visszaszorult, a kapcsolatok maradtak – így látják belülről az orvosok a magyar egészségügyet",
+    "source": "egeszsegkalauz.hu",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTnYwWm0xcnIyQWthN1pfT1p3ZXY3ZXRYbkNlYjExYUpKVkRPejB1VFQ4RlNndlhGeGpCMFVzTHpqa29aNURMM2oyZ0MxSEpCQi1taDlCWmNRZUN2Z0xZZXlCZUVfdmcxLXVzNU14TW9uVU04UDdYbngwa3lad2ZzNjdCV0R6Y2h2VzZvS1JOVnBScEk?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTnYwWm0xcnIyQWthN1pfT1p3ZXY3ZXRYbkNlYjExYUpKVkRPejB1VFQ4RlNndlhGeGpCMFVzTHpqa29aNURMM2oyZ0MxSEpCQi1taDlCWmNRZUN2Z0xZZXlCZUVfdmcxLXVzNU14TW9uVU04UDdYbngwa3lad2ZzNjdCV0R6Y2h2VzZvS1JOVnBScEk?oc=5",
+    "topic": "hálapénz",
+    "article_type": "",
+    "score": 34,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-10-14T06:12:31+00:00",
     "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
     "context_source": "unavailable",
     "context_checked_at": ""
@@ -1564,48 +1604,5 @@
     "context": "A K-Monitor adatbázisa szerint Erős János a baloldalhoz köthető bankár, a Magyar Fejlesztési Bank volt vezérigazgatója (2002-2010). A vezetése alatt álló Kereskedelmi és Hitelbank 1997-es privatizációjakor ő és vezérkara 150 millió forintnyi részvényt vehetett meg névértéken, amit utóbb a K&H brókercége 270 százalékos árfolyamon vásárolt vissza, a pénzt pedi…",
     "context_source": "article",
     "context_checked_at": "2026-09-24T12:45:47+00:00"
-  },
-  {
-    "id": "936c51deef417fdb",
-    "kind": "candidate",
-    "date": "2026-09-13",
-    "title": "Talpasok és garanciák nélkül nem lesz eredményes a vagyonvisszaszerzés",
-    "source": "Klubrádió",
-    "url": "https://www.klubradio.hu/adasok/talpasok-es-garanciak-nelkul-nem-lesz-eredmenyes-a-vagyonvisszaszerzes-163630",
-    "google_news_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObzRnNTlfbmhaQUZEZElYQjJTNmZablA3dUhOdmNiNUp0RVhraDBwNTRVUGltSGtEai1EQnJkV3dKNzE2RE9zSXF2Ml9qRkFEX1ptLWprejJiQUxKUnIyZC1rRFdRQmFtbTU3RkpWZVcxbU5EV3pOeTZUdEo3VVRWOEQ3UXg0NF9nU2YyVktfVXhIdEx0N2gxNHo1aUxvc2xkTW54QVB4dlYwbU91S0E?oc=5",
-    "topic": "vagyonvisszaszerzés",
-    "article_type": "",
-    "score": 48,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "Korábban releváns forrás",
-      "Témaegyezés: vagyon",
-      "Korábbi témával egyezik"
-    ],
-    "first_seen": "2026-09-15T12:43:31+00:00",
-    "context": "Többek között erről is beszélgetett a Másrészről című műsorban Rózsa Péter két vendégével: Kadlót Erzsébet ügyvéddel, címzetes egyetemi docenssel és Léderer Sándorral, a K-Monitor alapító ügyvezetőjével.",
-    "context_source": "article",
-    "context_checked_at": "2026-09-15T12:43:34+00:00"
-  },
-  {
-    "id": "8ec5594711ed5fbe",
-    "kind": "candidate",
-    "date": "2026-09-13",
-    "title": "Talpasok és garanciák nélkül nem lesz eredményes a vagyonvisszaszerzés",
-    "source": "klubradio.hu",
-    "url": "https://www.klubradio.hu/adasok/talpasok-es-garanciak-nelkul-nem-lesz-eredmenyes-a-vagyonvisszaszerzes-163630",
-    "google_news_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObzRnNTlfbmhaQUZEZElYQjJTNmZablA3dUhOdmNiNUp0RVhraDBwNTRVUGltSGtEai1EQnJkV3dKNzE2RE9zSXF2Ml9qRkFEX1ptLWprejJiQUxKUnIyZC1rRFdRQmFtbTU3RkpWZVcxbU5EV3pOeTZUdEo3VVRWOEQ3UXg0NF9nU2YyVktfVXhIdEx0N2gxNHo1aUxvc2xkTW54QVB4dlYwbU91S0E?oc=5",
-    "topic": "vagyonvisszaszerzés",
-    "article_type": "",
-    "score": 39,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "Témaegyezés: vagyon",
-      "Korábbi témával egyezik"
-    ],
-    "first_seen": "2026-09-20T16:51:54+00:00",
-    "context": "Többek között erről is beszélgetett a Másrészről című műsorban Rózsa Péter két vendégével: Kadlót Erzsébet ügyvéddel, címzetes egyetemi docenssel és Léderer Sándorral, a K-Monitor alapító ügyvezetőjével.",
-    "context_source": "article",
-    "context_checked_at": "2026-09-20T16:51:55+00:00"
   }
 ]
