@@ -22,6 +22,9 @@ const els = {
   search: $("#searchInput"),
   source: $("#sourceFilter"),
   period: $("#periodFilter"),
+  customDateRange: $("#customDateRange"),
+  dateFrom: $("#dateFrom"),
+  dateTo: $("#dateTo"),
   decided: $("#showDecided"),
   summary: $("#resultsSummary"),
   toast: $("#toast"),
@@ -69,8 +72,11 @@ function dateLabel(value) {
 function filteredItems() {
   const query = normalize(els.search.value.trim());
   const source = els.source.value;
-  const days = els.period.value === "all" ? 0 : Number(els.period.value);
+  const customPeriod = els.period.value === "custom";
+  const days = els.period.value === "all" || customPeriod ? 0 : Number(els.period.value);
   const cutoff = days ? Date.now() - days * 86400000 : 0;
+  const dateFrom = customPeriod && els.dateFrom.value ? els.dateFrom.value : "";
+  const dateTo = customPeriod && els.dateTo.value ? els.dateTo.value : "";
 
   return state.items
     .filter((item) => item.kind === "candidate")
@@ -84,6 +90,8 @@ function filteredItems() {
       return !query || normalize([item.title, item.source, classification.topic, classification.article_type, item.context].join(" ")).includes(query);
     })
     .filter((item) => !days || new Date(`${item.date}T23:59:59`).getTime() >= cutoff)
+    .filter((item) => !dateFrom || item.date >= dateFrom)
+    .filter((item) => !dateTo || item.date <= dateTo)
     .filter((item) => state.statFilter === "accepted"
       ? state.decisions[item.id] === "yes"
       : els.decided.checked || !state.decisions[item.id])
@@ -183,6 +191,31 @@ function updateSources() {
   const current = els.source.value;
   els.source.innerHTML = `<option value="">Minden forrás</option>${sources.map((source) => `<option value="${escapeHtml(source)}">${escapeHtml(source)}</option>`).join("")}`;
   if (sources.includes(current)) els.source.value = current;
+}
+
+function updatePeriodControls(changedField = "") {
+  const customPeriod = els.period.value === "custom";
+  els.customDateRange.hidden = !customPeriod;
+  if (!customPeriod) {
+    els.dateFrom.value = "";
+    els.dateTo.value = "";
+  } else if (els.dateFrom.value && els.dateTo.value && els.dateFrom.value > els.dateTo.value) {
+    if (changedField === "dateTo") els.dateFrom.value = els.dateTo.value;
+    else els.dateTo.value = els.dateFrom.value;
+  }
+  els.dateFrom.max = els.dateTo.value || els.dateFrom.dataset.latest || "";
+  els.dateTo.min = els.dateFrom.value || els.dateTo.dataset.earliest || "";
+}
+
+function configureDateBounds() {
+  const dates = state.items.map((item) => item.date).filter(Boolean).sort();
+  const earliest = dates[0] || "";
+  const latest = new Intl.DateTimeFormat("sv-SE").format(new Date());
+  els.dateFrom.min = earliest;
+  els.dateFrom.dataset.latest = latest;
+  els.dateTo.dataset.earliest = earliest;
+  els.dateTo.max = latest;
+  updatePeriodControls();
 }
 
 function updateStats() {
@@ -453,6 +486,7 @@ async function loadData() {
     state.meta = metaResponse.ok ? await metaResponse.json() : {};
     state.integration = integrationResponse.ok ? await integrationResponse.json() : {};
     await loadAcceptedDecisions();
+    configureDateBounds();
     state.options.topics = [...new Set(state.items.map((item) => item.topic).filter(Boolean))].sort((a, b) => a.localeCompare(b, "hu"));
     const updated = state.meta.updated_at ? new Date(state.meta.updated_at) : null;
     $("#lastUpdated").textContent = updated && !Number.isNaN(updated.getTime())
@@ -472,6 +506,21 @@ async function loadData() {
 }
 
 $("#filters").addEventListener("input", () => { state.visible = 20; render(); });
+els.period.addEventListener("change", () => {
+  updatePeriodControls();
+  state.visible = 20;
+  render();
+});
+els.dateFrom.addEventListener("change", () => {
+  updatePeriodControls("dateFrom");
+  state.visible = 20;
+  render();
+});
+els.dateTo.addEventListener("change", () => {
+  updatePeriodControls("dateTo");
+  state.visible = 20;
+  render();
+});
 els.list.addEventListener("click", (event) => {
   const button = event.target.closest("[data-decision]");
   if (button) void setDecision(button.dataset.id, button.dataset.decision);
@@ -502,7 +551,7 @@ $(".stats").addEventListener("click", (event) => {
 });
 els.loadMore.addEventListener("click", () => { state.visible += 20; render(); });
 $("#clearFilters").addEventListener("click", () => {
-  els.search.value = ""; els.source.value = ""; els.period.value = "all"; els.decided.checked = false; state.statFilter = ""; render();
+  els.search.value = ""; els.source.value = ""; els.period.value = "all"; els.decided.checked = false; state.statFilter = ""; updatePeriodControls(); render();
 });
 $("#exportButton").addEventListener("click", exportCsv);
 $("#copyQuery").addEventListener("click", async () => {

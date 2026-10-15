@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#173f3a">
   <title>K-Monitor · Sajtófigyelő</title>
   <link rel="alternate" type="application/rss+xml" title="K-Monitor sajtófigyelő" href="feed.xml">
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/styles.css?v=20261015">
 </head>
 <body>
   <a class="skip-link" href="#talalatok">Ugrás a találatokhoz</a>
@@ -84,15 +84,28 @@
           <span class="sr-only">Forrás</span>
           <select id="sourceFilter"><option value="">Minden forrás</option></select>
         </label>
-        <label>
-          <span class="sr-only">Időszak</span>
-          <select id="periodFilter">
-            <option value="all">Teljes időszak (30 nap)</option>
-            <option value="7">Utolsó 7 nap</option>
-            <option value="14">Utolsó 14 nap</option>
-            <option value="30">Utolsó 30 nap</option>
-          </select>
-        </label>
+        <div class="period-field">
+          <label>
+            <span class="sr-only">Időszak</span>
+            <select id="periodFilter">
+              <option value="all">Teljes időszak (30 nap)</option>
+              <option value="7">Utolsó 7 nap</option>
+              <option value="14">Utolsó 14 nap</option>
+              <option value="30">Utolsó 30 nap</option>
+              <option value="custom">Egyéni dátumtartomány…</option>
+            </select>
+          </label>
+          <div class="date-range" id="customDateRange" hidden>
+            <label>
+              <span>Ettől</span>
+              <input id="dateFrom" type="date" aria-label="Kezdő dátum">
+            </label>
+            <label>
+              <span>Eddig</span>
+              <input id="dateTo" type="date" aria-label="Záró dátum">
+            </label>
+          </div>
+        </div>
         <label class="toggle-wrap" title="A már eldöntött találatok megjelenítése">
           <input id="showDecided" type="checkbox">
           <span class="toggle" aria-hidden="true"></span>
@@ -129,6 +142,6 @@
   </footer>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="assets/app.js?v=20260820" defer></script>
+  <script src="assets/app.js?v=20261015" defer></script>
 </body>
 </html>

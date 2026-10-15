@@ -12,6 +12,7 @@ Statikus, GitHub Pages-en futó sajtófigyelő. Naponta négyszer lekéri a Goog
 - az `ai` munkalap visszaolvasása, hogy a már elfogadott cikkek újratöltés és másik böngésző esetén se kerüljenek vissza az aktív listába;
 - téma és típus kiválasztása a `segéd` munkalap listáiból, új téma felvitelének lehetőségével;
 - kattintható összesítő kártyák az elmúlt 14 nap, az ellenőrizendő és az elfogadott cikkek gyors szűréséhez;
+- gyors 7/14/30 napos és naptárból választható egyéni dátumtartomány-szűrés;
 - gördülő, 30 napos jelöltlista historikus webes archívum nélkül;
 - böngészőben is megőrzött „releváns / kihagyás” döntés és sikertelen mentés utáni automatikus újrapróbálás;
 - CSV-export a relevánsnak jelölt tételekből;
