@@ -1,5 +1,28 @@
 [
   {
+    "id": "0c514fedbb65b61c",
+    "kind": "candidate",
+    "date": "2026-10-16",
+    "title": "Orbán Viktor családtagjai kimaradhatnak a NAV vagyonosodási vizsgálatából? - a Transparency és a K-Monitor átvizsgálta a törvényjavaslatot",
+    "source": "Szeretlek Magyarország",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORnNqMUM2T05IdWZkMFVjTWZVaVBFNTdmX05QaG5KV3Q4OWV1azAyZ3RUWTlwZDdBZTVCdjczdjdKWFFuZ2NZRmtoZlgtcDd3cWF6cFVYVEZmZTlIdnJLSTNnMlFaV2laSHF4aW1zTjBhRlFqQjdFdkxJWW10dEhvbHlQYTdPbWplVF9UUk9zMGh4R3IyYnhKZmkzdVIyLVUyZUl0ZVJhNjVIeDlJUWp6RVpDNkduVmhYYVZxYUtpdjRRZzM4SG9sa3dWc1dXcUVhaGNfOHBzeGNLUQ?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORnNqMUM2T05IdWZkMFVjTWZVaVBFNTdmX05QaG5KV3Q4OWV1azAyZ3RUWTlwZDdBZTVCdjczdjdKWFFuZ2NZRmtoZlgtcDd3cWF6cFVYVEZmZTlIdnJLSTNnMlFaV2laSHF4aW1zTjBhRlFqQjdFdkxJWW10dEhvbHlQYTdPbWplVF9UUk9zMGh4R3IyYnhKZmkzdVIyLVUyZUl0ZVJhNjVIeDlJUWp6RVpDNkduVmhYYVZxYUtpdjRRZzM4SG9sa3dWc1dXcUVhaGNfOHBzeGNLUQ?oc=5",
+    "topic": "K-Monitor",
+    "article_type": "",
+    "score": 90,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "A név szerepel a címben",
+      "Korábban releváns forrás",
+      "Témaegyezés: vagyon",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-10-16T12:30:11+00:00",
+    "context": "A K-Monitor a cikk címében szerepel: „Orbán Viktor családtagjai kimaradhatnak a NAV vagyonosodási vizsgálatából? - a Transparency és a K-Monitor átvizsgálta a törvényjavaslatot”.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "752233a56fec0fc5",
     "kind": "candidate",
     "date": "2026-10-15",
@@ -1047,6 +1070,27 @@
       "Korábbi témával egyezik"
     ],
     "first_seen": "2026-10-13T19:53:30+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
+    "id": "1e607a1f556786b1",
+    "kind": "candidate",
+    "date": "2026-09-29",
+    "title": "Kitálaltak a magyar orvosok: már nem a hálapénz dönt, ez lett az egészségügy új valutája",
+    "source": "Pénzcentrum",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNM0tyR1pERTh0QXJiSGJWOEprendOcTNGOVc3ZUN2M1JRVjJXZm1DTlhWNVU2M3RqMms4VF9XZkVRMWR2Q0FjcUY4WUVQRTdjNlhDRFF5cVczVndmT05Ib3paX3ZMODhvWGlocy1xN0ZSaFhDQzk0R2IyREtLTWNnZVA4U2ZqbVFjUUVCYUxUZWhtRTRBM0prMjRjcDlSRlFURlZzcnZPdXRLT1lmYUFVNkdrVjRmNmZGcjRXYS1qREVMVzd0alRQRkVGV2RiVGktc3p0ZWtR0gHbAUFVX3lxTFBWXzlzNHNVX3NucjltUEJrZDBXSlFET3RDUVB4UU1HTUJCMURYeWJLdFFFTzNUN21oUFNoOHRtSWxYeGRSbXlUMjVwdUM5Sm9SdWpKQ24yMTRjeXFHZ2lpVkRFTlFCbjVETEVHaTdoTXgyMnBqei13YjdHN1c4RVBwNDlLSVQtdHVvN0pLRk1RcnktejE3YmFDZ3Z2SDhRZFFKLUlieGdwUC1aLVpXU1RUSFpyUHo0S2IydnY1WldVaENoT2owUlJjdURlWmhkbmlsZ0RlWWFPNFpOdw?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNM0tyR1pERTh0QXJiSGJWOEprendOcTNGOVc3ZUN2M1JRVjJXZm1DTlhWNVU2M3RqMms4VF9XZkVRMWR2Q0FjcUY4WUVQRTdjNlhDRFF5cVczVndmT05Ib3paX3ZMODhvWGlocy1xN0ZSaFhDQzk0R2IyREtLTWNnZVA4U2ZqbVFjUUVCYUxUZWhtRTRBM0prMjRjcDlSRlFURlZzcnZPdXRLT1lmYUFVNkdrVjRmNmZGcjRXYS1qREVMVzd0alRQRkVGV2RiVGktc3p0ZWtR0gHbAUFVX3lxTFBWXzlzNHNVX3NucjltUEJrZDBXSlFET3RDUVB4UU1HTUJCMURYeWJLdFFFTzNUN21oUFNoOHRtSWxYeGRSbXlUMjVwdUM5Sm9SdWpKQ24yMTRjeXFHZ2lpVkRFTlFCbjVETEVHaTdoTXgyMnBqei13YjdHN1c4RVBwNDlLSVQtdHVvN0pLRk1RcnktejE3YmFDZ3Z2SDhRZFFKLUlieGdwUC1aLVpXU1RUSFpyUHo0S2IydnY1WldVaENoT2owUlJjdURlWmhkbmlsZ0RlWWFPNFpOdw?oc=5",
+    "topic": "hálapénz",
+    "article_type": "",
+    "score": 43,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-10-16T12:30:11+00:00",
     "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
     "context_source": "unavailable",
     "context_checked_at": ""
