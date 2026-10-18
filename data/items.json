@@ -1709,25 +1709,5 @@
     "context": "…Banner('hirnavigator_cikk_leaderboard_top_1'); { \"@context\": \"https://schema.org\", \"@type\": \"NewsArticle\", \"headline\": \"K-Monitor: új kormány, régi reflexek a közbeszerzéseknél\", \"description\": \"Nem látnak érdemi változást a rendszerben.\", \"image\": \"https://img.hirnavigator.hu/696/10810696.jpg\", \"url\": \"https:\\/\\/hirnavigator.hu\\/hir\\/10810696-k-monitor-uj-k…",
     "context_source": "article",
     "context_checked_at": "2026-09-24T22:28:50+00:00"
-  },
-  {
-    "id": "e174b27b6736883d",
-    "kind": "candidate",
-    "date": "2026-09-17",
-    "title": "Újabb Gránit Bank-részvényeket adott el a BDPST Group",
-    "source": "Privátbankár.hu",
-    "url": "https://privatbankar.hu/cikkek/vallalat/ujabb-granit-bank-reszvenyeket-adott-el-a-bdpst-group.html",
-    "google_news_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYjNZVzhvZWo2Yjl6OVExSVZOWUl2UGUzN2E3WWJhRW1iOWtNN0tSVmttZnR2U1c0NVNUWkJfdVI2ZlpRbzhMR1BabXlwMi03emhxTUhaOS1sV0w0MXhVMnJmT1Z4TUF1MGt4MDR1QXlDQ21JU2tRcDctaHE4OGthRVU3Q1ZEOHI5b3NUNGdRV2JQSXZvLWhpS2RTY0k1YXM?oc=5",
-    "topic": "",
-    "article_type": "",
-    "score": 37,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "Korábban releváns forrás"
-    ],
-    "first_seen": "2026-09-24T12:45:46+00:00",
-    "context": "A K-Monitor adatbázisa szerint Erős János a baloldalhoz köthető bankár, a Magyar Fejlesztési Bank volt vezérigazgatója (2002-2010). A vezetése alatt álló Kereskedelmi és Hitelbank 1997-es privatizációjakor ő és vezérkara 150 millió forintnyi részvényt vehetett meg névértéken, amit utóbb a K&H brókercége 270 százalékos árfolyamon vásárolt vissza, a pénzt pedi…",
-    "context_source": "article",
-    "context_checked_at": "2026-09-24T12:45:47+00:00"
   }
 ]
