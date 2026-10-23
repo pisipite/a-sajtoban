@@ -1,5 +1,67 @@
 [
   {
+    "id": "339b10bca5c1fed8",
+    "kind": "candidate",
+    "date": "2026-10-23",
+    "title": "Orbán Viktor apja és Tiborcz István is kimaradhat a vagyonosodási vizsgálatból – állítja a K-Monitor",
+    "source": "ATV",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11MkFMME9BMVVzbnE5a3lwVkkxbVpYSGhVbTBQd1ZRSmRtUjZpT2lrdkRjb2xQdDdWMk1TUHVXbUNibHhWMjZWRE1vLTRlVWw3VzFsUkMzNlNORmk5UGY2WjN3R0N1NWk5ai1wNXFsdW04ei16UDljMzhB?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11MkFMME9BMVVzbnE5a3lwVkkxbVpYSGhVbTBQd1ZRSmRtUjZpT2lrdkRjb2xQdDdWMk1TUHVXbUNibHhWMjZWRE1vLTRlVWw3VzFsUkMzNlNORmk5UGY2WjN3R0N1NWk5ai1wNXFsdW04ei16UDljMzhB?oc=5",
+    "topic": "K-Monitor",
+    "article_type": "",
+    "score": 90,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "A név szerepel a címben",
+      "Korábban releváns forrás",
+      "Témaegyezés: vagyon",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-10-23T17:53:37+00:00",
+    "context": "A K-Monitor a cikk címében szerepel: „Orbán Viktor apja és Tiborcz István is kimaradhat a vagyonosodási vizsgálatból – állítja a K-Monitor”.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
+    "id": "b59f6e096b3a0984",
+    "kind": "candidate",
+    "date": "2026-10-23",
+    "title": "Elrendelte a bíróság Matolcsy György letartóztatását",
+    "source": "Debreceni Nap",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSW1MZnAxZ19aVUVXcEpUTi05TzJYUG9WVi14LUh6X3NRTzhKUlZXczl3M3J1cnhRRWdtZzZZZ19JbEhFcHB2VHhZc0ZvTGE0OXc4elRqZEcwdWU1TGU4RXRnUVJ6QVBzWjNzS1pncG5kNkJzR2ZmV2Qxenh1WExOZmUyenAtblpSSkpvU1JYZU4tcWhNdmlqNDhhM3E0M1Jq?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSW1MZnAxZ19aVUVXcEpUTi05TzJYUG9WVi14LUh6X3NRTzhKUlZXczl3M3J1cnhRRWdtZzZZZ19JbEhFcHB2VHhZc0ZvTGE0OXc4elRqZEcwdWU1TGU4RXRnUVJ6QVBzWjNzS1pncG5kNkJzR2ZmV2Qxenh1WExOZmUyenAtblpSSkpvU1JYZU4tcWhNdmlqNDhhM3E0M1Jq?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 37,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás"
+    ],
+    "first_seen": "2026-10-23T17:53:38+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
+    "id": "273c1d25d6676768",
+    "kind": "candidate",
+    "date": "2026-10-23",
+    "title": "Londonba költözött Orbán Ráhel és Tiborcz István, váratlanul elhagyták Amerikát",
+    "source": "nlc",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORHE4ZmlLaENqNG9LUUlXdTFISGR1bGljNEtCY21tZ1lBWjJJb0pQZUExMDdYRkQ2X1A4czNhVEtSLUMwUkQwaDUtajV4TFN5Q09KNFZkQ2RrNGdXVWpTNGZ0UVlvUE5KNkt3bTIxUFg4QWQ1VVVvcEJmRTJoUGRyMEhBRC0zTlU4V2c?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORHE4ZmlLaENqNG9LUUlXdTFISGR1bGljNEtCY21tZ1lBWjJJb0pQZUExMDdYRkQ2X1A4czNhVEtSLUMwUkQwaDUtajV4TFN5Q09KNFZkQ2RrNGdXVWpTNGZ0UVlvUE5KNkt3bTIxUFg4QWQ1VVVvcEJmRTJoUGRyMEhBRC0zTlU4V2c?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 28,
+    "reasons": [
+      "Névkeresésből érkezett"
+    ],
+    "first_seen": "2026-10-23T17:53:38+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "ebee2ce52ef30ad7",
     "kind": "candidate",
     "date": "2026-10-21",
@@ -15,6 +77,65 @@
       "Korábban releváns forrás"
     ],
     "first_seen": "2026-10-22T13:00:55+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
+    "id": "864508ba0277b1ee",
+    "kind": "candidate",
+    "date": "2026-10-21",
+    "title": "MNB-ügy - Matolcsy Ádám és Stofa György ellen adtak ki körözést",
+    "source": "Marcali Portál",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVllYUVB2SDBVbEk3OUVvQmVlTm05WlRNbHJ3Y05Ucy1JMTZrdE1sU3Y0ZV9kRzU5SVZuVkRIMDdsWFhMQXJ0dWwyVWI5MjdIQjJaanVvdFhPUXIxNnF6MmgyR0pVeEVpcjRMUFhFWWx3RWgyT0t5ZkxkblJUZFdRWDVLb1hvdWVQdVVOXzYteWpSYzN3WHlWbHNTWWp0LUJCU01jYg?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVllYUVB2SDBVbEk3OUVvQmVlTm05WlRNbHJ3Y05Ucy1JMTZrdE1sU3Y0ZV9kRzU5SVZuVkRIMDdsWFhMQXJ0dWwyVWI5MjdIQjJaanVvdFhPUXIxNnF6MmgyR0pVeEVpcjRMUFhFWWx3RWgyT0t5ZkxkblJUZFdRWDVLb1hvdWVQdVVOXzYteWpSYzN3WHlWbHNTWWp0LUJCU01jYg?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 37,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás"
+    ],
+    "first_seen": "2026-10-23T17:53:38+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
+    "id": "e4ba073d71c13142",
+    "kind": "candidate",
+    "date": "2026-10-21",
+    "title": "Körözést indítottak Matolcsy Ádám ellen, elfogatóparancsot adtak ki",
+    "source": "www.atv.hu",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ic2tmRkJ2b0xib0o0NzM2VEU1d3JTaVZPRWlDaTJwNmk2eS04d3RKSHhiSVFaQ241NlFMZmk1SGNpaDcwSFZFVVhNMEF5cFd1Z1NDU0F1VG5aTGs3MUQxVGo1d2FfRDc1aUE?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ic2tmRkJ2b0xib0o0NzM2VEU1d3JTaVZPRWlDaTJwNmk2eS04d3RKSHhiSVFaQ241NlFMZmk1SGNpaDcwSFZFVVhNMEF5cFd1Z1NDU0F1VG5aTGs3MUQxVGo1d2FfRDc1aUE?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 28,
+    "reasons": [
+      "Névkeresésből érkezett"
+    ],
+    "first_seen": "2026-10-23T17:53:38+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
+    "id": "70d3d145585237e6",
+    "kind": "candidate",
+    "date": "2026-10-20",
+    "title": "Ne legyenek kiskapuk a vagyonosodási vizsgálatban!",
+    "source": "SzabadaHang",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLUpObXp1aEpfeEdUVTljLXVFWlZLeXNhSmMwbFN2WGdFcm92cHpiOUd0dnRZTzFIaG9XWk9hX2pLaTJoUm5aNXJ5S2FVLUsxbGttUUxRblVPUWVWNjQ5Ml96ZmVxd0VyVlNwcmJ1SnBhWVNMY0s5d3JZMDVpak1BTS1NNS1OaE9sdTdZ?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLUpObXp1aEpfeEdUVTljLXVFWlZLeXNhSmMwbFN2WGdFcm92cHpiOUd0dnRZTzFIaG9XWk9hX2pLaTJoUm5aNXJ5S2FVLUsxbGttUUxRblVPUWVWNjQ5Ml96ZmVxd0VyVlNwcmJ1SnBhWVNMY0s5d3JZMDVpak1BTS1NNS1OaE9sdTdZ?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 33,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Témaegyezés: vagyon"
+    ],
+    "first_seen": "2026-10-23T17:53:38+00:00",
     "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
     "context_source": "unavailable",
     "context_checked_at": ""
