@@ -1728,46 +1728,5 @@
     "context": "…Banner('hirnavigator_cikk_leaderboard_top_1'); { \"@context\": \"https://schema.org\", \"@type\": \"NewsArticle\", \"headline\": \"K-Monitor: új kormány, régi reflexek a közbeszerzéseknél\", \"description\": \"Nem látnak érdemi változást a rendszerben.\", \"image\": \"https://img.hirnavigator.hu/696/10810696.jpg\", \"url\": \"https:\\/\\/hirnavigator.hu\\/hir\\/10810696-k-monitor-uj-k…",
     "context_source": "article",
     "context_checked_at": "2026-09-26T06:11:23+00:00"
-  },
-  {
-    "id": "e5786afeccc03130",
-    "kind": "candidate",
-    "date": "2026-09-23",
-    "title": "Fakereszt a ligetben",
-    "source": "Magyar Nemzet",
-    "url": "https://magyarnemzet.hu/tollhegyen/2026/09/fakereszt-a-ligetben",
-    "google_news_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80eHp1bUU0anZVdm5IQ2gySTdsTE5McmR4Ymp0LUxLMTZ2VEkwdWMxVENNSU0ySEFDZk9iNUVJSVFWRWdlVWc4cDAxaGFMblg2MlAtOU9YelFwM2swaHVjQnF6WmpxbUt3dEJGeGFiUzY?oc=5",
-    "topic": "liget",
-    "article_type": "",
-    "score": 43,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "Korábban releváns forrás",
-      "Korábbi témával egyezik"
-    ],
-    "first_seen": "2026-09-23T17:52:25+00:00",
-    "context": "(Egyikük, \\u003Ca href=\\\"https://magyarnemzet.hu/belfold/2024/02/pressman-most-egy-keresztdontogetovel-talalkozott\\\" target=\\\"_blank\\\">Léderer Sándor\\u003C/a> ma a Norvég Alap és a Soros-féle Társaság a Szabadságjogokért szervezet K-monitor nevű cégét irányítja.) Az újraállított feszület mára történelmi emlékhellyé lett.",
-    "context_source": "article",
-    "context_checked_at": "2026-09-23T17:52:27+00:00"
-  },
-  {
-    "id": "7910a5f5b018cd17",
-    "kind": "candidate",
-    "date": "2026-09-23",
-    "title": "Gyanús helyen ólálkodott egy orosz helikopter",
-    "source": "privatbankar.hu",
-    "url": "https://privatbankar.hu/cikkek/nemzetkozi/gyanus-helyen-olalkodott-egy-orosz-helikopter.html?utm_source=rss&amp;utm_medium=referral",
-    "google_news_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcGJ6SV83Z1NUa3hLd2lYeXNtWEFURG5JQ0xNZF9zTDhnZGp0X0Vpa1FMNG5aTElPLVRSbWNoUGlxcmJuZk5tbWh0TEJsREN5b3NvNU9JcGJKVC1iQUdMMzdja1lGOFVPQlJoUVRZdnRlSC1DWTZEemtIdnE4Tzc4X1pvRDU1d2dBVjEyWEk3RlFOd01adU9LY3loQkxXSFNNUlRNQWZSZXBBNFFpRDNPUUlXRHpxYXY5ZC1NUFFVQW1ncV90U19DTHpmcw?oc=5",
-    "topic": "",
-    "article_type": "",
-    "score": 37,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "Korábban releváns forrás"
-    ],
-    "first_seen": "2026-09-27T13:06:49+00:00",
-    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
-    "context_source": "unavailable",
-    "context_checked_at": "2026-09-27T13:06:51+00:00"
   }
 ]
