@@ -124,6 +124,46 @@
     "context_checked_at": ""
   },
   {
+    "id": "843b270ab268f473",
+    "kind": "candidate",
+    "date": "2026-10-21",
+    "title": "Körözést indítottak Matolcsy Ádám ellen, elfogatóparancsot adtak ki",
+    "source": "ATV",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ic2tmRkJ2b0xib0o0NzM2VEU1d3JTaVZPRWlDaTJwNmk2eS04d3RKSHhiSVFaQ241NlFMZmk1SGNpaDcwSFZFVVhNMEF5cFd1Z1NDU0F1VG5aTGs3MUQxVGo1d2FfRDc1aUE?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ic2tmRkJ2b0xib0o0NzM2VEU1d3JTaVZPRWlDaTJwNmk2eS04d3RKSHhiSVFaQ241NlFMZmk1SGNpaDcwSFZFVVhNMEF5cFd1Z1NDU0F1VG5aTGs3MUQxVGo1d2FfRDc1aUE?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 37,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás"
+    ],
+    "first_seen": "2026-10-26T06:22:09+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
+    "id": "8ee1f149fe067653",
+    "kind": "candidate",
+    "date": "2026-10-21",
+    "title": "Matolcsy Ádám és Stofa György ellen adtak ki körözést",
+    "source": "Pécsi STOP",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdkE3bWwzaF9mSE0xZy1rVElDM1otbG9yWGk1ckN4Qy1ucmdyTnI0RjVTaUl1a1RXY1NMSzlpRS1SVmU1WWxUUXRxYTdBOXNwLWdvWTgyb083b2ZCQlpONWE2UG9tYnptY0Y5WHpwX1ZnX09ibFFVSW82TFNLTmtIRGJ4NS1YVllDb1BHWnh0Z245QkE?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdkE3bWwzaF9mSE0xZy1rVElDM1otbG9yWGk1ckN4Qy1ucmdyTnI0RjVTaUl1a1RXY1NMSzlpRS1SVmU1WWxUUXRxYTdBOXNwLWdvWTgyb083b2ZCQlpONWE2UG9tYnptY0Y5WHpwX1ZnX09ibFFVSW82TFNLTmtIRGJ4NS1YVllDb1BHWnh0Z245QkE?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 37,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás"
+    ],
+    "first_seen": "2026-10-26T06:22:09+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "e4ba073d71c13142",
     "kind": "candidate",
     "date": "2026-10-21",
