@@ -1,5 +1,25 @@
 [
   {
+    "id": "6311b1aa61d64751",
+    "kind": "candidate",
+    "date": "2026-10-27",
+    "title": "Újra Magyarországra érkezett a LIBE-bizottság, mutatjuk kikkel találkoznak",
+    "source": "Magyar Nemzet",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeG56dzZyZk9NYlVIckdLeHdQME1idGltTnRzQmF6MzRtdmJ5WWMtMFdzUEdNcjJrUG5WVTZRMkF3WFRObi1zV0pRY2ZNb3gwdnh5UTJESnlqMG9LTzdtOVdmT2lTTWxKYTVjaktzUkFfT0dwZVQzeF9kNUxwVlMzTHh2bXNGZ21tREVFM0p4X3BfRWtvOFp1LUJ1M2JSUnVJYUlKS3d6T1hjZ0k?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeG56dzZyZk9NYlVIckdLeHdQME1idGltTnRzQmF6MzRtdmJ5WWMtMFdzUEdNcjJrUG5WVTZRMkF3WFRObi1zV0pRY2ZNb3gwdnh5UTJESnlqMG9LTzdtOVdmT2lTTWxKYTVjaktzUkFfT0dwZVQzeF9kNUxwVlMzTHh2bXNGZ21tREVFM0p4X3BfRWtvOFp1LUJ1M2JSUnVJYUlKS3d6T1hjZ0k?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 37,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás"
+    ],
+    "first_seen": "2026-10-27T06:22:55+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "40304fc4525d987d",
     "kind": "candidate",
     "date": "2026-10-26",
@@ -1597,6 +1617,26 @@
       "Korábbi témával egyezik"
     ],
     "first_seen": "2026-10-16T22:07:22+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
+    "id": "2d90cc3e3e6e801e",
+    "kind": "candidate",
+    "date": "2026-09-29",
+    "title": "Eltűnt a hálapénz, de valami más átvette a helyét a magyar egészségügyben",
+    "source": "Economx",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOGNGMFVTcTdUUG9BTlBKcXZOT1pWOFptaE9JZTZIdnhiNWpLQ0kxQ3RLdk1GOUU4cXQzRjdLb00xRk1jZlVTSVp5YzlhNzlyZ09ubTBFdUt1aVNyUEk0SzRmX29hOV9McUJ2MEV2bjBCOGZabDlEUnJFYkkwX0RNZDlTZE9qS2VfanEzTElvNG1RU0tiSTdmMGxla091QQ?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOGNGMFVTcTdUUG9BTlBKcXZOT1pWOFptaE9JZTZIdnhiNWpLQ0kxQ3RLdk1GOUU4cXQzRjdLb00xRk1jZlVTSVp5YzlhNzlyZ09ubTBFdUt1aVNyUEk0SzRmX29hOV9McUJ2MEV2bjBCOGZabDlEUnJFYkkwX0RNZDlTZE9qS2VfanEzTElvNG1RU0tiSTdmMGxla091QQ?oc=5",
+    "topic": "hálapénz",
+    "article_type": "",
+    "score": 34,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-10-27T06:22:55+00:00",
     "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
     "context_source": "unavailable",
     "context_checked_at": ""
