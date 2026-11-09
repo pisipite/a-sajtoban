@@ -150,6 +150,28 @@
     "context_checked_at": ""
   },
   {
+    "id": "1989ec0befb477db",
+    "kind": "candidate",
+    "date": "2026-11-08",
+    "title": "K-Monitor: Ókovács több mint 73 milliót kapott az alapfizetésén felül az Operaháztól",
+    "source": "Klubrádió",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLTVibHBteEU3Y29LSElwUVd0dWYwQUNxVzI0U3V6cFRGZEVOUUlqRXpMcXlPUGZCaHg5OENkdk5Ud21IcjRKbmkwX2ZSaFFnTFQ5eWV0Tlp3d0x2aEtwc05tMEgzQnZsMXVRelFwTE1WOC11SG0zZE51TVpUV0tWVGF4LTVlTkxrbC1EVmd6UDVSRlBjY293QldlNTZxeENPVHVOMU9hVndKWFh3OC11UzFzSTU0NWQzdVRybjJn?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLTVibHBteEU3Y29LSElwUVd0dWYwQUNxVzI0U3V6cFRGZEVOUUlqRXpMcXlPUGZCaHg5OENkdk5Ud21IcjRKbmkwX2ZSaFFnTFQ5eWV0Tlp3d0x2aEtwc05tMEgzQnZsMXVRelFwTE1WOC11SG0zZE51TVpUV0tWVGF4LTVlTkxrbC1EVmd6UDVSRlBjY293QldlNTZxeENPVHVOMU9hVndKWFh3OC11UzFzSTU0NWQzdVRybjJn?oc=5",
+    "topic": "K-Monitor",
+    "article_type": "",
+    "score": 85,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "A név szerepel a címben",
+      "Korábban releváns forrás",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-11-09T23:01:13+00:00",
+    "context": "A K-Monitor a cikk címében szerepel: „K-Monitor: Ókovács több mint 73 milliót kapott az alapfizetésén felül az Operaháztól”.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "ca01aac6704a4a3d",
     "kind": "candidate",
     "date": "2026-11-08",
