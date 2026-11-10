@@ -172,6 +172,28 @@
     "context_checked_at": ""
   },
   {
+    "id": "f7dee4d2bf4ed5c3",
+    "kind": "candidate",
+    "date": "2026-11-08",
+    "title": "A K-Monitor szerint öt év alatt több mint 73 millió forintnyi pluszjuttatást fizetett az Operaház Ókovács Szilveszternek",
+    "source": "Hírstart",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQmN1dU90THJfbHAwQWdfNXBQTlVMLUlwVF9ma2cwdTdWSmE5VkR3YTdYbUdUV2xNTndydFA3NUJPeDNBZ05iSWNjZnlaMzFVN1FzaElWdXRZaVhjOS1FRmY0UGROQnFESi1BV19TZFpKWUpseVpPTWZ5V3ZkMEVfQ3VJUDJsdml5b2xEWGlsQzdBZ2thSTB0T3YtSjIzeGVQUkxYXzR3ZEIwcDZrV29SemZoZXFDTkpXaVJRV3hqc3FHYkNlR01ldg?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQmN1dU90THJfbHAwQWdfNXBQTlVMLUlwVF9ma2cwdTdWSmE5VkR3YTdYbUdUV2xNTndydFA3NUJPeDNBZ05iSWNjZnlaMzFVN1FzaElWdXRZaVhjOS1FRmY0UGROQnFESi1BV19TZFpKWUpseVpPTWZ5V3ZkMEVfQ3VJUDJsdml5b2xEWGlsQzdBZ2thSTB0T3YtSjIzeGVQUkxYXzR3ZEIwcDZrV29SemZoZXFDTkpXaVJRV3hqc3FHYkNlR01ldg?oc=5",
+    "topic": "K-Monitor",
+    "article_type": "",
+    "score": 85,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "A név szerepel a címben",
+      "Korábban releváns forrás",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-11-10T08:28:38+00:00",
+    "context": "A K-Monitor a cikk címében szerepel: „A K-Monitor szerint öt év alatt több mint 73 millió forintnyi pluszjuttatást fizetett az Operaház Ókovács Szilveszternek”.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "ca01aac6704a4a3d",
     "kind": "candidate",
     "date": "2026-11-08",
