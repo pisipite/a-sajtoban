@@ -1,5 +1,47 @@
 [
   {
+    "id": "a0dc36a7fd1bbb6f",
+    "kind": "candidate",
+    "date": "2026-11-11",
+    "title": "Hat lépés az átlátható állami mesterséges intelligenciáért",
+    "source": "Telex",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZW9qUHM0bFVZb2MyUjlwRDhwTUE2M2xIbHd2d1lGbFRyNGIzWTVETUNVeVU4N1dZZ0FvZ2c4clFUZzRNTi1mUVFBSklSQXZ5SWpVQS0zWHgySlkycWJVNWtUVE9ieDFfdmRVMjExS3RTbXZNYkg2OXBUWWFrcEt2ek5wLS13Y25HRXFPWkpXTkV1SUtkYjFxc1BDSQ?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZW9qUHM0bFVZb2MyUjlwRDhwTUE2M2xIbHd2d1lGbFRyNGIzWTVETUNVeVU4N1dZZ0FvZ2c4clFUZzRNTi1mUVFBSklSQXZ5SWpVQS0zWHgySlkycWJVNWtUVE9ieDFfdmRVMjExS3RTbXZNYkg2OXBUWWFrcEt2ek5wLS13Y25HRXFPWkpXTkV1SUtkYjFxc1BDSQ?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 42,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Témaegyezés: állami"
+    ],
+    "first_seen": "2026-11-11T07:47:30+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
+    "id": "256e6cfe7bbebd7c",
+    "kind": "candidate",
+    "date": "2026-11-10",
+    "title": "Kult: Még 80 millió forintnyi jogdíj járhat Ókovács Szilveszternek az Operaháztól",
+    "source": "hvg.hu",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdzZObThHSDFYZjRmNTdQMndYVDJqOXNMTUJTMXNQTUI4ZkJ6OFhjQS1DdVhnUUZ4Tk9tdk5xZWlRdkM1RkRfU0tKX3ZoWThDSDhfcG1JYnFwbXlRcGVMa0JBN3hvRGw3Q2FlODYwcmVvOTk1RmE3UVY3Y19tb244cHdPMl9PV192LVI0cw?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdzZObThHSDFYZjRmNTdQMndYVDJqOXNMTUJTMXNQTUI4ZkJ6OFhjQS1DdVhnUUZ4Tk9tdk5xZWlRdkM1RkRfU0tKX3ZoWThDSDhfcG1JYnFwbXlRcGVMa0JBN3hvRGw3Q2FlODYwcmVvOTk1RmE3UVY3Y19tb244cHdPMl9PV192LVI0cw?oc=5",
+    "topic": "Operaház",
+    "article_type": "",
+    "score": 43,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-11-11T07:47:30+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "3cc451eb833a214e",
     "kind": "candidate",
     "date": "2026-11-10",
@@ -1601,44 +1643,6 @@
       "Témaegyezés: vagyon"
     ],
     "first_seen": "2026-10-13T07:47:48+00:00",
-    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
-    "context_source": "unavailable",
-    "context_checked_at": ""
-  },
-  {
-    "id": "2550fba29be12f3a",
-    "kind": "candidate",
-    "date": "2026-10-11",
-    "title": "Civil értékelés a 7. cikkes eljárás és az uniós alapértékek kapcsán - Előremutató lépések és megoldásra váró problémák",
-    "source": "Utcajogász",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWG13RUw5TExxSlRvZ2hxVG1lMmtPZWpxcVF4UjFhNWVEWGpPemFTUERtMDhpZm9PVnVfVFNnb29mNzdTeXhyX3lYUE9scUFuQ1JWTWd1d1l1OTF0Z3BnQ2h6a2dweXhnVmpqdUUwOWRmSHZ1NXl1cmsxVWphR3E3WEEyenVUc2tqR21Jb0EwQ29hT0w2YTRkdzJXcC15b0xDME9ycGxOaVJoTk1QQnlQZWl3b1AxTjJ2TFdV?oc=5",
-    "google_news_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWG13RUw5TExxSlRvZ2hxVG1lMmtPZWpxcVF4UjFhNWVEWGpPemFTUERtMDhpZm9PVnVfVFNnb29mNzdTeXhyX3lYUE9scUFuQ1JWTWd1d1l1OTF0Z3BnQ2h6a2dweXhnVmpqdUUwOWRmSHZ1NXl1cmsxVWphR3E3WEEyenVUc2tqR21Jb0EwQ29hT0w2YTRkdzJXcC15b0xDME9ycGxOaVJoTk1QQnlQZWl3b1AxTjJ2TFdV?oc=5",
-    "topic": "",
-    "article_type": "",
-    "score": 28,
-    "reasons": [
-      "Névkeresésből érkezett"
-    ],
-    "first_seen": "2026-10-13T07:47:48+00:00",
-    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
-    "context_source": "unavailable",
-    "context_checked_at": ""
-  },
-  {
-    "id": "a848fe993d1a9629",
-    "kind": "candidate",
-    "date": "2026-10-11",
-    "title": "Civil értékelés a 7. cikkes eljárás és az uniós alapértékek kapcsán - Előremutató lépések és megoldásra váró problémák | Utcajogász",
-    "source": "Utcajogász Egyesület",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWG13RUw5TExxSlRvZ2hxVG1lMmtPZWpxcVF4UjFhNWVEWGpPemFTUERtMDhpZm9PVnVfVFNnb29mNzdTeXhyX3lYUE9scUFuQ1JWTWd1d1l1OTF0Z3BnQ2h6a2dweXhnVmpqdUUwOWRmSHZ1NXl1cmsxVWphR3E3WEEyenVUc2tqR21Jb0EwQ29hT0w2YTRkdzJXcC15b0xDME9ycGxOaVJoTk1QQnlQZWl3b1AxTjJ2TFdV?oc=5",
-    "google_news_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWG13RUw5TExxSlRvZ2hxVG1lMmtPZWpxcVF4UjFhNWVEWGpPemFTUERtMDhpZm9PVnVfVFNnb29mNzdTeXhyX3lYUE9scUFuQ1JWTWd1d1l1OTF0Z3BnQ2h6a2dweXhnVmpqdUUwOWRmSHZ1NXl1cmsxVWphR3E3WEEyenVUc2tqR21Jb0EwQ29hT0w2YTRkdzJXcC15b0xDME9ycGxOaVJoTk1QQnlQZWl3b1AxTjJ2TFdV?oc=5",
-    "topic": "",
-    "article_type": "",
-    "score": 28,
-    "reasons": [
-      "Névkeresésből érkezett"
-    ],
-    "first_seen": "2026-10-29T07:12:14+00:00",
     "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
     "context_source": "unavailable",
     "context_checked_at": ""
