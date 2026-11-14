@@ -404,6 +404,25 @@
     "context_checked_at": ""
   },
   {
+    "id": "f980f2cd49c88e4f",
+    "kind": "candidate",
+    "date": "2026-11-09",
+    "title": "Értelem és csöcsök",
+    "source": "444",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9OWDlWSGVQWE51V3lzNGlLUVUwYWl5MXlGSng2MlV3R3J0TWphX05kX0o1QjhrMTBiZnF4TlE3RFZFWU44MThzUXF3M1V2UlZ0N2pTcUUzYw?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9OWDlWSGVQWE51V3lzNGlLUVUwYWl5MXlGSng2MlV3R3J0TWphX05kX0o1QjhrMTBiZnF4TlE3RFZFWU44MThzUXF3M1V2UlZ0N2pTcUUzYw?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 28,
+    "reasons": [
+      "Névkeresésből érkezett"
+    ],
+    "first_seen": "2026-11-14T18:45:31+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "b6836a0512d94645",
     "kind": "candidate",
     "date": "2026-11-08",
@@ -1129,6 +1148,46 @@
     "context_checked_at": ""
   },
   {
+    "id": "eae275fb7e8c227d",
+    "kind": "candidate",
+    "date": "2026-10-31",
+    "title": "Költségvetés 2027: kevesebbet jut a közmédiára, és nulla forintot propagandára",
+    "source": "savariaforum.hu",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ0RXbHhKXzJPUW9LZjNBYWpaRWZXSklYZTJQeFQ0NFFBb2F2R24xdGpQUWE1emY5MnFJRlNKUXJsTFoxVkF1T1I2amNVeUhJNjlPdnU4M1VOQXpraWNldThSRVpMSGp4SHFPNUNoUjJ5OGxxbi1sNXg0eWNyN3hleGdtNUhiNllrcUxSbnJOSkNsVHlZVGxRcFlqYzdLQmhkSi1YZzFXcnpFUlhTSjJr?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ0RXbHhKXzJPUW9LZjNBYWpaRWZXSklYZTJQeFQ0NFFBb2F2R24xdGpQUWE1emY5MnFJRlNKUXJsTFoxVkF1T1I2amNVeUhJNjlPdnU4M1VOQXpraWNldThSRVpMSGp4SHFPNUNoUjJ5OGxxbi1sNXg0eWNyN3hleGdtNUhiNllrcUxSbnJOSkNsVHlZVGxRcFlqYzdLQmhkSi1YZzFXcnpFUlhTSjJr?oc=5",
+    "topic": "költségvetés",
+    "article_type": "",
+    "score": 39,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Témaegyezés: propaganda",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-11-14T18:45:31+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
+    "id": "3098e00c6d952961",
+    "kind": "candidate",
+    "date": "2026-10-31",
+    "title": "Vadgázolás után ütközött össze két autó a 74-es főúton",
+    "source": "savariaforum.hu",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVV9KZks5YmhtMWMzc0NFV2RVTzJiTlBhbjF0ZXBFS3JDTGk4QTdaSFVueGppQnpBWjVWMGMtXzhSX0dsUF93aVVZdUFHaDRrblpGb05yX1ZRVEwwdmFEcTNyLXRwRXlLRlNvaHFCMEFXRkZfZ0lTT3JXd1VITzktX2x2anRtWU4tZnBOQlBqc3Bkdw?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVV9KZks5YmhtMWMzc0NFV2RVTzJiTlBhbjF0ZXBFS3JDTGk4QTdaSFVueGppQnpBWjVWMGMtXzhSX0dsUF93aVVZdUFHaDRrblpGb05yX1ZRVEwwdmFEcTNyLXRwRXlLRlNvaHFCMEFXRkZfZ0lTT3JXd1VITzktX2x2anRtWU4tZnBOQlBqc3Bkdw?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 28,
+    "reasons": [
+      "Névkeresésből érkezett"
+    ],
+    "first_seen": "2026-11-14T18:45:31+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "69b71c16d7d86dd3",
     "kind": "candidate",
     "date": "2026-10-30",
@@ -1143,6 +1202,25 @@
       "Névkeresésből érkezett"
     ],
     "first_seen": "2026-11-13T20:30:57+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
+    "id": "4cd757ef3dc0dcc0",
+    "kind": "candidate",
+    "date": "2026-10-30",
+    "title": "Első fokon öt év letöltendő börtönbüntetésre ítélték Boldog Istvánt",
+    "source": "savariaforum.hu",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQ3R0NTd4NWVxR0RCZk05VHduTVF1djJVdjFlLThqdHlCYmd4M3ktbVZza25jU2M0Q3YzVXNGRUJtTFVwbkQ4RUhTbEFWbk5kdG9wT1lveDRXYjN2cmJmMWJYOV9JbG56RHRzSUQzMkVkSmlUbGhwY25BZ2dCRkpzdy1YQ1VuYlhOUlRGMW9Ia3FiMjJYQ0FoeHNmaTJrUHFjM1A4?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQ3R0NTd4NWVxR0RCZk05VHduTVF1djJVdjFlLThqdHlCYmd4M3ktbVZza25jU2M0Q3YzVXNGRUJtTFVwbkQ4RUhTbEFWbk5kdG9wT1lveDRXYjN2cmJmMWJYOV9JbG56RHRzSUQzMkVkSmlUbGhwY25BZ2dCRkpzdy1YQ1VuYlhOUlRGMW9Ia3FiMjJYQ0FoeHNmaTJrUHFjM1A4?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 28,
+    "reasons": [
+      "Névkeresésből érkezett"
+    ],
+    "first_seen": "2026-11-14T18:45:31+00:00",
     "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
     "context_source": "unavailable",
     "context_checked_at": ""
