@@ -264,6 +264,26 @@
     "context_checked_at": ""
   },
   {
+    "id": "d0e28abe60c1a42e",
+    "kind": "candidate",
+    "date": "2026-11-10",
+    "title": "Ókovács Szilveszter benyújthatja a számlát: a volt főigazgató szerint még több tízmillió forint jár neki az Operaháztól",
+    "source": "Forbes Magyarország",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOS05rRDFhTHZBMnYyQldzSUloRW5FbXVWVWd5blZQaVlzMVE1VjVRbGF3OXJNNEtteXlfODdBWnFzWl9DUHFWZ29ZSVFrd3ZRaGlDZ0lsNjIwbkRPUEJza2tfREVvNW5lMXIyN2dtVFBVLXU5RVE0c0pBN01ITEllZWVORW9WMzRuQWVJa0hnLWdodWlm?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOS05rRDFhTHZBMnYyQldzSUloRW5FbXVWVWd5blZQaVlzMVE1VjVRbGF3OXJNNEtteXlfODdBWnFzWl9DUHFWZ29ZSVFrd3ZRaGlDZ0lsNjIwbkRPUEJza2tfREVvNW5lMXIyN2dtVFBVLXU5RVE0c0pBN01ITEllZWVORW9WMzRuQWVJa0hnLWdodWlm?oc=5",
+    "topic": "Operaház",
+    "article_type": "",
+    "score": 34,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-11-14T07:38:56+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "b5c8766626106bae",
     "kind": "candidate",
     "date": "2026-11-09",
@@ -1436,6 +1456,26 @@
     "context_checked_at": ""
   },
   {
+    "id": "fc0c012ec2f89c9b",
+    "kind": "candidate",
+    "date": "2026-10-23",
+    "title": "Világ: Újabb tömegtüntetésekre készül Franciaország, 70 ezer rendfenntartót mozgósítanak",
+    "source": "hvg.hu",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNM3dVUHZIX21ZVk9GUzJZVWEtb0ZoYlZUdzB2NHR1bFRPdlF0Q2RiYlF5cWhpUDF0TFNPdXl2ekV0ZnFlR0hocGRSWkxhbFk3Ym5qR0JkSFdlZFJ0Rnc3UkJiV3o4VHJ2d1ptVndQbHRNSnlLRVdVWkN4YlNZbXlvWnJvS1pqMUJFS2VhRzQtVHNtbGJwZ0MyVnhiVlB5RFVVQV9rc0cyMW5aTTItQVRJ?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNM3dVUHZIX21ZVk9GUzJZVWEtb0ZoYlZUdzB2NHR1bFRPdlF0Q2RiYlF5cWhpUDF0TFNPdXl2ekV0ZnFlR0hocGRSWkxhbFk3Ym5qR0JkSFdlZFJ0Rnc3UkJiV3o4VHJ2d1ptVndQbHRNSnlLRVdVWkN4YlNZbXlvWnJvS1pqMUJFS2VhRzQtVHNtbGJwZ0MyVnhiVlB5RFVVQV9rc0cyMW5aTTItQVRJ?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 37,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás"
+    ],
+    "first_seen": "2026-11-14T07:38:56+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "273c1d25d6676768",
     "kind": "candidate",
     "date": "2026-10-23",
@@ -1792,29 +1832,6 @@
     ],
     "first_seen": "2026-10-15T12:41:58+00:00",
     "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
-    "context_source": "unavailable",
-    "context_checked_at": ""
-  },
-  {
-    "id": "2d8ca4d570e24df7",
-    "kind": "candidate",
-    "date": "2026-10-14",
-    "title": "Orbán Viktor családtagjai kimaradhatnak a NAV vagyonosodási vizsgálatából? - a Transparency és a K-Monitor átvizsgálta a törvényjavaslatot",
-    "source": "Szeretlek Magyarország",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORnNqMUM2T05IdWZkMFVjTWZVaVBFNTdmX05QaG5KV3Q4OWV1azAyZ3RUWTlwZDdBZTVCdjczdjdKWFFuZ2NZRmtoZlgtcDd3cWF6cFVYVEZmZTlIdnJLSTNnMlFaV2laSHF4aW1zTjBhRlFqQjdFdkxJWW10dEhvbHlQYTdPbWplVF9UUk9zMGh4R3IyYnhKZmkzdVIyLVUyZUl0ZVJhNjVIeDlJUWp6RVpDNkduVmhYYVZxYUtpdjRRZzM4SG9sa3dWc1dXcUVhaGNfOHBzeGNLUQ?oc=5",
-    "google_news_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORnNqMUM2T05IdWZkMFVjTWZVaVBFNTdmX05QaG5KV3Q4OWV1azAyZ3RUWTlwZDdBZTVCdjczdjdKWFFuZ2NZRmtoZlgtcDd3cWF6cFVYVEZmZTlIdnJLSTNnMlFaV2laSHF4aW1zTjBhRlFqQjdFdkxJWW10dEhvbHlQYTdPbWplVF9UUk9zMGh4R3IyYnhKZmkzdVIyLVUyZUl0ZVJhNjVIeDlJUWp6RVpDNkduVmhYYVZxYUtpdjRRZzM4SG9sa3dWc1dXcUVhaGNfOHBzeGNLUQ?oc=5",
-    "topic": "K-Monitor",
-    "article_type": "",
-    "score": 90,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "A név szerepel a címben",
-      "Korábban releváns forrás",
-      "Témaegyezés: vagyon",
-      "Korábbi témával egyezik"
-    ],
-    "first_seen": "2026-10-15T17:47:55+00:00",
-    "context": "A K-Monitor a cikk címében szerepel: „Orbán Viktor családtagjai kimaradhatnak a NAV vagyonosodási vizsgálatából? - a Transparency és a K-Monitor átvizsgálta a törvényjavaslatot”.",
     "context_source": "unavailable",
     "context_checked_at": ""
   }
