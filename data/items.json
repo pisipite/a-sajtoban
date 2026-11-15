@@ -1128,6 +1128,26 @@
     "context_checked_at": ""
   },
   {
+    "id": "eb6910b690fad51d",
+    "kind": "candidate",
+    "date": "2026-11-05",
+    "title": "Oldalára borult egy autó Jánoshalmán",
+    "source": "Hírstart",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ib2xjSDdIUkJCTVRHN0EyQzJRbzlnTUFMT0lDNW5Fb2pGWDFVV25NNFdJa0M4ZEk3eEhNVDRKeURoSE1KbnlIUlJqM2xKTDJXNmx1S2tPejNEUTZSX1ItN0FwWXZaUjEwRnRFaU1YU0F1Mnc0d3hwb1pwSmI?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ib2xjSDdIUkJCTVRHN0EyQzJRbzlnTUFMT0lDNW5Fb2pGWDFVV25NNFdJa0M4ZEk3eEhNVDRKeURoSE1KbnlIUlJqM2xKTDJXNmx1S2tPejNEUTZSX1ItN0FwWXZaUjEwRnRFaU1YU0F1Mnc0d3hwb1pwSmI?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 37,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás"
+    ],
+    "first_seen": "2026-11-15T19:23:48+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "ba3a6ec9533776d5",
     "kind": "candidate",
     "date": "2026-11-04",
@@ -1243,6 +1263,25 @@
       "Névkeresésből érkezett"
     ],
     "first_seen": "2026-11-15T07:55:05+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
+    "id": "3458050990228152",
+    "kind": "candidate",
+    "date": "2026-10-31",
+    "title": "Öt halálos áldozatot követelt a balatoni nyár, a vízirendészek 215 emberen segítettek",
+    "source": "savariaforum.hu",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTURPcHZpT1h4Q2kwb0JaSkNUVzM1U01uTXlTY192cllBVGxJQjZwN24ydVdwUWF6ZWE5cjhhaW85TW93QWxRYlR6ZW1oVENnTUl1S1ExcXhPTVJERW9PX3VDTkhzTy15eGN3MWx4Y283N1VkNXEzbVVnUF9pZEdmR0NuZFFwU3VmYmdtODVnM2tUNGxu?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTURPcHZpT1h4Q2kwb0JaSkNUVzM1U01uTXlTY192cllBVGxJQjZwN24ydVdwUWF6ZWE5cjhhaW85TW93QWxRYlR6ZW1oVENnTUl1S1ExcXhPTVJERW9PX3VDTkhzTy15eGN3MWx4Y283N1VkNXEzbVVnUF9pZEdmR0NuZFFwU3VmYmdtODVnM2tUNGxu?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 28,
+    "reasons": [
+      "Névkeresésből érkezett"
+    ],
+    "first_seen": "2026-11-15T19:23:48+00:00",
     "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
     "context_source": "unavailable",
     "context_checked_at": ""
