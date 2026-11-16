@@ -1208,6 +1208,26 @@
     "context_checked_at": ""
   },
   {
+    "id": "8ace4148935e11e8",
+    "kind": "candidate",
+    "date": "2026-11-02",
+    "title": "Új világmodelllel tesztelhetik a robotokat a Google DeepMindnál",
+    "source": "Hírstart",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTlpOTlNyN3ZZNUhnZGZ5WEJ1c2ZmYXpsWEowOUZDTzctc1lMdlRXTzRwT2tnWG10ODVwMVFpSnRKdi1SMlFRNDRQWVlYdnkyRGFQaFNmQ1VsdFZpSS0xeWgyaUo1X3JfWGEyT2V0NF9BVmpIQkxRRTlHTnRPcHVIMTU3Yk9uTFJwNHgzV2pBODRsWDZRYWc5YWNFdmRod0U2?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTlpOTlNyN3ZZNUhnZGZ5WEJ1c2ZmYXpsWEowOUZDTzctc1lMdlRXTzRwT2tnWG10ODVwMVFpSnRKdi1SMlFRNDRQWVlYdnkyRGFQaFNmQ1VsdFZpSS0xeWgyaUo1X3JfWGEyT2V0NF9BVmpIQkxRRTlHTnRPcHVIMTU3Yk9uTFJwNHgzV2pBODRsWDZRYWc5YWNFdmRod0U2?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 37,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás"
+    ],
+    "first_seen": "2026-11-16T22:56:15+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "853953743611152c",
     "kind": "candidate",
     "date": "2026-10-31",
@@ -1245,6 +1265,26 @@
       "Korábbi témával egyezik"
     ],
     "first_seen": "2026-11-14T18:45:31+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
+    "id": "48dd4c87e7f41dcb",
+    "kind": "candidate",
+    "date": "2026-10-31",
+    "title": "Költségvetés 2027: Csökkenő kiadásokkal és növekvő bevételekkel számol a kormány",
+    "source": "savariaforum.hu",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMXp2YUhiRUNVRFNWYU0wMXFLT1NPTnFZdU5SdTluVnRqYXk5MkRIMjVXeEVOVHBvSUJsQWZob1BjZl9UTmJqd3ZFOWRkcHRWSmEySGY0WWRVZTVvckVGYkRSUnpSdjhMSURxVk96cFBVSEg0dGZaR3N5eUZ6dVRhV2VuMkpkUjNPQURNdU5Bb1hmQ2VBUDV3SFdlVFpmSUlVbHYySDhJa1o0Um5LdGFEN3J0TQ?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMXp2YUhiRUNVRFNWYU0wMXFLT1NPTnFZdU5SdTluVnRqYXk5MkRIMjVXeEVOVHBvSUJsQWZob1BjZl9UTmJqd3ZFOWRkcHRWSmEySGY0WWRVZTVvckVGYkRSUnpSdjhMSURxVk96cFBVSEg0dGZaR3N5eUZ6dVRhV2VuMkpkUjNPQURNdU5Bb1hmQ2VBUDV3SFdlVFpmSUlVbHYySDhJa1o0Um5LdGFEN3J0TQ?oc=5",
+    "topic": "költségvetés",
+    "article_type": "",
+    "score": 34,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-11-16T22:56:15+00:00",
     "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
     "context_source": "unavailable",
     "context_checked_at": ""
@@ -1340,6 +1380,25 @@
       "Névkeresésből érkezett"
     ],
     "first_seen": "2026-11-14T18:45:31+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
+    "id": "60351863d31cd823",
+    "kind": "candidate",
+    "date": "2026-10-30",
+    "title": "WTT Youth Contender Szombathely: a jövő asztaliteniszcsillagai mérik össze tudásukat Szombathelyen",
+    "source": "savariaforum.hu",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeFN2TmFpR2kzaTNHenhQd1pmMGdNZlJMRXhBeDNXcV9UNDNwV3BrZmUxN2dJQXU0Yk9qdU91S3poejRtQ0tLMEdXRlR4SUhPdlgtQ0R3QkJMYTNKdnpMUUttWFVrdUhxdU5jOUw4UUc1Slk3SlF2dmp5Vy1SQ3dQeFdvaG96RFRveXF6Ty1rMjNzSGdZRmZvTHNrOWk4X0l5QS04YVV3NHF1NTl5bzF2RGRn?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeFN2TmFpR2kzaTNHenhQd1pmMGdNZlJMRXhBeDNXcV9UNDNwV3BrZmUxN2dJQXU0Yk9qdU91S3poejRtQ0tLMEdXRlR4SUhPdlgtQ0R3QkJMYTNKdnpMUUttWFVrdUhxdU5jOUw4UUc1Slk3SlF2dmp5Vy1SQ3dQeFdvaG96RFRveXF6Ty1rMjNzSGdZRmZvTHNrOWk4X0l5QS04YVV3NHF1NTl5bzF2RGRn?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 28,
+    "reasons": [
+      "Névkeresésből érkezett"
+    ],
+    "first_seen": "2026-11-16T22:56:15+00:00",
     "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
     "context_source": "unavailable",
     "context_checked_at": ""
