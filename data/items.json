@@ -905,6 +905,25 @@
     "context_checked_at": ""
   },
   {
+    "id": "2db2f13c0f765866",
+    "kind": "candidate",
+    "date": "2026-11-08",
+    "title": "Értelem és csöcsök",
+    "source": "444",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9OWDlWSGVQWE51V3lzNGlLUVUwYWl5MXlGSng2MlV3R3J0TWphX05kX0o1QjhrMTBiZnF4TlE3RFZFWU44MThzUXF3M1V2UlZ0N2pTcUUzYw?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9OWDlWSGVQWE51V3lzNGlLUVUwYWl5MXlGSng2MlV3R3J0TWphX05kX0o1QjhrMTBiZnF4TlE3RFZFWU44MThzUXF3M1V2UlZ0N2pTcUUzYw?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 28,
+    "reasons": [
+      "Névkeresésből érkezett"
+    ],
+    "first_seen": "2026-11-17T09:17:39+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "350923e6df4c9549",
     "kind": "candidate",
     "date": "2026-11-07",
