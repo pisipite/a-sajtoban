@@ -2006,25 +2006,5 @@
     "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
     "context_source": "unavailable",
     "context_checked_at": ""
-  },
-  {
-    "id": "cdaa8a71b279788b",
-    "kind": "candidate",
-    "date": "2026-10-18",
-    "title": "A harmadik világháborúra utaló jeleket sorolta fel a Financial Times",
-    "source": "hvg.hu",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WVlJDNkFKYm5NS3ZNZTBPN2JxWmROSXJJLUd6M010NnN4U3VZZFFfVnQ3STBBeUthdGFVNnJUZWFsdU9fQXlRdjZhekJCdk9wM2prSjBKSE1aV1hrdkpRRVU5d0diM2lWLUxFUF9DcmRfVVRFUnFDUnpUM3cwLUU?oc=5",
-    "google_news_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WVlJDNkFKYm5NS3ZNZTBPN2JxWmROSXJJLUd6M010NnN4U3VZZFFfVnQ3STBBeUthdGFVNnJUZWFsdU9fQXlRdjZhekJCdk9wM2prSjBKSE1aV1hrdkpRRVU5d0diM2lWLUxFUF9DcmRfVVRFUnFDUnpUM3cwLUU?oc=5",
-    "topic": "",
-    "article_type": "",
-    "score": 37,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "Korábban releváns forrás"
-    ],
-    "first_seen": "2026-11-08T18:23:15+00:00",
-    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
-    "context_source": "unavailable",
-    "context_checked_at": ""
   }
 ]
