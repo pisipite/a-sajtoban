@@ -184,6 +184,27 @@
     "context_checked_at": ""
   },
   {
+    "id": "ee92ed9442d1d4ae",
+    "kind": "candidate",
+    "date": "2026-11-10",
+    "title": "Hat lépés az átlátható állami mesterséges intelligenciáért",
+    "source": "Telex",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTDRTa3J4TkpHYTJISVNKS0ppWTQ5QXBDa0J4QnptS1FidmZPWXEzaEZrVHpfM3Vzd2o4d1h3LWUwX25EeExGRU1aNDM2SlNkQldOOXZ6WVhyRWNwTjVaZHVLR2IxaVRRbTZ6cHY3N2pxcUNUNE1iekQyRlZBajNsT3FGVjgwNTBBUndTbHdFLUdKaHR5b2FkdHZsWQ?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTDRTa3J4TkpHYTJISVNKS0ppWTQ5QXBDa0J4QnptS1FidmZPWXEzaEZrVHpfM3Vzd2o4d1h3LWUwX25EeExGRU1aNDM2SlNkQldOOXZ6WVhyRWNwTjVaZHVLR2IxaVRRbTZ6cHY3N2pxcUNUNE1iekQyRlZBajNsT3FGVjgwNTBBUndTbHdFLUdKaHR5b2FkdHZsWQ?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 42,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás",
+      "Témaegyezés: állami"
+    ],
+    "first_seen": "2026-11-19T08:52:39+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "e37935263f8ae0de",
     "kind": "candidate",
     "date": "2026-11-10",
@@ -944,6 +965,25 @@
     "context_checked_at": ""
   },
   {
+    "id": "fd44f01b37890a91",
+    "kind": "candidate",
+    "date": "2026-11-08",
+    "title": "Kiderült, hogy több mint 73 milliót kapott még Ókovács a fizetésén felül",
+    "source": "Kontroll",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTGNOYl9DLTZMMHJBY1BOV3NjT0p0d2pPTW5NbTRBT0tMcHdkbUtGekUwd1VuWXJtT2J6aHdKZFlRajc1VTlBRm5xN0JQQWkzTFJoczFvdVlrSE1BRk9GdWFFdzNMaGdyNHpWYURxSUs3Z2JoZ1dmNDIzc0RhejdrcHJWa29HM2R6aVotVHczeGpKdGlwbkZ6LVNrSTY0cGkxRUNPVmh5NVd0VnJiUVJYbzRqVDUwR2RRSGc?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTGNOYl9DLTZMMHJBY1BOV3NjT0p0d2pPTW5NbTRBT0tMcHdkbUtGekUwd1VuWXJtT2J6aHdKZFlRajc1VTlBRm5xN0JQQWkzTFJoczFvdVlrSE1BRk9GdWFFdzNMaGdyNHpWYURxSUs3Z2JoZ1dmNDIzc0RhejdrcHJWa29HM2R6aVotVHczeGpKdGlwbkZ6LVNrSTY0cGkxRUNPVmh5NVd0VnJiUVJYbzRqVDUwR2RRSGc?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 28,
+    "reasons": [
+      "Névkeresésből érkezett"
+    ],
+    "first_seen": "2026-11-19T08:52:39+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "350923e6df4c9549",
     "kind": "candidate",
     "date": "2026-11-07",
@@ -1677,6 +1717,26 @@
       "Korábban releváns forrás"
     ],
     "first_seen": "2026-11-17T21:48:52+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
+    "id": "ed30281c556116e3",
+    "kind": "candidate",
+    "date": "2026-10-27",
+    "title": "Európai és nemzetközi elfogatóparancsot adtak ki Matolcsy Ádám és Stofa György ellen",
+    "source": "vehir.hu",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNmliSlJESmVxVGk2V2Q3Vjlfd25JWDk4Zi1Xa0R2TW1GakowZnJ3Zm9qSm9vdUs1eEpoemx2cElUS21Xb3NFeG42ZHFwa2hfXzZfdDRPYlZ6TXZYajdoZmllZkhKUUNnbmk5NlJnOWpnM2dWWTRIS0RRNWtzYnBZNXFuRG9hQVNvRkh0UjRScDFDdXM0bGZ6TnBWcHo3YmwwbjhhdDRLbmJ3d19LaThRb1N3?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNmliSlJESmVxVGk2V2Q3Vjlfd25JWDk4Zi1Xa0R2TW1GakowZnJ3Zm9qSm9vdUs1eEpoemx2cElUS21Xb3NFeG42ZHFwa2hfXzZfdDRPYlZ6TXZYajdoZmllZkhKUUNnbmk5NlJnOWpnM2dWWTRIS0RRNWtzYnBZNXFuRG9hQVNvRkh0UjRScDFDdXM0bGZ6TnBWcHo3YmwwbjhhdDRLbmJ3d19LaThRb1N3?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 37,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás"
+    ],
+    "first_seen": "2026-11-19T08:52:39+00:00",
     "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
     "context_source": "unavailable",
     "context_checked_at": ""
