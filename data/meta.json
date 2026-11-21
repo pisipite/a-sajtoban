@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-20T21:14:49+00:00",
-  "candidate_count": 105,
+  "updated_at": "2026-11-21T08:20:23+00:00",
+  "candidate_count": 101,
   "lookback_days": 30,
-  "new_count": 0,
-  "high_confidence_new_count": 0,
+  "new_count": 2,
+  "high_confidence_new_count": 2,
   "successful_query_count": 3,
   "configured_query_count": 3,
   "collection_errors": []
