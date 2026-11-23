@@ -1,5 +1,27 @@
 [
   {
+    "id": "d66d8a10ca34e44b",
+    "kind": "candidate",
+    "date": "2026-11-23",
+    "title": "K-Monitor: Ókovács Szilveszter 73 milliót kapott a fizetésén felül",
+    "source": "Szeretlek Magyarország",
+    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOTEdtX01vQzI3TmJhRWVBeE1Ta3hfcHh2ZGx2cEFfOEMzT2JSSF9oSTVQYVNHUUVaZjBXazVZTVdKUzRteDFNakZQZy1zNVFLZ1F2MWxwVHJZcU1peHlyelBuNXhmTkM0VkRLQzVvWW9iUzlSQ2hrUWJYZl9FdVhXQ2pFV0hwWFRJRlVhSnRRT2N1X1FDMFJmbHdxRXp2eE9uLWgzeUhLdjJmTFdMWkpfYlptdVJkd001WndpaGItRWFoRjdMdUFkZHFuc3IyZVl4c2w3b0ZFUDgwcFpaZm9CeTNlcmZnQi1XR0FER0d3?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOTEdtX01vQzI3TmJhRWVBeE1Ta3hfcHh2ZGx2cEFfOEMzT2JSSF9oSTVQYVNHUUVaZjBXazVZTVdKUzRteDFNakZQZy1zNVFLZ1F2MWxwVHJZcU1peHlyelBuNXhmTkM0VkRLQzVvWW9iUzlSQ2hrUWJYZl9FdVhXQ2pFV0hwWFRJRlVhSnRRT2N1X1FDMFJmbHdxRXp2eE9uLWgzeUhLdjJmTFdMWkpfYlptdVJkd001WndpaGItRWFoRjdMdUFkZHFuc3IyZVl4c2w3b0ZFUDgwcFpaZm9CeTNlcmZnQi1XR0FER0d3?oc=5",
+    "topic": "K-Monitor",
+    "article_type": "",
+    "score": 85,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "A név szerepel a címben",
+      "Korábban releváns forrás",
+      "Korábbi témával egyezik"
+    ],
+    "first_seen": "2026-11-23T09:11:53+00:00",
+    "context": "A K-Monitor a cikk címében szerepel: „K-Monitor: Ókovács Szilveszter 73 milliót kapott a fizetésén felül”.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
     "id": "dc3d6bfce669e356",
     "kind": "candidate",
     "date": "2026-11-22",
@@ -120,6 +142,26 @@
       "Korábban releváns forrás"
     ],
     "first_seen": "2026-11-22T08:05:52+00:00",
+    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
+    "context_source": "unavailable",
+    "context_checked_at": ""
+  },
+  {
+    "id": "5d82cac0b3b1cbb4",
+    "kind": "candidate",
+    "date": "2026-11-19",
+    "title": "Matolcsy letartóztatásának meghosszabbítását indítványozta az ügyészség",
+    "source": "Hírklikk",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFd3dUloZUgtVGF5WVdCUWswZW1oQ2VlVnBFNWpwMkU5dHM3N2JqMFRjVTZLMVBCY0UtVG5zdlVNdlY3anhMc0ZvZGYtLXVCcW1nLTZhbjk2TGN3WnlhNHBHSlZremxuU3lwRXZkQ1dId0dJTjNZdzVjMGIzWlJpUEtsUjZadUc5UmJac09CMk4xLTZmUkxoOUszTWhmeXNnUFQxS1RLM2JJZw?oc=5",
+    "google_news_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFd3dUloZUgtVGF5WVdCUWswZW1oQ2VlVnBFNWpwMkU5dHM3N2JqMFRjVTZLMVBCY0UtVG5zdlVNdlY3anhMc0ZvZGYtLXVCcW1nLTZhbjk2TGN3WnlhNHBHSlZremxuU3lwRXZkQ1dId0dJTjNZdzVjMGIzWlJpUEtsUjZadUc5UmJac09CMk4xLTZmUkxoOUszTWhmeXNnUFQxS1RLM2JJZw?oc=5",
+    "topic": "",
+    "article_type": "",
+    "score": 37,
+    "reasons": [
+      "Névkeresésből érkezett",
+      "Korábban releváns forrás"
+    ],
+    "first_seen": "2026-11-23T09:11:53+00:00",
     "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
     "context_source": "unavailable",
     "context_checked_at": ""
@@ -2165,110 +2207,6 @@
       "Korábban releváns forrás"
     ],
     "first_seen": "2026-11-22T08:05:52+00:00",
-    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
-    "context_source": "unavailable",
-    "context_checked_at": ""
-  },
-  {
-    "id": "339b10bca5c1fed8",
-    "kind": "candidate",
-    "date": "2026-10-23",
-    "title": "Orbán Viktor apja és Tiborcz István is kimaradhat a vagyonosodási vizsgálatból – állítja a K-Monitor",
-    "source": "ATV",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11MkFMME9BMVVzbnE5a3lwVkkxbVpYSGhVbTBQd1ZRSmRtUjZpT2lrdkRjb2xQdDdWMk1TUHVXbUNibHhWMjZWRE1vLTRlVWw3VzFsUkMzNlNORmk5UGY2WjN3R0N1NWk5ai1wNXFsdW04ei16UDljMzhB?oc=5",
-    "google_news_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11MkFMME9BMVVzbnE5a3lwVkkxbVpYSGhVbTBQd1ZRSmRtUjZpT2lrdkRjb2xQdDdWMk1TUHVXbUNibHhWMjZWRE1vLTRlVWw3VzFsUkMzNlNORmk5UGY2WjN3R0N1NWk5ai1wNXFsdW04ei16UDljMzhB?oc=5",
-    "topic": "K-Monitor",
-    "article_type": "",
-    "score": 90,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "A név szerepel a címben",
-      "Korábban releváns forrás",
-      "Témaegyezés: vagyon",
-      "Korábbi témával egyezik"
-    ],
-    "first_seen": "2026-10-23T17:53:37+00:00",
-    "context": "A K-Monitor a cikk címében szerepel: „Orbán Viktor apja és Tiborcz István is kimaradhat a vagyonosodási vizsgálatból – állítja a K-Monitor”.",
-    "context_source": "unavailable",
-    "context_checked_at": ""
-  },
-  {
-    "id": "7c811cdf48b1d5fc",
-    "kind": "candidate",
-    "date": "2026-10-23",
-    "title": "Orbán Viktor apja és Tiborcz István is kimaradhat a vagyonosodási vizsgálatból – állítja a K-Monitor",
-    "source": "Hirnavigator",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQc2hiUHp1NS1OTzJLRFVQa1lXQnF3d3UxSjNpOGRRUktDaVExUktmTkJodGlXZGkzaUszczdvbVVEWGdnYWRwVXBCMlFUS2Q4dlRlbmstMWZOVXVTVzVyU1JIbjF3djI1aWZ2V3BpODdhR1BQNmhhc08teEtmTGsyd1JCN2lTTk9mbHVidk1yNG1XZWtMd25WM21xRkhzSzE3Sm84QTB5THl0WUJqZVpXdUNQQmhfeDhyZlFhUjZCWXExY3VubEdtUncyNjlTZVlR?oc=5",
-    "google_news_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQc2hiUHp1NS1OTzJLRFVQa1lXQnF3d3UxSjNpOGRRUktDaVExUktmTkJodGlXZGkzaUszczdvbVVEWGdnYWRwVXBCMlFUS2Q4dlRlbmstMWZOVXVTVzVyU1JIbjF3djI1aWZ2V3BpODdhR1BQNmhhc08teEtmTGsyd1JCN2lTTk9mbHVidk1yNG1XZWtMd25WM21xRkhzSzE3Sm84QTB5THl0WUJqZVpXdUNQQmhfeDhyZlFhUjZCWXExY3VubEdtUncyNjlTZVlR?oc=5",
-    "topic": "K-Monitor",
-    "article_type": "",
-    "score": 81,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "A név szerepel a címben",
-      "Témaegyezés: vagyon",
-      "Korábbi témával egyezik"
-    ],
-    "first_seen": "2026-10-25T12:36:48+00:00",
-    "context": "A K-Monitor a cikk címében szerepel: „Orbán Viktor apja és Tiborcz István is kimaradhat a vagyonosodási vizsgálatból – állítja a K-Monitor”.",
-    "context_source": "unavailable",
-    "context_checked_at": ""
-  },
-  {
-    "id": "b59f6e096b3a0984",
-    "kind": "candidate",
-    "date": "2026-10-23",
-    "title": "Elrendelte a bíróság Matolcsy György letartóztatását",
-    "source": "Debreceni Nap",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSW1MZnAxZ19aVUVXcEpUTi05TzJYUG9WVi14LUh6X3NRTzhKUlZXczl3M3J1cnhRRWdtZzZZZ19JbEhFcHB2VHhZc0ZvTGE0OXc4elRqZEcwdWU1TGU4RXRnUVJ6QVBzWjNzS1pncG5kNkJzR2ZmV2Qxenh1WExOZmUyenAtblpSSkpvU1JYZU4tcWhNdmlqNDhhM3E0M1Jq?oc=5",
-    "google_news_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSW1MZnAxZ19aVUVXcEpUTi05TzJYUG9WVi14LUh6X3NRTzhKUlZXczl3M3J1cnhRRWdtZzZZZ19JbEhFcHB2VHhZc0ZvTGE0OXc4elRqZEcwdWU1TGU4RXRnUVJ6QVBzWjNzS1pncG5kNkJzR2ZmV2Qxenh1WExOZmUyenAtblpSSkpvU1JYZU4tcWhNdmlqNDhhM3E0M1Jq?oc=5",
-    "topic": "",
-    "article_type": "",
-    "score": 37,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "Korábban releváns forrás"
-    ],
-    "first_seen": "2026-10-23T17:53:38+00:00",
-    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
-    "context_source": "unavailable",
-    "context_checked_at": ""
-  },
-  {
-    "id": "fc0c012ec2f89c9b",
-    "kind": "candidate",
-    "date": "2026-10-23",
-    "title": "Világ: Újabb tömegtüntetésekre készül Franciaország, 70 ezer rendfenntartót mozgósítanak",
-    "source": "hvg.hu",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNM3dVUHZIX21ZVk9GUzJZVWEtb0ZoYlZUdzB2NHR1bFRPdlF0Q2RiYlF5cWhpUDF0TFNPdXl2ekV0ZnFlR0hocGRSWkxhbFk3Ym5qR0JkSFdlZFJ0Rnc3UkJiV3o4VHJ2d1ptVndQbHRNSnlLRVdVWkN4YlNZbXlvWnJvS1pqMUJFS2VhRzQtVHNtbGJwZ0MyVnhiVlB5RFVVQV9rc0cyMW5aTTItQVRJ?oc=5",
-    "google_news_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNM3dVUHZIX21ZVk9GUzJZVWEtb0ZoYlZUdzB2NHR1bFRPdlF0Q2RiYlF5cWhpUDF0TFNPdXl2ekV0ZnFlR0hocGRSWkxhbFk3Ym5qR0JkSFdlZFJ0Rnc3UkJiV3o4VHJ2d1ptVndQbHRNSnlLRVdVWkN4YlNZbXlvWnJvS1pqMUJFS2VhRzQtVHNtbGJwZ0MyVnhiVlB5RFVVQV9rc0cyMW5aTTItQVRJ?oc=5",
-    "topic": "",
-    "article_type": "",
-    "score": 37,
-    "reasons": [
-      "Névkeresésből érkezett",
-      "Korábban releváns forrás"
-    ],
-    "first_seen": "2026-11-14T07:38:56+00:00",
-    "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
-    "context_source": "unavailable",
-    "context_checked_at": ""
-  },
-  {
-    "id": "273c1d25d6676768",
-    "kind": "candidate",
-    "date": "2026-10-23",
-    "title": "Londonba költözött Orbán Ráhel és Tiborcz István, váratlanul elhagyták Amerikát",
-    "source": "nlc",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORHE4ZmlLaENqNG9LUUlXdTFISGR1bGljNEtCY21tZ1lBWjJJb0pQZUExMDdYRkQ2X1A4czNhVEtSLUMwUkQwaDUtajV4TFN5Q09KNFZkQ2RrNGdXVWpTNGZ0UVlvUE5KNkt3bTIxUFg4QWQ1VVVvcEJmRTJoUGRyMEhBRC0zTlU4V2c?oc=5",
-    "google_news_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORHE4ZmlLaENqNG9LUUlXdTFISGR1bGljNEtCY21tZ1lBWjJJb0pQZUExMDdYRkQ2X1A4czNhVEtSLUMwUkQwaDUtajV4TFN5Q09KNFZkQ2RrNGdXVWpTNGZ0UVlvUE5KNkt3bTIxUFg4QWQ1VVVvcEJmRTJoUGRyMEhBRC0zTlU4V2c?oc=5",
-    "topic": "",
-    "article_type": "",
-    "score": 28,
-    "reasons": [
-      "Névkeresésből érkezett"
-    ],
-    "first_seen": "2026-10-23T17:53:38+00:00",
     "context": "A kereső K-Monitor-említést jelez, de a cikk szövege nem volt automatikusan hozzáférhető.",
     "context_source": "unavailable",
     "context_checked_at": ""
